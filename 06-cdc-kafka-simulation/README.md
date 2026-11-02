@@ -84,7 +84,21 @@ flowchart LR
 
 ### 2.2. Diagrama de Sequência: Fluxo Transacional e Garantia de Entrega
 
+```mermaid
+sequenceDiagram
+    autonumber
+    participant App as Gerador OLTP
+    participant DB as Banco SQLite
+    participant CDC as Conector CDC
+    participant FS as Camada Bronze
+    participant Silver as Consumidor Silver
 
+    App->>DB: Executa transação (UPDATE/INSERT)
+    DB-->>App: Confirma transação
+    CDC->>DB: Consulta log de alterações (WAL)
+    DB-->>CDC: Retorna novos eventos
+    CDC->>FS: Grava arquivos JSON atômicos
+    Silver->>FS: Lê lotes, valida hash e aplica UPSERT
 
 ### 2.3. Máquina de Estados do Registro na Camada Silver
 
