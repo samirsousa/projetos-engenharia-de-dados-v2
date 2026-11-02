@@ -84,34 +84,7 @@ flowchart LR
 
 ### 2.2. Diagrama de Sequência: Fluxo Transacional e Garantia de Entrega
 
-```mermaid
-sequenceDiagram
-    autonumber
-    participant App as 1. Gerador OLTP
-    participant DB as SQLite (orders + _cdc_wal_log)
-    participant CDC as 2. Conector CDC (Debezium Sim)
-    participant FS as Camada Bronze (JSON Logs + Offset)
-    participant Silver as 3. Consumidor Silver (Warehouse)
 
-    App->>DB: BEGIN; UPDATE orders SET status='PAID' WHERE order_id='ORD-01';
-    Note over DB: Trigger captura estado OLD e NEW com LSN 42
-    DB-->>App: COMMIT Confirmado
-
-    CDC->>FS: Lê último LSN em debezium_sim_offset.json (ex: LSN=40)
-    CDC->>DB: SELECT * FROM _cdc_wal_log WHERE lsn > 40 ORDER BY lsn ASC
-    DB-->>CDC: Retorna eventos LSN 41..42
-    CDC->>FS: Grava cdc_events_lsn_000041_000042.json.tmp + fsync()
-    CDC->>FS: os.replace(.json.tmp -> .json) (Atômico)
-    CDC->>FS: Atualiza debezium_sim_offset.json (last_lsn = 42)
-
-    Silver->>FS: Lista lotes pendentes cdc_events_lsn_*.json
-    Silver->>Silver: Valida SHA-256 do arquivo em silver_processed_batches
-    Silver->>Silver: Verifica idempotência por linha (incoming_lsn > _cdc_last_lsn)
-    Silver->>Silver: Aplica UPSERT / Soft-Delete em silver_orders + Grava silver_cdc_audit_log
-    Silver->>FS: Move lote JSON processado para bronze_cdc_logs/archive/
-    Silver->>DB: Executa Reconciliação SHA-256 (orders vs vw_silver_orders_active)
-    Silver->>FS: Emite Relatório Diário (audit_report_YYYY-MM-DD.md & .json)
-```
 
 ### 2.3. Máquina de Estados do Registro na Camada Silver
 
