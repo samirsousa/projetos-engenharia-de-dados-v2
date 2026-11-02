@@ -94,7 +94,7 @@ sequenceDiagram
     participant Silver as 3. Consumidor Silver (Warehouse)
 
     App->>DB: BEGIN; UPDATE orders SET status='PAID' WHERE order_id='ORD-01';
-    Note over DB: Trigger trg_orders_cdc_update captura<br/>OLD (before) e NEW (after) com LSN=42
+    Note over DB: Trigger captura estado OLD e NEW com LSN 42
     DB-->>App: COMMIT Confirmado
 
     CDC->>FS: Lê último LSN em debezium_sim_offset.json (ex: LSN=40)
