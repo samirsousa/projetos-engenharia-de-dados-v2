@@ -99,6 +99,7 @@ sequenceDiagram
     DB-->>CDC: Retorna novos eventos
     CDC->>FS: Grava arquivos JSON atômicos
     Silver->>FS: Lê lotes, valida hash e aplica UPSERT
+```
 
 ### 2.3. Máquina de Estados do Registro na Camada Silver
 
