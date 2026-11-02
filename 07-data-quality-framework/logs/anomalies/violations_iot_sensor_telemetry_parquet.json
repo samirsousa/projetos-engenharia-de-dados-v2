@@ -1,0 +1,287 @@
+{
+  "event_type": "DATA_CONTRACT_VIOLATION",
+  "run_id": "DQ-RUN-F2BDE201",
+  "evaluated_at_utc": "2026-11-02T02:19:50.435Z",
+  "contract_id": "DC-IOT-PARQUET-002",
+  "dataset_name": "IoT_Sensor_Telemetry_Parquet",
+  "source_format": "PARQUET",
+  "source_identifier": "iot_sensor_telemetry.parquet",
+  "owner_team": "Industrial-IoT-Platform",
+  "contract_passed": false,
+  "metrics": {
+    "total_rows": 8,
+    "healthy_rows": 4,
+    "corrupted_rows": 4,
+    "data_quality_score_pct": 50.0,
+    "total_anomalies": 5,
+    "violations_by_category": {
+      "UNIQUENESS": 1,
+      "NULLABILITY": 1,
+      "RANGE_CHECK": 2,
+      "DATA_TYPE": 1
+    },
+    "execution_time_ms": 0.29
+  },
+  "rule_summaries": [
+    {
+      "rule_category": "SCHEMA_CHECK",
+      "rule_name": "required_columns_exist",
+      "column_name": "*",
+      "severity": "CRITICAL",
+      "total_evaluated": 6,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "reading_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_string",
+      "column_name": "reading_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "UNIQUENESS",
+      "rule_name": "unique_id_check",
+      "column_name": "reading_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 87.5,
+      "failure_rate_pct": 12.5
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "device_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 87.5,
+      "failure_rate_pct": 12.5
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_string",
+      "column_name": "device_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "temperature_c",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_float",
+      "column_name": "temperature_c",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "temperature_c",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 87.5,
+      "failure_rate_pct": 12.5
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "humidity_pct",
+      "severity": "ERROR",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_float",
+      "column_name": "humidity_pct",
+      "severity": "ERROR",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "humidity_pct",
+      "severity": "ERROR",
+      "total_evaluated": 8,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 87.5,
+      "failure_rate_pct": 12.5
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "vibration_hz",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_int",
+      "column_name": "vibration_hz",
+      "severity": "CRITICAL",
+      "total_evaluated": 8,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 87.5,
+      "failure_rate_pct": 12.5
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "vibration_hz",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "status_code",
+      "severity": "WARNING",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_string",
+      "column_name": "status_code",
+      "severity": "WARNING",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "status_code",
+      "severity": "WARNING",
+      "total_evaluated": 8,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    }
+  ],
+  "anomalies": [
+    {
+      "violation_id": "VIOL-0001",
+      "rule_category": "UNIQUENESS",
+      "rule_name": "unique_id_check",
+      "severity": "CRITICAL",
+      "column_name": "reading_id",
+      "row_index": 3,
+      "record_pk": "SENS-9002",
+      "observed_value": "SENS-9002",
+      "expected_constraint": "UNIQUE",
+      "diagnostic_message": "ID duplicado 'SENS-9002' na coluna 'reading_id' (linha 3 colide com a linha 2)."
+    },
+    {
+      "violation_id": "VIOL-0002",
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "severity": "CRITICAL",
+      "column_name": "device_id",
+      "row_index": 4,
+      "record_pk": "SENS-9004",
+      "observed_value": null,
+      "expected_constraint": "NOT NULL",
+      "diagnostic_message": "Valor nulo ou vazio detectado na coluna-chave 'device_id' (linha 4, PK=SENS-9004)."
+    },
+    {
+      "violation_id": "VIOL-0003",
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "max_value_bound",
+      "severity": "CRITICAL",
+      "column_name": "temperature_c",
+      "row_index": 5,
+      "record_pk": "SENS-9005",
+      "observed_value": 295.5,
+      "expected_constraint": "<= 125.0",
+      "diagnostic_message": "Valor 295.5 acima do limite máximo permitido (125.0) na coluna 'temperature_c' (linha 5, PK=SENS-9005)."
+    },
+    {
+      "violation_id": "VIOL-0004",
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "max_value_bound",
+      "severity": "ERROR",
+      "column_name": "humidity_pct",
+      "row_index": 5,
+      "record_pk": "SENS-9005",
+      "observed_value": 135.0,
+      "expected_constraint": "<= 100.0",
+      "diagnostic_message": "Valor 135.0 acima do limite máximo permitido (100.0) na coluna 'humidity_pct' (linha 5, PK=SENS-9005)."
+    },
+    {
+      "violation_id": "VIOL-0005",
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_int",
+      "severity": "CRITICAL",
+      "column_name": "vibration_hz",
+      "row_index": 6,
+      "record_pk": "SENS-9006",
+      "observed_value": "SENSOR_OFFLINE_ERR",
+      "expected_constraint": "TYPE == INT",
+      "diagnostic_message": "Violação de tipo na coluna 'vibration_hz' (linha 6, PK=SENS-9006): String 'SENSOR_OFFLINE_ERR' não representa um inteiro válido."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+========================================================================================
+ [ALERTA DE CONFIABILIDADE DE DADOS] VIOLAÇÃO DE DATA CONTRACT (CRITICAL)
+========================================================================================
+ Run ID             : DQ-RUN-F1BC7F91
+ Timestamp (UTC)    : 2026-11-02T02:19:50.439Z
+ Contrato Violado   : DC-CRM-SQLITE-003 (CRM_Customers_Silver_SQLite)
+ Fonte / Formato    : crm_warehouse.db::customers_silver [SQLITE]
+ Equipe Responsável : Customer-Data-Platform
+ Status do Pipeline : BLOQUEADO (CIRCUIT BREAKER ATIVADO - ENVIO PARA DLQ)
+----------------------------------------------------------------------------------------
+ RESUMO DE IMPACTO E QUALIDADE (SLI / SLO):
+   - Total de Registros Inspecionados : 7
+   - Registros Saudáveis (Conformes)  : 3
+   - Registros Corrompidos            : 4
+   - Score de Qualidade (DQ Score)    : 42.86%
+   - Total de Violações Detectadas    : 6
+   - Nulidade (NULLABILITY)           : 1 falha(s)
+   - Unicidade de IDs (UNIQUENESS)    : 1 falha(s)
+   - Limites de Valor (RANGE_CHECK)   : 3 falha(s)
+   - Tipo de Dado (DATA_TYPE)         : 1 falha(s)
+----------------------------------------------------------------------------------------
+ DETALHAMENTO DAS ANOMALIAS DETECTADAS (DATA CONTRACT VIOLATIONS):
+   [VIOL-0001] [CRITICAL] UNIQUENESS   | Linha=3   | PK=CUST-002     | Coluna='customer_id' | Valor='CUST-002' (Esperado: UNIQUE)
+   [VIOL-0002] [CRITICAL] NULLABILITY  | Linha=4   | PK=CUST-004     | Coluna='full_name' | Valor=None (Esperado: NOT NULL)
+   [VIOL-0003] [ERROR] RANGE_CHECK  | Linha=5   | PK=CUST-005     | Coluna='age' | Valor=-5 (Esperado: >= 18)
+   [VIOL-0004] [ERROR] DATA_TYPE    | Linha=6   | PK=CUST-006     | Coluna='age' | Valor='TRINTA_E_DOIS' (Esperado: TYPE == INT)
+   [VIOL-0005] [CRITICAL] RANGE_CHECK  | Linha=5   | PK=CUST-005     | Coluna='credit_limit' | Valor=950000.0 (Esperado: <= 500000.0)
+   [VIOL-0006] [ERROR] RANGE_CHECK  | Linha=5   | PK=CUST-005     | Coluna='tier' | Valor='BLACK_INVALID_TIER' (Esperado: IN ['BRONZE', 'SILVER', 'GOLD', 'PLATINUM'])
+----------------------------------------------------------------------------------------
+ AÇÃO RECOMENDADA DE ENGENHARIA (PLAYBOOK SRE / DATA RELIABILITY):
+   1. Isolar os registros listados acima na Dead-Letter Queue (DLQ).
+   2. Notificar o time 'Customer-Data-Platform' sobre regressão no produtor upstream.
+   3. Inspecionar o log completo em: logs/anomalies/violations_crm_customers_silver_sqlite.json
+========================================================================================

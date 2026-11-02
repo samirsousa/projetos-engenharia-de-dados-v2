@@ -1,0 +1,299 @@
+{
+  "event_type": "DATA_CONTRACT_VIOLATION",
+  "run_id": "DQ-RUN-F1BC7F91",
+  "evaluated_at_utc": "2026-11-02T02:19:50.439Z",
+  "contract_id": "DC-CRM-SQLITE-003",
+  "dataset_name": "CRM_Customers_Silver_SQLite",
+  "source_format": "SQLITE",
+  "source_identifier": "crm_warehouse.db::customers_silver",
+  "owner_team": "Customer-Data-Platform",
+  "contract_passed": false,
+  "metrics": {
+    "total_rows": 7,
+    "healthy_rows": 3,
+    "corrupted_rows": 4,
+    "data_quality_score_pct": 42.86,
+    "total_anomalies": 6,
+    "violations_by_category": {
+      "UNIQUENESS": 1,
+      "NULLABILITY": 1,
+      "RANGE_CHECK": 3,
+      "DATA_TYPE": 1
+    },
+    "execution_time_ms": 0.28
+  },
+  "rule_summaries": [
+    {
+      "rule_category": "SCHEMA_CHECK",
+      "rule_name": "required_columns_exist",
+      "column_name": "*",
+      "severity": "CRITICAL",
+      "total_evaluated": 6,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "customer_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_string",
+      "column_name": "customer_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "UNIQUENESS",
+      "rule_name": "unique_id_check",
+      "column_name": "customer_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 85.71,
+      "failure_rate_pct": 14.29
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "customer_id",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "full_name",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 85.71,
+      "failure_rate_pct": 14.29
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_string",
+      "column_name": "full_name",
+      "severity": "CRITICAL",
+      "total_evaluated": 6,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "age",
+      "severity": "ERROR",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_int",
+      "column_name": "age",
+      "severity": "ERROR",
+      "total_evaluated": 7,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 85.71,
+      "failure_rate_pct": 14.29
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "age",
+      "severity": "ERROR",
+      "total_evaluated": 6,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 83.33,
+      "failure_rate_pct": 16.67
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "credit_limit",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_float",
+      "column_name": "credit_limit",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "credit_limit",
+      "severity": "CRITICAL",
+      "total_evaluated": 7,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 85.71,
+      "failure_rate_pct": 14.29
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "tier",
+      "severity": "ERROR",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_string",
+      "column_name": "tier",
+      "severity": "ERROR",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "domain_and_range_bounds",
+      "column_name": "tier",
+      "severity": "ERROR",
+      "total_evaluated": 7,
+      "failed_count": 1,
+      "passed": false,
+      "pass_rate_pct": 85.71,
+      "failure_rate_pct": 14.29
+    },
+    {
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "column_name": "signup_date",
+      "severity": "WARNING",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_date",
+      "column_name": "signup_date",
+      "severity": "WARNING",
+      "total_evaluated": 7,
+      "failed_count": 0,
+      "passed": true,
+      "pass_rate_pct": 100.0,
+      "failure_rate_pct": 0.0
+    }
+  ],
+  "anomalies": [
+    {
+      "violation_id": "VIOL-0001",
+      "rule_category": "UNIQUENESS",
+      "rule_name": "unique_id_check",
+      "severity": "CRITICAL",
+      "column_name": "customer_id",
+      "row_index": 3,
+      "record_pk": "CUST-002",
+      "observed_value": "CUST-002",
+      "expected_constraint": "UNIQUE",
+      "diagnostic_message": "ID duplicado 'CUST-002' na coluna 'customer_id' (linha 3 colide com a linha 2)."
+    },
+    {
+      "violation_id": "VIOL-0002",
+      "rule_category": "NULLABILITY",
+      "rule_name": "not_null_check",
+      "severity": "CRITICAL",
+      "column_name": "full_name",
+      "row_index": 4,
+      "record_pk": "CUST-004",
+      "observed_value": null,
+      "expected_constraint": "NOT NULL",
+      "diagnostic_message": "Valor nulo ou vazio detectado na coluna-chave 'full_name' (linha 4, PK=CUST-004)."
+    },
+    {
+      "violation_id": "VIOL-0003",
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "min_value_bound",
+      "severity": "ERROR",
+      "column_name": "age",
+      "row_index": 5,
+      "record_pk": "CUST-005",
+      "observed_value": -5,
+      "expected_constraint": ">= 18",
+      "diagnostic_message": "Valor -5 abaixo do limite mínimo permitido (18) na coluna 'age' (linha 5, PK=CUST-005)."
+    },
+    {
+      "violation_id": "VIOL-0004",
+      "rule_category": "DATA_TYPE",
+      "rule_name": "type_check_int",
+      "severity": "ERROR",
+      "column_name": "age",
+      "row_index": 6,
+      "record_pk": "CUST-006",
+      "observed_value": "TRINTA_E_DOIS",
+      "expected_constraint": "TYPE == INT",
+      "diagnostic_message": "Violação de tipo na coluna 'age' (linha 6, PK=CUST-006): String 'TRINTA_E_DOIS' não representa um inteiro válido."
+    },
+    {
+      "violation_id": "VIOL-0005",
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "max_value_bound",
+      "severity": "CRITICAL",
+      "column_name": "credit_limit",
+      "row_index": 5,
+      "record_pk": "CUST-005",
+      "observed_value": 950000.0,
+      "expected_constraint": "<= 500000.0",
+      "diagnostic_message": "Valor 950000.0 acima do limite máximo permitido (500000.0) na coluna 'credit_limit' (linha 5, PK=CUST-005)."
+    },
+    {
+      "violation_id": "VIOL-0006",
+      "rule_category": "RANGE_CHECK",
+      "rule_name": "allowed_domain_values",
+      "severity": "ERROR",
+      "column_name": "tier",
+      "row_index": 5,
+      "record_pk": "CUST-005",
+      "observed_value": "BLACK_INVALID_TIER",
+      "expected_constraint": "IN ['BRONZE', 'SILVER', 'GOLD', 'PLATINUM']",
+      "diagnostic_message": "Valor 'BLACK_INVALID_TIER' fora do domínio permitido ['BRONZE', 'SILVER', 'GOLD', 'PLATINUM'] na coluna 'tier' (linha 5, PK=CUST-005)."
+    }
+  ]
+}

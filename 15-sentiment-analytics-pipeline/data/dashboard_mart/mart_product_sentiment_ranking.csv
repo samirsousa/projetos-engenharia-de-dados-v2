@@ -1,0 +1,11 @@
+product_id,product_name,category_name,unit_price_brl,total_reviews,positive_ratio_pct,neutral_ratio_pct,negative_ratio_pct,simulated_nps_score,avg_compound_polarity,avg_engagement_rate_pct
+PRD-NB-01,Notebook TitanBook Ultra RTX 16GB,Notebooks & Hardware Gamer,6499.0,130,75.38,10.0,14.62,60.77,0.5698,10.64
+PRD-IOT-01,Robô Aspirador SmartClean Laser LiDAR,Casa Inteligente & IoT,2199.0,113,74.34,8.85,16.81,57.52,0.5542,10.29
+PRD-NB-02,Monitor Curvo 165Hz IPS 27 Pol,Notebooks & Hardware Gamer,1599.0,134,73.88,9.7,16.42,57.46,0.5411,10.86
+PRD-SM-01,Smartphone Horizon Pro 5G 256GB,Smartphones & Wearables,3899.0,132,68.94,8.33,22.73,46.21,0.4373,10.56
+PRD-IOT-02,Fechadura Digital Biometria Wi-Fi,Casa Inteligente & IoT,799.0,145,64.83,11.72,23.45,41.38,0.3929,10.95
+PRD-CAF-02,AirFryer Digital Oven Inox 12L,Eletroportáteis & Café,749.0,125,63.2,10.4,26.4,36.8,0.347,10.35
+PRD-AU-02,Caixa de Som BoomBox Waterproof 60W,Áudio & Fones Bluetooth,699.0,127,58.27,11.02,30.71,27.56,0.2716,10.49
+PRD-SM-02,Smartwatch PulseFit AMOLED GPS,Smartphones & Wearables,899.0,124,57.26,7.26,35.48,21.77,0.2176,10.28
+PRD-CAF-01,Cafeteira Espresso Barista Pro 19 Bar,Eletroportáteis & Café,1299.0,97,56.7,7.22,36.08,20.62,0.1931,10.48
+PRD-AU-01,Fone Bluetooth SonicPods ANC,Áudio & Fones Bluetooth,449.0,123,38.21,11.38,50.41,-12.2,-0.0941,10.92

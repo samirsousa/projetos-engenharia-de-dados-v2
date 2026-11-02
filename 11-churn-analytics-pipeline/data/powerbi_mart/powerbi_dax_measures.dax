@@ -1,0 +1,111 @@
+// =============================================================================
+// CATÁLOGO OFICIAL DE MEDIDAS DAX - SAAS CHURN, COHORT & LTV ANALYTICS
+// Tabela recomendada para hospedar as medidas no Power BI: [_Measures]
+// =============================================================================
+
+// 1. Clientes Ativos no Período
+Active Customers = 
+CALCULATE(
+    DISTINCTCOUNT(fact_mrr_movements[customer_id]),
+    fact_mrr_movements[active_flag] = 1
+)
+
+// 2. Clientes Cancelados no Mês (Churned Logos)
+Churned Customers = 
+CALCULATE(
+    DISTINCTCOUNT(fact_mrr_movements[customer_id]),
+    fact_mrr_movements[movement_type] = "CHURNED"
+)
+
+// 3. Clientes Ativos no Mês Anterior (Beginning Customers)
+Beginning Customers = 
+CALCULATE(
+    [Active Customers],
+    DATEADD(dim_calendar[date_key], -1, MONTH)
+)
+
+// 4. Taxa de Logo Churn Mensal (%)
+Logo Churn Rate % = 
+DIVIDE([Churned Customers], [Beginning Customers], 0)
+
+// 5. MRR Final (Ending MRR R$)
+Ending MRR (BRL) = 
+CALCULATE(
+    SUM(fact_mrr_movements[current_mrr_brl]),
+    fact_mrr_movements[active_flag] = 1
+)
+
+// 6. ARR (Annual Recurring Revenue R$)
+Ending ARR (BRL) = [Ending MRR (BRL)] * 12
+
+// 7. MRR Inicial (Beginning MRR R$)
+Beginning MRR (BRL) = 
+CALCULATE(
+    [Ending MRR (BRL)],
+    DATEADD(dim_calendar[date_key], -1, MONTH)
+)
+
+// 8. MRR Perdido por Cancelamento (Churned MRR R$)
+Churned MRR (BRL) = 
+CALCULATE(
+    SUM(fact_mrr_movements[previous_mrr_brl]),
+    fact_mrr_movements[movement_type] = "CHURNED"
+)
+
+// 9. MRR de Contração / Downgrade (Contraction MRR R$)
+Contraction MRR (BRL) = 
+ABS(
+    CALCULATE(
+        SUM(fact_mrr_movements[mrr_delta_brl]),
+        fact_mrr_movements[movement_type] = "CONTRACTION"
+    )
+)
+
+// 10. MRR de Expansão / Upsell (Expansion MRR R$)
+Expansion MRR (BRL) = 
+CALCULATE(
+    SUM(fact_mrr_movements[mrr_delta_brl]),
+    fact_mrr_movements[movement_type] = "EXPANSION"
+)
+
+// 11. Gross MRR Churn Rate (%)
+Gross MRR Churn % = 
+DIVIDE(
+    [Churned MRR (BRL)] + [Contraction MRR (BRL)],
+    [Beginning MRR (BRL)],
+    0
+)
+
+// 12. Net MRR Churn Rate (%) - Valores negativos indicam Net Negative Churn!
+Net MRR Churn % = 
+DIVIDE(
+    [Churned MRR (BRL)] + [Contraction MRR (BRL)] - [Expansion MRR (BRL)],
+    [Beginning MRR (BRL)],
+    0
+)
+
+// 13. Net Dollar Retention - NRR / NDR (%)
+Net Revenue Retention (NRR %) = 1 - [Net MRR Churn %]
+
+// 14. Retenção de Coorte (Logo Retention % para Matriz cohort_month x period_label)
+Cohort Logo Retention % = 
+VAR CurrentActive = [Active Customers]
+VAR InitialCohortSize = 
+    CALCULATE(
+        DISTINCTCOUNT(fact_mrr_movements[customer_id]),
+        fact_mrr_movements[months_since_signup] = 0,
+        ALLEXCEPT(fact_mrr_movements, fact_mrr_movements[cohort_month])
+    )
+RETURN
+    DIVIDE(CurrentActive, InitialCohortSize, BLANK())
+
+// 15. ARPA (Ticket Médio Mensal por Conta Ativa)
+ARPA (BRL) = DIVIDE([Ending MRR (BRL)], [Active Customers], 0)
+
+// 16. LTV Ajustado por Margem Bruta (R$)
+Customer LTV (BRL) = 
+VAR GrossMarginPct = 0.82
+VAR MonthlyGrossProfitPerCust = [ARPA (BRL)] * GrossMarginPct
+VAR ChurnRate = MAX([Logo Churn Rate %], 0.01)
+RETURN
+    DIVIDE(MonthlyGrossProfitPerCust, ChurnRate, 0)

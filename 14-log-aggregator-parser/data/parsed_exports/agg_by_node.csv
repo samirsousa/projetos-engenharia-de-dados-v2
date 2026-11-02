@@ -1,0 +1,5 @@
+node_id,total_requests,status_2xx_count,status_4xx_count,status_5xx_count,availability_slo_pct,avg_latency_ms,p95_latency_ms,apdex_score,node_health_status
+app-worker-01,799,561,163,75,90.61,175.1,1123.49,0.8467,SLO_BREACH_INVESTIGATE
+app-worker-02,849,584,172,93,89.05,177.57,1296.48,0.8398,SLO_BREACH_INVESTIGATE
+edge-ingress-01,781,536,162,83,89.37,163.45,1069.63,0.8412,SLO_BREACH_INVESTIGATE
+edge-ingress-02,761,540,147,74,90.28,187.65,1257.26,0.8463,SLO_BREACH_INVESTIGATE

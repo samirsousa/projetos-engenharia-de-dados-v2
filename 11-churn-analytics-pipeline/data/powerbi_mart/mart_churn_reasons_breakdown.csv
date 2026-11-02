@@ -1,0 +1,18 @@
+churn_type,churn_reason,segment,churned_subscriptions,lost_mrr_brl,lost_arr_brl,avg_tenure_before_churn_months,share_of_total_churn_pct
+Voluntary,Budget / Cost Reduction,Mid-Market,22,14733.9,176806.8,2.9,9.44
+Voluntary,Budget / Cost Reduction,SMB,49,10688.77,128265.24,3.5,21.03
+Voluntary,Low Product Adoption / Onboarding Gap,Mid-Market,16,10027.27,120327.24,2.4,6.87
+Voluntary,Low Product Adoption / Onboarding Gap,SMB,38,8540.57,102486.84,3.2,16.31
+Voluntary,Missing Enterprise Feature / Integration,Mid-Market,10,6292.5,75510.0,2.3,4.29
+Voluntary,Switched to Competitor,SMB,27,5947.11,71365.32,3.0,11.59
+Involuntary,Involuntary - Credit Card Expired / Hard Decline,SMB,21,4623.76,55485.12,3.3,9.01
+Voluntary,Missing Enterprise Feature / Integration,Enterprise,2,4500.63,54007.56,3.0,0.86
+Voluntary,Switched to Competitor,Enterprise,2,3873.96,46487.52,1.5,0.86
+Voluntary,Low Product Adoption / Onboarding Gap,Enterprise,2,3793.25,45519.0,6.5,0.86
+Involuntary,Involuntary - Credit Card Expired / Hard Decline,Mid-Market,6,3743.75,44925.0,4.7,2.58
+Voluntary,Switched to Competitor,Mid-Market,6,3673.37,44080.44,4.3,2.58
+Voluntary,Missing Enterprise Feature / Integration,SMB,16,3601.4,43216.8,3.1,6.87
+Voluntary,Company Closed / M&A Restructuring,SMB,11,2487.5,29850.0,2.7,4.72
+Voluntary,Company Closed / M&A Restructuring,Mid-Market,3,2078.53,24942.36,2.7,1.29
+Voluntary,Budget / Cost Reduction,Enterprise,1,1936.98,23243.76,7.0,0.43
+Involuntary,Involuntary - Credit Card Expired / Hard Decline,Enterprise,1,1775.57,21306.84,4.0,0.43

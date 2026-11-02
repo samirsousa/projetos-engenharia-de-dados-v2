@@ -1,0 +1,11 @@
+product_id,product_name,category_id,category_name,brand_tier,unit_price_brl
+PRD-SM-01,Smartphone Horizon Pro 5G 256GB,CAT-MOBILE,Smartphones & Wearables,Flagship Premium,3899.0
+PRD-SM-02,Smartwatch PulseFit AMOLED GPS,CAT-MOBILE,Smartphones & Wearables,Mid-Range Tech,899.0
+PRD-NB-01,Notebook TitanBook Ultra RTX 16GB,CAT-COMPUTING,Notebooks & Hardware Gamer,Performance Pro,6499.0
+PRD-NB-02,Monitor Curvo 165Hz IPS 27 Pol,CAT-COMPUTING,Notebooks & Hardware Gamer,Performance Pro,1599.0
+PRD-AU-01,Fone Bluetooth SonicPods ANC,CAT-AUDIO,Áudio & Fones Bluetooth,Consumer Audio,449.0
+PRD-AU-02,Caixa de Som BoomBox Waterproof 60W,CAT-AUDIO,Áudio & Fones Bluetooth,Consumer Audio,699.0
+PRD-IOT-01,Robô Aspirador SmartClean Laser LiDAR,CAT-SMARTHOME,Casa Inteligente & IoT,Smart Home,2199.0
+PRD-IOT-02,Fechadura Digital Biometria Wi-Fi,CAT-SMARTHOME,Casa Inteligente & IoT,Smart Home,799.0
+PRD-CAF-01,Cafeteira Espresso Barista Pro 19 Bar,CAT-APPLIANCES,Eletroportáteis & Café,Home Kitchen,1299.0
+PRD-CAF-02,AirFryer Digital Oven Inox 12L,CAT-APPLIANCES,Eletroportáteis & Café,Home Kitchen,749.0

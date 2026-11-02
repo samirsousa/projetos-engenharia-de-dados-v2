@@ -1,0 +1,7 @@
+{
+  "connector_name": "sqlite-debezium-cdc-connector",
+  "last_lsn": 60,
+  "batches_emitted": 6,
+  "total_events_emitted": 60,
+  "updated_at_utc": "2026-11-02T02:04:28.920617+00:00"
+}

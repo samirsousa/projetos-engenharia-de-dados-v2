@@ -1,0 +1,18 @@
+route_key,http_method,normalized_route,total_requests,status_200_count,status_404_count,status_4xx_count,status_500_count,status_5xx_count,error_4xx_pct,error_5xx_pct,avg_latency_ms,p95_latency_ms,p99_latency_ms,apdex_score,route_health_status
+GET /api/v1/orders/{id}/details,GET,/api/v1/orders/{id}/details,404,313,0,0,0,91,0.0,22.52,293.88,1456.1,1659.19,0.7748,CRITICAL_DEGRADATION
+POST /api/v1/ledger/reconcile,POST,/api/v1/ledger/reconcile,72,0,0,0,62,72,0.0,100.0,1433.84,3816.64,4410.65,0.0,CRITICAL_DEGRADATION
+POST /api/v1/payments/authorize,POST,/api/v1/payments/authorize,408,343,0,0,50,65,0.0,15.93,391.83,1594.64,4245.99,0.5919,CRITICAL_DEGRADATION
+POST /api/v1/orders/{id}/checkout,POST,/api/v1/orders/{id}/checkout,392,0,0,0,57,65,0.0,16.58,333.99,1473.22,3197.5,0.648,CRITICAL_DEGRADATION
+GET /api/v1/catalog/products/{id},GET,/api/v1/catalog/products/{id},483,298,109,153,32,32,31.68,6.63,33.77,64.47,67.47,0.9337,WARNING_LATENCY_SLO
+DELETE /api/v1/sessions/{id},DELETE,/api/v1/sessions/{id},321,0,0,0,0,0,0.0,0.0,19.86,30.35,31.67,1.0,HEALTHY_OPTIMAL
+GET /healthz,GET,/healthz,314,314,0,0,0,0,0.0,0.0,3.94,6.18,6.4,1.0,HEALTHY_OPTIMAL
+GET /api/v1/users/{uuid}/profile,GET,/api/v1/users/{uuid}/profile,305,305,0,0,0,0,0.0,0.0,41.82,69.05,71.43,1.0,HEALTHY_OPTIMAL
+GET /api/v1/legacy/reports/export,GET,/api/v1/legacy/reports/export,107,0,107,107,0,0,100.0,0.0,22.77,34.57,36.91,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /assets/icons/favicon-old.ico,GET,/assets/icons/favicon-old.ico,95,0,95,95,0,0,100.0,0.0,22.13,34.57,37.42,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /api/v1/orders/{id}/invoice.pdf,GET,/api/v1/orders/{id}/invoice.pdf,83,0,83,83,0,0,100.0,0.0,22.68,35.01,36.9,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /[SECURITY_PATH_TRAVERSAL_PROBE],GET,/[SECURITY_PATH_TRAVERSAL_PROBE],75,0,39,75,0,0,100.0,0.0,25.98,42.35,43.73,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+POST /api/v1/auth/login,POST,/api/v1/auth/login,60,0,0,60,0,0,100.0,0.0,25.24,40.9,43.11,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /.git/config,GET,/.git/config,27,0,27,27,0,0,100.0,0.0,25.61,40.93,42.56,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /.env,GET,/.env,18,0,18,18,0,0,100.0,0.0,21.91,36.55,41.26,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /phpmyadmin/index.php,GET,/phpmyadmin/index.php,18,0,18,18,0,0,100.0,0.0,27.73,40.32,40.5,1.0,HIGH_CLIENT_ERROR_OR_SCAN
+GET /wp-admin/setup-config.php,GET,/wp-admin/setup-config.php,8,0,8,8,0,0,100.0,0.0,26.8,40.17,41.31,1.0,HIGH_CLIENT_ERROR_OR_SCAN

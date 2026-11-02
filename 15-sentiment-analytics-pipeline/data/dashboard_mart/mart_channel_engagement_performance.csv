@@ -1,0 +1,6 @@
+channel_id,channel_name,platform_type,total_reviews,total_impressions,total_interactions,avg_weighted_engagement,avg_engagement_rate_pct,positive_ratio_pct,negative_ratio_pct,simulated_nps_score
+CH-TK,TikTok Shop & Creators,Short-Form Video,246,2952122,303688,2298.7,10.33,63.82,27.24,36.59
+CH-IG,Instagram Reels & Feed,Social Video/Photo,244,1933806,211763,1609.9,10.87,63.52,26.23,37.3
+CH-YT,YouTube Tech Reviews,Long-Form Video,244,1617780,166860,1269.7,10.33,59.84,31.56,28.28
+CH-TW,X / Twitter Mentions,Microblogging,268,1210557,129440,897.5,10.62,64.93,26.12,38.81
+CH-EC,E-Commerce Verified Reviews,Marketplace Portal,248,450472,48199,357.7,10.82,64.52,23.79,40.73

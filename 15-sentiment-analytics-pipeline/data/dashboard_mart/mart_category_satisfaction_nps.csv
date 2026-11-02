@@ -1,0 +1,6 @@
+category_id,category_name,total_reviews,positive_count,neutral_count,negative_count,positive_ratio_pct,neutral_ratio_pct,negative_ratio_pct,net_sentiment_balance_pct,promoters_count,passives_count,detractors_count,promoters_pct,detractors_pct,simulated_nps_score,nps_quality_zone,avg_compound_polarity,total_impressions,total_interactions,avg_engagement_rate_pct
+CAT-COMPUTING,Notebooks & Hardware Gamer,264,197,26,41,74.62,9.85,15.53,59.09,197,26,41,74.62,15.53,59.09,Zona de Excelência (NPS >= 50),0.5552,1720825,182527,10.75
+CAT-SMARTHOME,Casa Inteligente & IoT,258,178,27,53,68.99,10.47,20.54,48.45,178,27,53,68.99,20.54,48.45,Zona de Qualidade (25 a 49),0.4636,1612724,170613,10.66
+CAT-MOBILE,Smartphones & Wearables,256,162,20,74,63.28,7.81,28.91,34.37,162,20,74,63.28,28.91,34.37,Zona de Qualidade (25 a 49),0.3308,1716558,177363,10.42
+CAT-APPLIANCES,Eletroportáteis & Café,222,134,20,68,60.36,9.01,30.63,29.73,134,20,68,60.36,30.63,29.73,Zona de Qualidade (25 a 49),0.2797,1420728,150247,10.41
+CAT-AUDIO,Áudio & Fones Bluetooth,250,121,28,101,48.4,11.2,40.4,8.0,121,28,101,48.4,40.4,8.0,Zona de Aperfeiçoamento (0 a 24),0.0917,1693902,179200,10.7

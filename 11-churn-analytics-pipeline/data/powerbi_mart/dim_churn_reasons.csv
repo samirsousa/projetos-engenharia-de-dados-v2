@@ -1,0 +1,8 @@
+churn_reason_key,churn_type,churn_reason,is_preventable_by_dunning
+CR-01,Active (No Churn),Active (No Churn),0
+CR-02,Involuntary,Involuntary - Credit Card Expired / Hard Decline,1
+CR-03,Voluntary,Budget / Cost Reduction,0
+CR-04,Voluntary,Company Closed / M&A Restructuring,0
+CR-05,Voluntary,Low Product Adoption / Onboarding Gap,0
+CR-06,Voluntary,Missing Enterprise Feature / Integration,0
+CR-07,Voluntary,Switched to Competitor,0

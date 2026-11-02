@@ -1,0 +1,11 @@
+transaction_id,customer_id,amount,currency,risk_score,transaction_date,customer_email
+TXN-1001,CUST-501,1450.75,BRL,12,2026-11-01,ana.silva@empresa.com.br
+TXN-1002,CUST-502,320.00,BRL,5,2026-11-01,carlos.mendes@fintech.io
+TXN-1003,CUST-503,8900.50,USD,44,2026-11-01,fernanda.costa@global.org
+TXN-1002,CUST-504,210.00,BRL,18,2026-11-01,duplicado@empresa.com.br
+TXN-1005,,540.00,BRL,22,2026-11-01,sem.cliente@empresa.com.br
+TXN-1006,CUST-506,-450.00,BRL,145,2026-11-01,limite.invalido@empresa.com.br
+TXN-1007,CUST-507,ERRO_PARSE_VALOR,EUR,30,2026-15-99,tipo.corrompido@empresa.com.br
+TXN-1008,CUST-508,1200.00,DOGE,50,2026-11-01,email_sem_arroba_e_dominio
+TXN-1009,CUST-509,75.90,BRL,3,2026-11-01,juliana.rocha@varejo.com.br
+TXN-1010,CUST-510,4100.00,EUR,29,2026-11-01,rafael.lima@banco.com

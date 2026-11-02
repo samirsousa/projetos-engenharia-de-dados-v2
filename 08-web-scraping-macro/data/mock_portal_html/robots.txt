@@ -1,0 +1,7 @@
+# Portal de Dados Abertos Macroeconômicos - Política de Crawling Ético
+User-agent: *
+Allow: /boletim_focus_sgs.html
+Allow: /cambio_ptax_series.html
+Disallow: /admin/
+Disallow: /private-api/
+Crawl-delay: 1

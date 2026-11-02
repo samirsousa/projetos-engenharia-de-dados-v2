@@ -1,0 +1,6 @@
+hub_id,hub_name,city,state_uf,macro_region,latitude,longitude,dock_capacity_tons_day,avg_dock_dwell_hours
+HUB-SP-CAJ,CD Cajamar MegaHub (SP),Cajamar,SP,Sudeste,-23.3556,-46.8769,480.0,2.4
+HUB-MG-EXT,CD Extrema Sul de Minas (MG),Extrema,MG,Sudeste,-22.8547,-46.3183,350.0,2.8
+HUB-PR-CWB,CD Curitiba Araucária (PR),Araucária,PR,Sul,-25.5858,-49.4047,290.0,2.1
+HUB-PE-REC,CD Cabo de Santo Agostinho (PE),Cabo de Santo Agostinho,PE,Nordeste,-8.2833,-35.0333,260.0,3.9
+HUB-GO-ANP,CD Porto Seco Anápolis (GO),Anápolis,GO,Centro-Oeste,-16.3281,-48.9531,240.0,3.2

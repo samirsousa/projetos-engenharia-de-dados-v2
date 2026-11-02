@@ -1,0 +1,109 @@
+{
+  "dag_id": "macro_economic_indicators_etl_dag",
+  "dag_run_id": "DAGRUN-20261102_025458-18A9A3",
+  "schedule_cron": "0 8 * * 1-5",
+  "overall_status": "SUCCESS",
+  "started_at_utc": "2026-11-02T02:54:58.662Z",
+  "finished_at_utc": "2026-11-02T02:54:59.015Z",
+  "total_duration_ms": 353.31,
+  "execution_order": [
+    "t1_verify_portal_ethics",
+    "t2_extract_raw_html",
+    "t3_clean_and_type_schema",
+    "t4_quality_gate",
+    "t5_load_sqlite_warehouse"
+  ],
+  "task_telemetries": [
+    {
+      "task_id": "t1_verify_portal_ethics",
+      "state": "SUCCESS",
+      "attempts": 1,
+      "started_at_utc": "2026-11-02T02:54:58.663Z",
+      "finished_at_utc": "2026-11-02T02:54:58.669Z",
+      "duration_ms": 6.64,
+      "error_message": null
+    },
+    {
+      "task_id": "t2_extract_raw_html",
+      "state": "SUCCESS",
+      "attempts": 1,
+      "started_at_utc": "2026-11-02T02:54:58.669Z",
+      "finished_at_utc": "2026-11-02T02:54:58.930Z",
+      "duration_ms": 260.95,
+      "error_message": null
+    },
+    {
+      "task_id": "t3_clean_and_type_schema",
+      "state": "SUCCESS",
+      "attempts": 1,
+      "started_at_utc": "2026-11-02T02:54:58.931Z",
+      "finished_at_utc": "2026-11-02T02:54:58.970Z",
+      "duration_ms": 39.15,
+      "error_message": null
+    },
+    {
+      "task_id": "t4_quality_gate",
+      "state": "SUCCESS",
+      "attempts": 1,
+      "started_at_utc": "2026-11-02T02:54:58.970Z",
+      "finished_at_utc": "2026-11-02T02:54:58.971Z",
+      "duration_ms": 1.17,
+      "error_message": null
+    },
+    {
+      "task_id": "t5_load_sqlite_warehouse",
+      "state": "SUCCESS",
+      "attempts": 1,
+      "started_at_utc": "2026-11-02T02:54:58.971Z",
+      "finished_at_utc": "2026-11-02T02:54:59.015Z",
+      "duration_ms": 43.79,
+      "error_message": null
+    }
+  ],
+  "xcom_snapshot": {
+    "t1_verify_portal_ethics": {
+      "portal_verified": true,
+      "return_value": {
+        "robots_status": "COMPLIANT",
+        "pages_ready": 2
+      }
+    },
+    "t2_extract_raw_html": {
+      "bronze_file_path": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\08-web-scraping-macro\\data\\bronze_raw\\raw_macro_indicators_DAGRUN-20261102_025458-18A9A3.json",
+      "raw_rows_count": 26,
+      "retries_triggered": 1,
+      "return_value": {
+        "bronze_file": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\08-web-scraping-macro\\data\\bronze_raw\\raw_macro_indicators_DAGRUN-20261102_025458-18A9A3.json",
+        "raw_rows": 26,
+        "retries": 1
+      }
+    },
+    "t3_clean_and_type_schema": {
+      "silver_json_path": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\08-web-scraping-macro\\data\\silver_staged\\staged_macro_DAGRUN-20261102_025458-18A9A3.json",
+      "valid_typed_rows": 25,
+      "quarantined_rows": 1,
+      "return_value": {
+        "silver_json": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\08-web-scraping-macro\\data\\silver_staged\\staged_macro_DAGRUN-20261102_025458-18A9A3.json",
+        "valid_rows": 25,
+        "quarantined_rows": 1
+      }
+    },
+    "t4_quality_gate": {
+      "quality_gate_passed": true,
+      "return_value": {
+        "quality_status": "PASSED",
+        "validated_records": 25
+      }
+    },
+    "t5_load_sqlite_warehouse": {
+      "records_loaded": 25,
+      "total_db_rows": 25,
+      "summary_report_path": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\08-web-scraping-macro\\reports\\macro_economic_summary.md",
+      "return_value": {
+        "facts_upserted": 25,
+        "total_historical_rows": 25,
+        "report_md": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\08-web-scraping-macro\\reports\\macro_economic_summary.md"
+      }
+    }
+  }
+}

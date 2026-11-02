@@ -1,0 +1,33 @@
+========================================================================================
+ [ALERTA DE CONFIABILIDADE DE DADOS] VIOLAÇÃO DE DATA CONTRACT (CRITICAL)
+========================================================================================
+ Run ID             : DQ-RUN-F2BDE201
+ Timestamp (UTC)    : 2026-11-02T02:19:50.435Z
+ Contrato Violado   : DC-IOT-PARQUET-002 (IoT_Sensor_Telemetry_Parquet)
+ Fonte / Formato    : iot_sensor_telemetry.parquet [PARQUET]
+ Equipe Responsável : Industrial-IoT-Platform
+ Status do Pipeline : BLOQUEADO (CIRCUIT BREAKER ATIVADO - ENVIO PARA DLQ)
+----------------------------------------------------------------------------------------
+ RESUMO DE IMPACTO E QUALIDADE (SLI / SLO):
+   - Total de Registros Inspecionados : 8
+   - Registros Saudáveis (Conformes)  : 4
+   - Registros Corrompidos            : 4
+   - Score de Qualidade (DQ Score)    : 50.00%
+   - Total de Violações Detectadas    : 5
+   - Nulidade (NULLABILITY)           : 1 falha(s)
+   - Unicidade de IDs (UNIQUENESS)    : 1 falha(s)
+   - Limites de Valor (RANGE_CHECK)   : 2 falha(s)
+   - Tipo de Dado (DATA_TYPE)         : 1 falha(s)
+----------------------------------------------------------------------------------------
+ DETALHAMENTO DAS ANOMALIAS DETECTADAS (DATA CONTRACT VIOLATIONS):
+   [VIOL-0001] [CRITICAL] UNIQUENESS   | Linha=3   | PK=SENS-9002    | Coluna='reading_id' | Valor='SENS-9002' (Esperado: UNIQUE)
+   [VIOL-0002] [CRITICAL] NULLABILITY  | Linha=4   | PK=SENS-9004    | Coluna='device_id' | Valor=None (Esperado: NOT NULL)
+   [VIOL-0003] [CRITICAL] RANGE_CHECK  | Linha=5   | PK=SENS-9005    | Coluna='temperature_c' | Valor=295.5 (Esperado: <= 125.0)
+   [VIOL-0004] [ERROR] RANGE_CHECK  | Linha=5   | PK=SENS-9005    | Coluna='humidity_pct' | Valor=135.0 (Esperado: <= 100.0)
+   [VIOL-0005] [CRITICAL] DATA_TYPE    | Linha=6   | PK=SENS-9006    | Coluna='vibration_hz' | Valor='SENSOR_OFFLINE_ERR' (Esperado: TYPE == INT)
+----------------------------------------------------------------------------------------
+ AÇÃO RECOMENDADA DE ENGENHARIA (PLAYBOOK SRE / DATA RELIABILITY):
+   1. Isolar os registros listados acima na Dead-Letter Queue (DLQ).
+   2. Notificar o time 'Industrial-IoT-Platform' sobre regressão no produtor upstream.
+   3. Inspecionar o log completo em: logs/anomalies/violations_iot_sensor_telemetry_parquet.json
+========================================================================================

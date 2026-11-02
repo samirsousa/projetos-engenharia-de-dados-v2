@@ -1,0 +1,4 @@
+plan_id,plan_name,tier_level,base_mrr_brl,annual_discount_pct,base_monthly_churn_prob,expansion_prob,contraction_prob,gross_margin_pct,included_seats
+PLN-STARTER,Starter Cloud,1,199.0,0.15,0.068,0.035,0.01,0.8,3
+PLN-GROWTH,Growth Professional,2,599.0,0.15,0.036,0.055,0.018,0.83,10
+PLN-ENTERPRISE,Enterprise Scale,3,1899.0,0.15,0.014,0.075,0.015,0.85,50

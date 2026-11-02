@@ -1,0 +1,489 @@
+{
+  "batch_metadata": {
+    "batch_id": "cdc_events_lsn_000031_000040_20261102_020428_295028",
+    "connector": "sqlite-debezium-cdc-connector",
+    "emitted_at_utc": "2026-11-02T02:04:28.295Z",
+    "min_lsn": 31,
+    "max_lsn": 40,
+    "event_count": 10,
+    "operation_breakdown": {
+      "INSERT": 6,
+      "UPDATE": 3,
+      "DELETE": 1
+    }
+  },
+  "events": [
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 31,
+        "tx_id": "a2a82eabca406fb5",
+        "op": "u",
+        "op_type": "UPDATE",
+        "record_pk": "ORD-01C68433",
+        "before": {
+          "order_id": "ORD-01C68433",
+          "customer_id": "CUST-1004",
+          "customer_name": "Marcos Vinicius Rocha",
+          "product_sku": "SKU-KB-MECH",
+          "category": "Perifericos",
+          "quantity": 4,
+          "unit_price": 649.5,
+          "total_amount": 2598.0,
+          "status": "CREATED",
+          "payment_method": "DEBIT_CARD",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:27.620Z",
+          "updated_at": "2026-11-02T02:04:27.620Z"
+        },
+        "after": {
+          "order_id": "ORD-01C68433",
+          "customer_id": "CUST-1004",
+          "customer_name": "Marcos Vinicius Rocha",
+          "product_sku": "SKU-KB-MECH",
+          "category": "Perifericos",
+          "quantity": 3,
+          "unit_price": 649.5,
+          "total_amount": 1948.5,
+          "status": "PAID",
+          "payment_method": "DEBIT_CARD",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:27.620Z",
+          "updated_at": "2026-11-02T02:04:28.041Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068043,
+          "event_time_utc": "2026-11-02T02:04:28.043Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 31,
+          "tx_id": "a2a82eabca406fb5"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 32,
+        "tx_id": "104b42226019490d",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-375AF3B6",
+        "before": null,
+        "after": {
+          "order_id": "ORD-375AF3B6",
+          "customer_id": "CUST-1009",
+          "customer_name": "Larissa Gomes Barbosa",
+          "product_sku": "SKU-NB-PRO16",
+          "category": "Eletronicos",
+          "quantity": 5,
+          "unit_price": 7499.9,
+          "total_amount": 37499.5,
+          "status": "CREATED",
+          "payment_method": "BOLETO",
+          "region": "Nordeste",
+          "created_at": "2026-11-02T02:04:28.070Z",
+          "updated_at": "2026-11-02T02:04:28.070Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068071,
+          "event_time_utc": "2026-11-02T02:04:28.072Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 32,
+          "tx_id": "104b42226019490d"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 33,
+        "tx_id": "e28d83839ad9ab4e",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-146ED41A",
+        "before": null,
+        "after": {
+          "order_id": "ORD-146ED41A",
+          "customer_id": "CUST-1002",
+          "customer_name": "Carlos Eduardo Mendes",
+          "product_sku": "SKU-CHAIR-ERGO",
+          "category": "Escritorio",
+          "quantity": 3,
+          "unit_price": 1890.0,
+          "total_amount": 5670.0,
+          "status": "CREATED",
+          "payment_method": "CREDIT_CARD",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:28.099Z",
+          "updated_at": "2026-11-02T02:04:28.099Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068103,
+          "event_time_utc": "2026-11-02T02:04:28.103Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 33,
+          "tx_id": "e28d83839ad9ab4e"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 34,
+        "tx_id": "9ec95cd701772382",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-A4DFDE83",
+        "before": null,
+        "after": {
+          "order_id": "ORD-A4DFDE83",
+          "customer_id": "CUST-1010",
+          "customer_name": "Thiago Araujo Cardoso",
+          "product_sku": "SKU-MON-4K27",
+          "category": "Perifericos",
+          "quantity": 1,
+          "unit_price": 2199.0,
+          "total_amount": 2199.0,
+          "status": "CREATED",
+          "payment_method": "DEBIT_CARD",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:28.125Z",
+          "updated_at": "2026-11-02T02:04:28.125Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068126,
+          "event_time_utc": "2026-11-02T02:04:28.127Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 34,
+          "tx_id": "9ec95cd701772382"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 35,
+        "tx_id": "981044e1edf91398",
+        "op": "u",
+        "op_type": "UPDATE",
+        "record_pk": "ORD-E3D642E0",
+        "before": {
+          "order_id": "ORD-E3D642E0",
+          "customer_id": "CUST-1004",
+          "customer_name": "Marcos Vinicius Rocha",
+          "product_sku": "SKU-KB-MECH",
+          "category": "Perifericos",
+          "quantity": 1,
+          "unit_price": 649.5,
+          "total_amount": 649.5,
+          "status": "CREATED",
+          "payment_method": "PIX",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:27.202Z",
+          "updated_at": "2026-11-02T02:04:27.202Z"
+        },
+        "after": {
+          "order_id": "ORD-E3D642E0",
+          "customer_id": "CUST-1004",
+          "customer_name": "Marcos Vinicius Rocha",
+          "product_sku": "SKU-KB-MECH",
+          "category": "Perifericos",
+          "quantity": 2,
+          "unit_price": 649.5,
+          "total_amount": 1299.0,
+          "status": "PAID",
+          "payment_method": "PIX",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:27.202Z",
+          "updated_at": "2026-11-02T02:04:28.149Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068151,
+          "event_time_utc": "2026-11-02T02:04:28.151Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 35,
+          "tx_id": "981044e1edf91398"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 36,
+        "tx_id": "d1178ae15a52dd8a",
+        "op": "d",
+        "op_type": "DELETE",
+        "record_pk": "ORD-375AF3B6",
+        "before": {
+          "order_id": "ORD-375AF3B6",
+          "customer_id": "CUST-1009",
+          "customer_name": "Larissa Gomes Barbosa",
+          "product_sku": "SKU-NB-PRO16",
+          "category": "Eletronicos",
+          "quantity": 5,
+          "unit_price": 7499.9,
+          "total_amount": 37499.5,
+          "status": "CREATED",
+          "payment_method": "BOLETO",
+          "region": "Nordeste",
+          "created_at": "2026-11-02T02:04:28.070Z",
+          "updated_at": "2026-11-02T02:04:28.070Z"
+        },
+        "after": null,
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068174,
+          "event_time_utc": "2026-11-02T02:04:28.175Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 36,
+          "tx_id": "d1178ae15a52dd8a"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 37,
+        "tx_id": "7a9b3c965616a0c9",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-D4689601",
+        "before": null,
+        "after": {
+          "order_id": "ORD-D4689601",
+          "customer_id": "CUST-1010",
+          "customer_name": "Thiago Araujo Cardoso",
+          "product_sku": "SKU-HEADSET-ANC",
+          "category": "Audio",
+          "quantity": 2,
+          "unit_price": 980.0,
+          "total_amount": 1960.0,
+          "status": "CREATED",
+          "payment_method": "CREDIT_CARD",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:28.199Z",
+          "updated_at": "2026-11-02T02:04:28.199Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068200,
+          "event_time_utc": "2026-11-02T02:04:28.200Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 37,
+          "tx_id": "7a9b3c965616a0c9"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 38,
+        "tx_id": "b5d486b4327691c9",
+        "op": "u",
+        "op_type": "UPDATE",
+        "record_pk": "ORD-6ABEF518",
+        "before": {
+          "order_id": "ORD-6ABEF518",
+          "customer_id": "CUST-1007",
+          "customer_name": "Beatriz Ribeiro Souza",
+          "product_sku": "SKU-MON-4K27",
+          "category": "Perifericos",
+          "quantity": 5,
+          "unit_price": 2199.0,
+          "total_amount": 10995.0,
+          "status": "CREATED",
+          "payment_method": "BOLETO",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:27.421Z",
+          "updated_at": "2026-11-02T02:04:27.421Z"
+        },
+        "after": {
+          "order_id": "ORD-6ABEF518",
+          "customer_id": "CUST-1007",
+          "customer_name": "Beatriz Ribeiro Souza",
+          "product_sku": "SKU-MON-4K27",
+          "category": "Perifericos",
+          "quantity": 7,
+          "unit_price": 2199.0,
+          "total_amount": 15393.0,
+          "status": "CANCELLED",
+          "payment_method": "BOLETO",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:27.421Z",
+          "updated_at": "2026-11-02T02:04:28.221Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068222,
+          "event_time_utc": "2026-11-02T02:04:28.223Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 38,
+          "tx_id": "b5d486b4327691c9"
+        },
+        "ts_ms": 1793585068294
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 39,
+        "tx_id": "4337a552cbb096bb",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-99903C93",
+        "before": null,
+        "after": {
+          "order_id": "ORD-99903C93",
+          "customer_id": "CUST-1004",
+          "customer_name": "Marcos Vinicius Rocha",
+          "product_sku": "SKU-NVME-2TB",
+          "category": "Hardware",
+          "quantity": 1,
+          "unit_price": 1120.0,
+          "total_amount": 1120.0,
+          "status": "CREATED",
+          "payment_method": "BOLETO",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:28.247Z",
+          "updated_at": "2026-11-02T02:04:28.247Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068248,
+          "event_time_utc": "2026-11-02T02:04:28.248Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 39,
+          "tx_id": "4337a552cbb096bb"
+        },
+        "ts_ms": 1793585068295
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 40,
+        "tx_id": "e7fc3a9d2f4f5b69",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-A4A0ABCC",
+        "before": null,
+        "after": {
+          "order_id": "ORD-A4A0ABCC",
+          "customer_id": "CUST-1009",
+          "customer_name": "Larissa Gomes Barbosa",
+          "product_sku": "SKU-NVME-2TB",
+          "category": "Hardware",
+          "quantity": 5,
+          "unit_price": 1120.0,
+          "total_amount": 5600.0,
+          "status": "CREATED",
+          "payment_method": "CREDIT_CARD",
+          "region": "Nordeste",
+          "created_at": "2026-11-02T02:04:28.269Z",
+          "updated_at": "2026-11-02T02:04:28.269Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068270,
+          "event_time_utc": "2026-11-02T02:04:28.270Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 40,
+          "tx_id": "e7fc3a9d2f4f5b69"
+        },
+        "ts_ms": 1793585068295
+      }
+    }
+  ]
+}

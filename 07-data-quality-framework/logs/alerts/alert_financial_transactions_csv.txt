@@ -1,0 +1,36 @@
+========================================================================================
+ [ALERTA DE CONFIABILIDADE DE DADOS] VIOLAÇÃO DE DATA CONTRACT (CRITICAL)
+========================================================================================
+ Run ID             : DQ-RUN-492A97BE
+ Timestamp (UTC)    : 2026-11-02T02:19:50.397Z
+ Contrato Violado   : DC-FIN-CSV-001 (Financial_Transactions_CSV)
+ Fonte / Formato    : financial_transactions.csv [CSV]
+ Equipe Responsável : Core-Payments-Engineering
+ Status do Pipeline : BLOQUEADO (CIRCUIT BREAKER ATIVADO - ENVIO PARA DLQ)
+----------------------------------------------------------------------------------------
+ RESUMO DE IMPACTO E QUALIDADE (SLI / SLO):
+   - Total de Registros Inspecionados : 10
+   - Registros Saudáveis (Conformes)  : 5
+   - Registros Corrompidos            : 5
+   - Score de Qualidade (DQ Score)    : 50.00%
+   - Total de Violações Detectadas    : 8
+   - Nulidade (NULLABILITY)           : 1 falha(s)
+   - Unicidade de IDs (UNIQUENESS)    : 1 falha(s)
+   - Limites de Valor (RANGE_CHECK)   : 3 falha(s)
+   - Tipo de Dado (DATA_TYPE)         : 3 falha(s)
+----------------------------------------------------------------------------------------
+ DETALHAMENTO DAS ANOMALIAS DETECTADAS (DATA CONTRACT VIOLATIONS):
+   [VIOL-0001] [CRITICAL] UNIQUENESS   | Linha=4   | PK=TXN-1002     | Coluna='transaction_id' | Valor='TXN-1002' (Esperado: UNIQUE)
+   [VIOL-0002] [CRITICAL] NULLABILITY  | Linha=5   | PK=TXN-1005     | Coluna='customer_id' | Valor='' (Esperado: NOT NULL)
+   [VIOL-0003] [CRITICAL] RANGE_CHECK  | Linha=6   | PK=TXN-1006     | Coluna='amount' | Valor=-450.0 (Esperado: >= 0.01)
+   [VIOL-0004] [CRITICAL] DATA_TYPE    | Linha=7   | PK=TXN-1007     | Coluna='amount' | Valor='ERRO_PARSE_VALOR' (Esperado: TYPE == FLOAT)
+   [VIOL-0005] [ERROR] RANGE_CHECK  | Linha=8   | PK=TXN-1008     | Coluna='currency' | Valor='DOGE' (Esperado: IN ['BRL', 'USD', 'EUR'])
+   [VIOL-0006] [ERROR] RANGE_CHECK  | Linha=6   | PK=TXN-1006     | Coluna='risk_score' | Valor=145 (Esperado: <= 100)
+   [VIOL-0007] [CRITICAL] DATA_TYPE    | Linha=7   | PK=TXN-1007     | Coluna='transaction_date' | Valor='2026-15-99' (Esperado: TYPE == DATE)
+   [VIOL-0008] [WARNING] DATA_TYPE    | Linha=8   | PK=TXN-1008     | Coluna='customer_email' | Valor='email_sem_arroba_e_dominio' (Esperado: TYPE == EMAIL)
+----------------------------------------------------------------------------------------
+ AÇÃO RECOMENDADA DE ENGENHARIA (PLAYBOOK SRE / DATA RELIABILITY):
+   1. Isolar os registros listados acima na Dead-Letter Queue (DLQ).
+   2. Notificar o time 'Core-Payments-Engineering' sobre regressão no produtor upstream.
+   3. Inspecionar o log completo em: logs/anomalies/violations_financial_transactions_csv.json
+========================================================================================

@@ -1,0 +1,475 @@
+{
+  "batch_metadata": {
+    "batch_id": "cdc_events_lsn_000041_000050_20261102_020428_900614",
+    "connector": "sqlite-debezium-cdc-connector",
+    "emitted_at_utc": "2026-11-02T02:04:28.900Z",
+    "min_lsn": 41,
+    "max_lsn": 50,
+    "event_count": 10,
+    "operation_breakdown": {
+      "INSERT": 7,
+      "UPDATE": 2,
+      "DELETE": 1
+    }
+  },
+  "events": [
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 41,
+        "tx_id": "81a2370f43dfd278",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-80DEB1BD",
+        "before": null,
+        "after": {
+          "order_id": "ORD-80DEB1BD",
+          "customer_id": "CUST-1001",
+          "customer_name": "Ana Beatriz Silva",
+          "product_sku": "SKU-NVME-2TB",
+          "category": "Hardware",
+          "quantity": 1,
+          "unit_price": 1120.0,
+          "total_amount": 1120.0,
+          "status": "CREATED",
+          "payment_method": "PIX",
+          "region": "Sudeste",
+          "created_at": "2026-11-02T02:04:28.340Z",
+          "updated_at": "2026-11-02T02:04:28.340Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068340,
+          "event_time_utc": "2026-11-02T02:04:28.341Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 41,
+          "tx_id": "81a2370f43dfd278"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 42,
+        "tx_id": "749f2b0578d1b53a",
+        "op": "d",
+        "op_type": "DELETE",
+        "record_pk": "ORD-99903C93",
+        "before": {
+          "order_id": "ORD-99903C93",
+          "customer_id": "CUST-1004",
+          "customer_name": "Marcos Vinicius Rocha",
+          "product_sku": "SKU-NVME-2TB",
+          "category": "Hardware",
+          "quantity": 1,
+          "unit_price": 1120.0,
+          "total_amount": 1120.0,
+          "status": "CREATED",
+          "payment_method": "BOLETO",
+          "region": "Centro-Oeste",
+          "created_at": "2026-11-02T02:04:28.247Z",
+          "updated_at": "2026-11-02T02:04:28.247Z"
+        },
+        "after": null,
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068361,
+          "event_time_utc": "2026-11-02T02:04:28.362Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 42,
+          "tx_id": "749f2b0578d1b53a"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 43,
+        "tx_id": "34dc103a2b83def0",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-2B1003D5",
+        "before": null,
+        "after": {
+          "order_id": "ORD-2B1003D5",
+          "customer_id": "CUST-1005",
+          "customer_name": "Juliana Almeida Santos",
+          "product_sku": "SKU-DOCK-TB4",
+          "category": "Acessórios",
+          "quantity": 2,
+          "unit_price": 1350.0,
+          "total_amount": 2700.0,
+          "status": "CREATED",
+          "payment_method": "CREDIT_CARD",
+          "region": "Sudeste",
+          "created_at": "2026-11-02T02:04:28.382Z",
+          "updated_at": "2026-11-02T02:04:28.382Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068383,
+          "event_time_utc": "2026-11-02T02:04:28.384Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 43,
+          "tx_id": "34dc103a2b83def0"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 44,
+        "tx_id": "029ddca2bae30c40",
+        "op": "u",
+        "op_type": "UPDATE",
+        "record_pk": "ORD-2054AAF7",
+        "before": {
+          "order_id": "ORD-2054AAF7",
+          "customer_id": "CUST-1002",
+          "customer_name": "Carlos Eduardo Mendes",
+          "product_sku": "SKU-NVME-2TB",
+          "category": "Hardware",
+          "quantity": 3,
+          "unit_price": 1120.0,
+          "total_amount": 3360.0,
+          "status": "CANCELLED",
+          "payment_method": "PIX",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:27.258Z",
+          "updated_at": "2026-11-02T02:04:27.330Z"
+        },
+        "after": {
+          "order_id": "ORD-2054AAF7",
+          "customer_id": "CUST-1002",
+          "customer_name": "Carlos Eduardo Mendes",
+          "product_sku": "SKU-NVME-2TB",
+          "category": "Hardware",
+          "quantity": 3,
+          "unit_price": 1120.0,
+          "total_amount": 3360.0,
+          "status": "CREATED",
+          "payment_method": "PIX",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:27.258Z",
+          "updated_at": "2026-11-02T02:04:28.406Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068407,
+          "event_time_utc": "2026-11-02T02:04:28.407Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 44,
+          "tx_id": "029ddca2bae30c40"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 45,
+        "tx_id": "9f05a21e6e6c2c65",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-479C02B6",
+        "before": null,
+        "after": {
+          "order_id": "ORD-479C02B6",
+          "customer_id": "CUST-1008",
+          "customer_name": "Gabriel Martins Castro",
+          "product_sku": "SKU-HEADSET-ANC",
+          "category": "Audio",
+          "quantity": 2,
+          "unit_price": 980.0,
+          "total_amount": 1960.0,
+          "status": "CREATED",
+          "payment_method": "PIX",
+          "region": "Sudeste",
+          "created_at": "2026-11-02T02:04:28.428Z",
+          "updated_at": "2026-11-02T02:04:28.428Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068430,
+          "event_time_utc": "2026-11-02T02:04:28.430Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 45,
+          "tx_id": "9f05a21e6e6c2c65"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 46,
+        "tx_id": "e0f81d5a7f76180e",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-D6D4DA69",
+        "before": null,
+        "after": {
+          "order_id": "ORD-D6D4DA69",
+          "customer_id": "CUST-1007",
+          "customer_name": "Beatriz Ribeiro Souza",
+          "product_sku": "SKU-CHAIR-ERGO",
+          "category": "Escritorio",
+          "quantity": 4,
+          "unit_price": 1890.0,
+          "total_amount": 7560.0,
+          "status": "CREATED",
+          "payment_method": "DEBIT_CARD",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:28.470Z",
+          "updated_at": "2026-11-02T02:04:28.470Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068477,
+          "event_time_utc": "2026-11-02T02:04:28.477Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 46,
+          "tx_id": "e0f81d5a7f76180e"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 47,
+        "tx_id": "24900672d5412c91",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-EC9663DE",
+        "before": null,
+        "after": {
+          "order_id": "ORD-EC9663DE",
+          "customer_id": "CUST-1001",
+          "customer_name": "Ana Beatriz Silva",
+          "product_sku": "SKU-MON-4K27",
+          "category": "Perifericos",
+          "quantity": 1,
+          "unit_price": 2199.0,
+          "total_amount": 2199.0,
+          "status": "CREATED",
+          "payment_method": "DEBIT_CARD",
+          "region": "Sudeste",
+          "created_at": "2026-11-02T02:04:28.503Z",
+          "updated_at": "2026-11-02T02:04:28.503Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068506,
+          "event_time_utc": "2026-11-02T02:04:28.507Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 47,
+          "tx_id": "24900672d5412c91"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 48,
+        "tx_id": "99dd204b88fb38a0",
+        "op": "u",
+        "op_type": "UPDATE",
+        "record_pk": "ORD-2B1003D5",
+        "before": {
+          "order_id": "ORD-2B1003D5",
+          "customer_id": "CUST-1005",
+          "customer_name": "Juliana Almeida Santos",
+          "product_sku": "SKU-DOCK-TB4",
+          "category": "Acessórios",
+          "quantity": 2,
+          "unit_price": 1350.0,
+          "total_amount": 2700.0,
+          "status": "CREATED",
+          "payment_method": "CREDIT_CARD",
+          "region": "Sudeste",
+          "created_at": "2026-11-02T02:04:28.382Z",
+          "updated_at": "2026-11-02T02:04:28.382Z"
+        },
+        "after": {
+          "order_id": "ORD-2B1003D5",
+          "customer_id": "CUST-1005",
+          "customer_name": "Juliana Almeida Santos",
+          "product_sku": "SKU-DOCK-TB4",
+          "category": "Acessórios",
+          "quantity": 4,
+          "unit_price": 1350.0,
+          "total_amount": 5400.0,
+          "status": "PAID",
+          "payment_method": "CREDIT_CARD",
+          "region": "Sudeste",
+          "created_at": "2026-11-02T02:04:28.382Z",
+          "updated_at": "2026-11-02T02:04:28.529Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068529,
+          "event_time_utc": "2026-11-02T02:04:28.530Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 48,
+          "tx_id": "99dd204b88fb38a0"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 49,
+        "tx_id": "d5e5eef3d11ca46c",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-B86D135C",
+        "before": null,
+        "after": {
+          "order_id": "ORD-B86D135C",
+          "customer_id": "CUST-1007",
+          "customer_name": "Beatriz Ribeiro Souza",
+          "product_sku": "SKU-KB-MECH",
+          "category": "Perifericos",
+          "quantity": 3,
+          "unit_price": 649.5,
+          "total_amount": 1948.5,
+          "status": "CREATED",
+          "payment_method": "DEBIT_CARD",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:28.550Z",
+          "updated_at": "2026-11-02T02:04:28.550Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068552,
+          "event_time_utc": "2026-11-02T02:04:28.552Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 49,
+          "tx_id": "d5e5eef3d11ca46c"
+        },
+        "ts_ms": 1793585068900
+      }
+    },
+    {
+      "schema": {
+        "type": "struct",
+        "name": "cdc_pipeline.main.orders.Envelope",
+        "version": 1
+      },
+      "payload": {
+        "lsn": 50,
+        "tx_id": "4a6eac68ce304db1",
+        "op": "c",
+        "op_type": "INSERT",
+        "record_pk": "ORD-A1716E7D",
+        "before": null,
+        "after": {
+          "order_id": "ORD-A1716E7D",
+          "customer_id": "CUST-1002",
+          "customer_name": "Carlos Eduardo Mendes",
+          "product_sku": "SKU-DOCK-TB4",
+          "category": "Acessórios",
+          "quantity": 5,
+          "unit_price": 1350.0,
+          "total_amount": 6750.0,
+          "status": "CREATED",
+          "payment_method": "PIX",
+          "region": "Sul",
+          "created_at": "2026-11-02T02:04:28.575Z",
+          "updated_at": "2026-11-02T02:04:28.575Z"
+        },
+        "source": {
+          "version": "1.0.0-debezium-sim",
+          "connector": "sqlite-wal-cdc",
+          "name": "oltp_ecommerce_server",
+          "ts_ms": 1793585068576,
+          "event_time_utc": "2026-11-02T02:04:28.577Z",
+          "db": "oltp_source",
+          "schema": "main",
+          "table": "orders",
+          "lsn": 50,
+          "tx_id": "4a6eac68ce304db1"
+        },
+        "ts_ms": 1793585068900
+      }
+    }
+  ]
+}

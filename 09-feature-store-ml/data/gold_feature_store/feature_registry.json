@@ -1,0 +1,262 @@
+{
+  "feature_store_name": "ecommerce_ml_gold_feature_store",
+  "version": "1.0.0",
+  "entity_key": "customer_id",
+  "point_in_time_column": "as_of_timestamp",
+  "materialized_at_utc": "2026-11-02T03:05:26.542Z",
+  "total_entities": 60,
+  "total_features": 39,
+  "storage_layers": {
+    "offline_parquet": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\09-feature-store-ml\\data\\gold_feature_store\\gold_customer_features.parquet",
+    "offline_scaled_parquet": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\09-feature-store-ml\\data\\gold_feature_store\\gold_customer_features_scaled.parquet",
+    "offline_csv": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\09-feature-store-ml\\data\\gold_feature_store\\gold_customer_features.csv",
+    "online_sqlite_store": "C:\\Users\\Samir\\Downloads\\PROJETOS PYTHON v2\\09-feature-store-ml\\data\\gold_feature_store\\online_feature_store.db",
+    "parquet_engine": "pyarrow-snappy"
+  },
+  "feature_views": {
+    "rfm_view": [
+      "rfm_recency_days",
+      "rfm_frequency_total",
+      "rfm_frequency_30d",
+      "rfm_frequency_90d",
+      "rfm_monetary_total",
+      "rfm_monetary_30d",
+      "rfm_monetary_90d",
+      "rfm_r_score",
+      "rfm_f_score",
+      "rfm_m_score",
+      "rfm_composite_score",
+      "rfm_segment"
+    ],
+    "rolling_ticket_view": [
+      "aov_lifetime",
+      "rolling_aov_last_3",
+      "rolling_aov_30d",
+      "rolling_aov_90d",
+      "aov_momentum_ratio",
+      "ticket_stddev",
+      "ticket_cv",
+      "avg_items_per_order"
+    ],
+    "seasonality_and_cadence_view": [
+      "weekend_purchase_ratio",
+      "night_purchase_ratio",
+      "peak_hour_sin",
+      "peak_hour_cos",
+      "dominant_quarter",
+      "avg_interpurchase_days",
+      "stddev_interpurchase_days",
+      "overdue_cadence_ratio",
+      "category_shannon_entropy",
+      "distinct_categories_count",
+      "discount_usage_rate",
+      "avg_discount_depth_pct",
+      "pix_payment_share",
+      "cancellation_rate"
+    ],
+    "supervised_targets_view": [
+      "target_churn_30d",
+      "target_next_30d_spend"
+    ]
+  },
+  "zscore_scaler_parameters": {
+    "tenure_days": {
+      "mean": 258.733333,
+      "std": 110.126725,
+      "min": 28.0,
+      "max": 411.0
+    },
+    "rfm_recency_days": {
+      "mean": 52.3525,
+      "std": 55.891379,
+      "min": 1.46,
+      "max": 209.5
+    },
+    "rfm_frequency_total": {
+      "mean": 9.05,
+      "std": 5.487638,
+      "min": 2.0,
+      "max": 23.0
+    },
+    "rfm_frequency_30d": {
+      "mean": 0.933333,
+      "std": 1.123487,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "rfm_frequency_90d": {
+      "mean": 2.916667,
+      "std": 2.424126,
+      "min": 0.0,
+      "max": 13.0
+    },
+    "rfm_monetary_total": {
+      "mean": 24784.877833,
+      "std": 27822.748333,
+      "min": 1655.32,
+      "max": 97948.44
+    },
+    "rfm_monetary_30d": {
+      "mean": 2590.613833,
+      "std": 4551.575895,
+      "min": 0.0,
+      "max": 19157.49
+    },
+    "rfm_monetary_90d": {
+      "mean": 8001.584833,
+      "std": 11726.176517,
+      "min": 0.0,
+      "max": 67523.87
+    },
+    "rfm_r_score": {
+      "mean": 3.0,
+      "std": 1.414214,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rfm_f_score": {
+      "mean": 3.0,
+      "std": 1.414214,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rfm_m_score": {
+      "mean": 3.0,
+      "std": 1.414214,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rfm_composite_score": {
+      "mean": 3.0,
+      "std": 1.117177,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "aov_lifetime": {
+      "mean": 2449.853,
+      "std": 1646.580246,
+      "min": 413.83,
+      "max": 8057.3
+    },
+    "rolling_aov_last_3": {
+      "mean": 2577.715333,
+      "std": 2290.901005,
+      "min": 332.65,
+      "max": 10907.66
+    },
+    "rolling_aov_30d": {
+      "mean": 1554.597333,
+      "std": 3033.420144,
+      "min": 0.0,
+      "max": 16722.99
+    },
+    "rolling_aov_90d": {
+      "mean": 1820.575,
+      "std": 2002.090576,
+      "min": 0.0,
+      "max": 7787.63
+    },
+    "aov_momentum_ratio": {
+      "mean": 1.026128,
+      "std": 0.502798,
+      "min": 0.2295,
+      "max": 2.4451
+    },
+    "ticket_stddev": {
+      "mean": 2230.257,
+      "std": 1304.431321,
+      "min": 68.27,
+      "max": 5185.76
+    },
+    "ticket_cv": {
+      "mean": 0.939133,
+      "std": 0.345262,
+      "min": 0.0802,
+      "max": 1.7069
+    },
+    "avg_items_per_order": {
+      "mean": 2.545833,
+      "std": 0.613738,
+      "min": 1.43,
+      "max": 4.0
+    },
+    "weekend_purchase_ratio": {
+      "mean": 0.38368,
+      "std": 0.315768,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "night_purchase_ratio": {
+      "mean": 0.430415,
+      "std": 0.351567,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "peak_hour_sin": {
+      "mean": 0.028903,
+      "std": 0.467167,
+      "min": -0.7419,
+      "max": 0.7892
+    },
+    "peak_hour_cos": {
+      "mean": -0.104538,
+      "std": 0.545392,
+      "min": -0.9319,
+      "max": 0.9385
+    },
+    "avg_interpurchase_days": {
+      "mean": 27.015,
+      "std": 18.949278,
+      "min": 5.76,
+      "max": 110.0
+    },
+    "stddev_interpurchase_days": {
+      "mean": 16.5965,
+      "std": 12.243144,
+      "min": 0.0,
+      "max": 62.27
+    },
+    "overdue_cadence_ratio": {
+      "mean": 2.258397,
+      "std": 3.298106,
+      "min": 0.127,
+      "max": 21.4966
+    },
+    "category_shannon_entropy": {
+      "mean": 1.980402,
+      "std": 0.482577,
+      "min": 0.7219,
+      "max": 3.0
+    },
+    "distinct_categories_count": {
+      "mean": 4.45,
+      "std": 1.383534,
+      "min": 2.0,
+      "max": 8.0
+    },
+    "discount_usage_rate": {
+      "mean": 0.37971,
+      "std": 0.320141,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "avg_discount_depth_pct": {
+      "mean": 6.198833,
+      "std": 5.516939,
+      "min": 0.0,
+      "max": 18.9
+    },
+    "pix_payment_share": {
+      "mean": 0.678945,
+      "std": 0.186065,
+      "min": 0.25,
+      "max": 1.0
+    },
+    "cancellation_rate": {
+      "mean": 0.062702,
+      "std": 0.088151,
+      "min": 0.0,
+      "max": 0.3333
+    }
+  }
+}

@@ -1,0 +1,13 @@
+status_code,status_class,status_description,total_occurrences,traffic_share_pct,avg_latency_ms,max_latency_ms,total_response_kb,distinct_ips_count,most_affected_route
+200,2xx Success,OK - Requisição processada com sucesso,1573,49.31,57.17,209.86,6730.42,10,/api/v1/payments/authorize
+404,4xx Client Error,Not Found - Rota ou recurso inexistente,504,15.8,23.19,43.12,151.57,12,/api/v1/catalog/products/{id}
+201,2xx Success,Created - Recurso criado com sucesso,327,10.25,107.3,164.81,394.34,10,/api/v1/orders/{id}/checkout
+204,2xx Success,No Content - Processado sem corpo de resposta,321,10.06,19.86,31.98,0.0,10,/api/v1/sessions/{id}
+500,5xx Server Error,Internal Server Error - Exceção não tratada no backend,201,6.3,968.69,1748.86,88.25,12,/api/v1/ledger/reconcile
+403,4xx Client Error,Forbidden - Acesso negado pelo WAF / RBAC,57,1.79,25.01,43.77,18.21,4,/[SECURITY_PATH_TRAVERSAL_PROBE]
+503,5xx Server Error,Service Unavailable - Sobrecarga de pool de conexões,48,1.5,1085.16,1672.12,22.11,8,/api/v1/orders/{id}/details
+502,5xx Server Error,Bad Gateway - Falha de comunicação com upstream,43,1.35,1141.69,1740.94,19.25,8,/api/v1/orders/{id}/details
+401,4xx Client Error,Unauthorized - Falha de autenticação / Token inválido,33,1.03,24.98,43.17,10.54,4,/api/v1/auth/login
+504,5xx Server Error,Gateway Timeout - Timeout de banco de dados / upstream,33,1.03,3595.15,4856.57,14.57,8,/api/v1/payments/authorize
+429,4xx Client Error,Too Many Requests - Rate Limit excedido,27,0.85,25.55,43.07,8.19,4,/api/v1/auth/login
+400,4xx Client Error,Bad Request - Payload ou query inválida,23,0.72,24.8,43.78,7.9,4,/api/v1/catalog/products/{id}

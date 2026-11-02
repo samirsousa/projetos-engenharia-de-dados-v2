@@ -1,0 +1,2514 @@
+{
+  "type": "FeatureCollection",
+  "name": "brazil_logistics_corridors_and_bottlenecks",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.8769,
+          -23.3556
+        ]
+      },
+      "properties": {
+        "feature_layer": "ORIGIN_HUB",
+        "id": "HUB-SP-CAJ",
+        "name": "CD Cajamar MegaHub (SP)",
+        "city": "Cajamar",
+        "state_uf": "SP",
+        "macro_region": "Sudeste",
+        "dock_capacity_tons_day": 480.0,
+        "geohash": "6gyejk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.3183,
+          -22.8547
+        ]
+      },
+      "properties": {
+        "feature_layer": "ORIGIN_HUB",
+        "id": "HUB-MG-EXT",
+        "name": "CD Extrema Sul de Minas (MG)",
+        "city": "Extrema",
+        "state_uf": "MG",
+        "macro_region": "Sudeste",
+        "dock_capacity_tons_day": 350.0,
+        "geohash": "6gzjfp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4047,
+          -25.5858
+        ]
+      },
+      "properties": {
+        "feature_layer": "ORIGIN_HUB",
+        "id": "HUB-PR-CWB",
+        "name": "CD Curitiba Araucária (PR)",
+        "city": "Araucária",
+        "state_uf": "PR",
+        "macro_region": "Sul",
+        "dock_capacity_tons_day": 290.0,
+        "geohash": "6gky7y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0333,
+          -8.2833
+        ]
+      },
+      "properties": {
+        "feature_layer": "ORIGIN_HUB",
+        "id": "HUB-PE-REC",
+        "name": "CD Cabo de Santo Agostinho (PE)",
+        "city": "Cabo de Santo Agostinho",
+        "state_uf": "PE",
+        "macro_region": "Nordeste",
+        "dock_capacity_tons_day": 260.0,
+        "geohash": "7nx0fu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9531,
+          -16.3281
+        ]
+      },
+      "properties": {
+        "feature_layer": "ORIGIN_HUB",
+        "id": "HUB-GO-ANP",
+        "name": "CD Porto Seco Anápolis (GO)",
+        "city": "Anápolis",
+        "state_uf": "GO",
+        "macro_region": "Centro-Oeste",
+        "dock_capacity_tons_day": 240.0,
+        "geohash": "6vj5n5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.064539,
+          -22.908314
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-SP-CPS",
+        "city": "Campinas",
+        "state_uf": "SP",
+        "macro_region": "Sudeste",
+        "total_shipments": 89,
+        "total_cargo_tons": 570.56,
+        "delivery_density_per_1000km2": 111.95,
+        "otif_rate_pct": 89.89,
+        "regional_bottleneck_index": 10.95,
+        "density_tier": "HIGH_DENSITY_METROPOLITAN_CORE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.945703,
+          -19.926799
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-MG-BHZ",
+        "city": "Belo Horizonte",
+        "state_uf": "MG",
+        "macro_region": "Sudeste",
+        "total_shipments": 95,
+        "total_cargo_tons": 1539.12,
+        "delivery_density_per_1000km2": 100.0,
+        "otif_rate_pct": 71.58,
+        "regional_bottleneck_index": 24.9,
+        "density_tier": "HIGH_DENSITY_METROPOLITAN_CORE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.629049,
+          -23.548266
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-SP-CAP",
+        "city": "São Paulo",
+        "state_uf": "SP",
+        "macro_region": "Sudeste",
+        "total_shipments": 140,
+        "total_cargo_tons": 986.78,
+        "delivery_density_per_1000km2": 92.04,
+        "otif_rate_pct": 70.71,
+        "regional_bottleneck_index": 22.36,
+        "density_tier": "HIGH_DENSITY_METROPOLITAN_CORE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.172683,
+          -22.921529
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-RJ-CAP",
+        "city": "Rio de Janeiro",
+        "state_uf": "RJ",
+        "macro_region": "Sudeste",
+        "total_shipments": 90,
+        "total_cargo_tons": 1309.67,
+        "delivery_density_per_1000km2": 75.0,
+        "otif_rate_pct": 61.11,
+        "regional_bottleneck_index": 30.67,
+        "density_tier": "HIGH_DENSITY_METROPOLITAN_CORE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.272329,
+          -25.423973
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-PR-CWB",
+        "city": "Curitiba",
+        "state_uf": "PR",
+        "macro_region": "Sul",
+        "total_shipments": 63,
+        "total_cargo_tons": 511.81,
+        "delivery_density_per_1000km2": 74.12,
+        "otif_rate_pct": 74.6,
+        "regional_bottleneck_index": 21.66,
+        "density_tier": "MEDIUM_DENSITY_REGIONAL_POLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.204714,
+          -30.029847
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-RS-POA",
+        "city": "Porto Alegre",
+        "state_uf": "RS",
+        "macro_region": "Sul",
+        "total_shipments": 78,
+        "total_cargo_tons": 1530.88,
+        "delivery_density_per_1000km2": 70.91,
+        "otif_rate_pct": 79.49,
+        "regional_bottleneck_index": 20.89,
+        "density_tier": "MEDIUM_DENSITY_REGIONAL_POLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.500752,
+          -12.974586
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-BA-SSA",
+        "city": "Salvador",
+        "state_uf": "BA",
+        "macro_region": "Nordeste",
+        "total_shipments": 71,
+        "total_cargo_tons": 1606.68,
+        "delivery_density_per_1000km2": 67.62,
+        "otif_rate_pct": 56.34,
+        "regional_bottleneck_index": 36.09,
+        "density_tier": "MEDIUM_DENSITY_REGIONAL_POLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.56192,
+          -27.597081
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-SC-FLN",
+        "city": "Florianópolis / Itajaí",
+        "state_uf": "SC",
+        "macro_region": "Sul",
+        "total_shipments": 61,
+        "total_cargo_tons": 946.46,
+        "delivery_density_per_1000km2": 66.3,
+        "otif_rate_pct": 72.13,
+        "regional_bottleneck_index": 20.63,
+        "density_tier": "MEDIUM_DENSITY_REGIONAL_POLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.554309,
+          -3.719299
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-CE-FOR",
+        "city": "Fortaleza",
+        "state_uf": "CE",
+        "macro_region": "Nordeste",
+        "total_shipments": 62,
+        "total_cargo_tons": 1467.07,
+        "delivery_density_per_1000km2": 64.58,
+        "otif_rate_pct": 62.9,
+        "regional_bottleneck_index": 34.04,
+        "density_tier": "MEDIUM_DENSITY_REGIONAL_POLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.902729,
+          -8.057889
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-PE-REC",
+        "city": "Recife",
+        "state_uf": "PE",
+        "macro_region": "Nordeste",
+        "total_shipments": 48,
+        "total_cargo_tons": 549.63,
+        "delivery_density_per_1000km2": 54.55,
+        "otif_rate_pct": 64.58,
+        "regional_bottleneck_index": 29.44,
+        "density_tier": "MEDIUM_DENSITY_REGIONAL_POLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.896045,
+          -15.801264
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-DF-BSB",
+        "city": "Brasília",
+        "state_uf": "DF",
+        "macro_region": "Centro-Oeste",
+        "total_shipments": 45,
+        "total_cargo_tons": 762.52,
+        "delivery_density_per_1000km2": 33.33,
+        "otif_rate_pct": 86.67,
+        "regional_bottleneck_index": 15.87,
+        "density_tier": "LOW_DENSITY_LONG_HAUL_FRONTIER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.478043,
+          -1.469607
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-PA-BEL",
+        "city": "Belém",
+        "state_uf": "PA",
+        "macro_region": "Norte",
+        "total_shipments": 41,
+        "total_cargo_tons": 758.75,
+        "delivery_density_per_1000km2": 32.8,
+        "otif_rate_pct": 48.78,
+        "regional_bottleneck_index": 41.63,
+        "density_tier": "LOW_DENSITY_LONG_HAUL_FRONTIER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.087887,
+          -15.593597
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-MT-CGB",
+        "city": "Cuiabá",
+        "state_uf": "MT",
+        "macro_region": "Centro-Oeste",
+        "total_shipments": 40,
+        "total_cargo_tons": 763.74,
+        "delivery_density_per_1000km2": 28.57,
+        "otif_rate_pct": 77.5,
+        "regional_bottleneck_index": 24.37,
+        "density_tier": "LOW_DENSITY_LONG_HAUL_FRONTIER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.034268,
+          -3.092553
+        ]
+      },
+      "properties": {
+        "feature_layer": "REGIONAL_DENSITY_CENTROID",
+        "id": "ZN-AM-MAO",
+        "city": "Manaus (Rodofluvial)",
+        "state_uf": "AM",
+        "macro_region": "Norte",
+        "total_shipments": 26,
+        "total_cargo_tons": 507.38,
+        "delivery_density_per_1000km2": 14.44,
+        "otif_rate_pct": 38.46,
+        "regional_bottleneck_index": 41.15,
+        "density_tier": "LOW_DENSITY_LONG_HAUL_FRONTIER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.952222,
+            -16.330195
+          ],
+          [
+            -38.694972,
+            -3.623163
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-CE-FOR",
+        "origin_city": "Anápolis",
+        "dest_city": "Fortaleza",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 1,
+        "total_cargo_tons": 12.73,
+        "avg_haversine_km": 1803.47,
+        "avg_road_distance_km": 2380.58,
+        "avg_effective_speed_kmh": 31.9,
+        "sla_breach_rate_pct": 100.0,
+        "corridor_bottleneck_index": 92.65,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.321747,
+            -22.853398
+          ],
+          [
+            -49.376155,
+            -25.552727
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-PR-CWB",
+        "origin_city": "Extrema",
+        "dest_city": "Curitiba",
+        "dest_macro_region": "Sul",
+        "shipments_count": 1,
+        "total_cargo_tons": 2.26,
+        "avg_haversine_km": 431.3,
+        "avg_road_distance_km": 521.87,
+        "avg_effective_speed_kmh": 23.17,
+        "sla_breach_rate_pct": 100.0,
+        "corridor_bottleneck_index": 75.6,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.037511,
+            -8.284314
+          ],
+          [
+            -60.003544,
+            -3.155349
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-AM-MAO",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Manaus (Rodofluvial)",
+        "dest_macro_region": "Norte",
+        "shipments_count": 1,
+        "total_cargo_tons": 26.73,
+        "avg_haversine_km": 2819.39,
+        "avg_road_distance_km": 4285.47,
+        "avg_effective_speed_kmh": 34.77,
+        "sla_breach_rate_pct": 100.0,
+        "corridor_bottleneck_index": 68.88,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Ferry / Rodofluvial Barge Wait Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.034517,
+            -8.283108
+          ],
+          [
+            -49.246914,
+            -25.48277
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-PR-CWB",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Curitiba",
+        "dest_macro_region": "Sul",
+        "shipments_count": 3,
+        "total_cargo_tons": 88.36,
+        "avg_haversine_km": 2433.43,
+        "avg_road_distance_km": 2944.45,
+        "avg_effective_speed_kmh": 36.06,
+        "sla_breach_rate_pct": 100.0,
+        "corridor_bottleneck_index": 66.0,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.037439,
+            -8.281064
+          ],
+          [
+            -48.671819,
+            -27.701034
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-SC-FLN",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Florianópolis / Itajaí",
+        "dest_macro_region": "Sul",
+        "shipments_count": 2,
+        "total_cargo_tons": 52.85,
+        "avg_haversine_km": 2591.33,
+        "avg_road_distance_km": 3265.07,
+        "avg_effective_speed_kmh": 38.73,
+        "sla_breach_rate_pct": 100.0,
+        "corridor_bottleneck_index": 55.34,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.399788,
+            -25.588811
+          ],
+          [
+            -48.507224,
+            -1.542096
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-PA-BEL",
+        "origin_city": "Araucária",
+        "dest_city": "Belém",
+        "dest_macro_region": "Norte",
+        "shipments_count": 2,
+        "total_cargo_tons": 18.18,
+        "avg_haversine_km": 2675.59,
+        "avg_road_distance_km": 3852.85,
+        "avg_effective_speed_kmh": 38.7,
+        "sla_breach_rate_pct": 50.0,
+        "corridor_bottleneck_index": 54.95,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Ferry / Rodofluvial Barge Wait Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.318037,
+            -22.854222
+          ],
+          [
+            -48.442671,
+            -1.486861
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-PA-BEL",
+        "origin_city": "Extrema",
+        "dest_city": "Belém",
+        "dest_macro_region": "Norte",
+        "shipments_count": 9,
+        "total_cargo_tons": 144.83,
+        "avg_haversine_km": 2387.0,
+        "avg_road_distance_km": 3437.28,
+        "avg_effective_speed_kmh": 38.45,
+        "sla_breach_rate_pct": 77.78,
+        "corridor_bottleneck_index": 53.22,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.402808,
+            -25.585478
+          ],
+          [
+            -38.614504,
+            -12.967869
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-BA-SSA",
+        "origin_city": "Araucária",
+        "dest_city": "Salvador",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 4,
+        "total_cargo_tons": 106.17,
+        "avg_haversine_km": 1800.93,
+        "avg_road_distance_km": 2413.25,
+        "avg_effective_speed_kmh": 38.34,
+        "sla_breach_rate_pct": 75.0,
+        "corridor_bottleneck_index": 52.45,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.956484,
+            -16.326025
+          ],
+          [
+            -43.175375,
+            -22.981123
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-RJ-CAP",
+        "origin_city": "Anápolis",
+        "dest_city": "Rio de Janeiro",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 3,
+        "total_cargo_tons": 66.65,
+        "avg_haversine_km": 955.78,
+        "avg_road_distance_km": 1232.96,
+        "avg_effective_speed_kmh": 41.51,
+        "sla_breach_rate_pct": 66.67,
+        "corridor_bottleneck_index": 51.04,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.875349,
+            -23.357272
+          ],
+          [
+            -60.026822,
+            -3.069984
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-AM-MAO",
+        "origin_city": "Cajamar",
+        "dest_city": "Manaus (Rodofluvial)",
+        "dest_macro_region": "Norte",
+        "shipments_count": 10,
+        "total_cargo_tons": 218.97,
+        "avg_haversine_km": 2662.8,
+        "avg_road_distance_km": 4047.45,
+        "avg_effective_speed_kmh": 39.36,
+        "sla_breach_rate_pct": 70.0,
+        "corridor_bottleneck_index": 49.0,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.40408,
+            -25.583696
+          ],
+          [
+            -34.932807,
+            -8.067002
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-PE-REC",
+        "origin_city": "Araucária",
+        "dest_city": "Recife",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 3,
+        "total_cargo_tons": 65.24,
+        "avg_haversine_km": 2478.2,
+        "avg_road_distance_km": 3172.1,
+        "avg_effective_speed_kmh": 42.18,
+        "sla_breach_rate_pct": 66.67,
+        "corridor_bottleneck_index": 48.91,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.034606,
+            -8.283846
+          ],
+          [
+            -46.668294,
+            -23.513336
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-SP-CAP",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "São Paulo",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 5,
+        "total_cargo_tons": 92.54,
+        "avg_haversine_km": 2098.54,
+        "avg_road_distance_km": 2602.19,
+        "avg_effective_speed_kmh": 41.32,
+        "sla_breach_rate_pct": 60.0,
+        "corridor_bottleneck_index": 46.41,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.41068,
+            -25.589732
+          ],
+          [
+            -59.886259,
+            -3.022231
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-AM-MAO",
+        "origin_city": "Araucária",
+        "dest_city": "Manaus (Rodofluvial)",
+        "dest_macro_region": "Norte",
+        "shipments_count": 1,
+        "total_cargo_tons": 6.0,
+        "avg_haversine_km": 2747.92,
+        "avg_road_distance_km": 4176.84,
+        "avg_effective_speed_kmh": 38.32,
+        "sla_breach_rate_pct": 100.0,
+        "corridor_bottleneck_index": 44.44,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Severe Weather / Serra Highway Speed Restriction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.953907,
+            -16.32773
+          ],
+          [
+            -48.464793,
+            -1.424184
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-PA-BEL",
+        "origin_city": "Anápolis",
+        "dest_city": "Belém",
+        "dest_macro_region": "Norte",
+        "shipments_count": 7,
+        "total_cargo_tons": 139.22,
+        "avg_haversine_km": 1658.09,
+        "avg_road_distance_km": 2387.64,
+        "avg_effective_speed_kmh": 42.32,
+        "sla_breach_rate_pct": 57.14,
+        "corridor_bottleneck_index": 42.98,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.406399,
+            -25.58604
+          ],
+          [
+            -43.143195,
+            -22.928344
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-RJ-CAP",
+        "origin_city": "Araucária",
+        "dest_city": "Rio de Janeiro",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 5,
+        "total_cargo_tons": 112.01,
+        "avg_haversine_km": 700.25,
+        "avg_road_distance_km": 903.32,
+        "avg_effective_speed_kmh": 43.34,
+        "sla_breach_rate_pct": 60.0,
+        "corridor_bottleneck_index": 40.28,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.405859,
+            -25.583654
+          ],
+          [
+            -46.611063,
+            -23.522229
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-SP-CAP",
+        "origin_city": "Araucária",
+        "dest_city": "São Paulo",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 10,
+        "total_cargo_tons": 110.18,
+        "avg_haversine_km": 364.13,
+        "avg_road_distance_km": 451.52,
+        "avg_effective_speed_kmh": 42.37,
+        "sla_breach_rate_pct": 60.0,
+        "corridor_bottleneck_index": 39.01,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.032439,
+            -8.284427
+          ],
+          [
+            -38.560131,
+            -3.729668
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-CE-FOR",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Fortaleza",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 40,
+        "total_cargo_tons": 961.75,
+        "avg_haversine_km": 639.27,
+        "avg_road_distance_km": 843.84,
+        "avg_effective_speed_kmh": 44.82,
+        "sla_breach_rate_pct": 42.5,
+        "corridor_bottleneck_index": 38.94,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.034072,
+            -8.283341
+          ],
+          [
+            -38.498162,
+            -12.975472
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-BA-SSA",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Salvador",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 45,
+        "total_cargo_tons": 996.65,
+        "avg_haversine_km": 644.63,
+        "avg_road_distance_km": 863.81,
+        "avg_effective_speed_kmh": 46.6,
+        "sla_breach_rate_pct": 46.67,
+        "corridor_bottleneck_index": 38.63,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.877587,
+            -23.35737
+          ],
+          [
+            -48.482422,
+            -1.468668
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-PA-BEL",
+        "origin_city": "Cajamar",
+        "dest_city": "Belém",
+        "dest_macro_region": "Norte",
+        "shipments_count": 17,
+        "total_cargo_tons": 322.28,
+        "avg_haversine_km": 2440.09,
+        "avg_road_distance_km": 3513.73,
+        "avg_effective_speed_kmh": 42.53,
+        "sla_breach_rate_pct": 41.18,
+        "corridor_bottleneck_index": 37.43,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.31857,
+            -22.853904
+          ],
+          [
+            -60.067197,
+            -3.095685
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-AM-MAO",
+        "origin_city": "Extrema",
+        "dest_city": "Manaus (Rodofluvial)",
+        "dest_macro_region": "Norte",
+        "shipments_count": 10,
+        "total_cargo_tons": 168.63,
+        "avg_haversine_km": 2649.57,
+        "avg_road_distance_km": 4027.34,
+        "avg_effective_speed_kmh": 43.71,
+        "sla_breach_rate_pct": 60.0,
+        "corridor_bottleneck_index": 36.98,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Severe Weather / Serra Highway Speed Restriction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.032855,
+            -8.283327
+          ],
+          [
+            -43.01654,
+            -22.946962
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-RJ-CAP",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Rio de Janeiro",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 2,
+        "total_cargo_tons": 29.04,
+        "avg_haversine_km": 1839.74,
+        "avg_road_distance_km": 2373.27,
+        "avg_effective_speed_kmh": 46.02,
+        "sla_breach_rate_pct": 50.0,
+        "corridor_bottleneck_index": 36.83,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.952858,
+            -16.326705
+          ],
+          [
+            -46.675038,
+            -23.54012
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-SP-CAP",
+        "origin_city": "Anápolis",
+        "dest_city": "São Paulo",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 4,
+        "total_cargo_tons": 107.88,
+        "avg_haversine_km": 836.68,
+        "avg_road_distance_km": 1037.49,
+        "avg_effective_speed_kmh": 42.57,
+        "sla_breach_rate_pct": 25.0,
+        "corridor_bottleneck_index": 34.15,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Ferry / Rodofluvial Barge Wait Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.317363,
+            -22.853088
+          ],
+          [
+            -38.528845,
+            -3.728259
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-CE-FOR",
+        "origin_city": "Extrema",
+        "dest_city": "Fortaleza",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 6,
+        "total_cargo_tons": 122.44,
+        "avg_haversine_km": 2285.83,
+        "avg_road_distance_km": 3017.3,
+        "avg_effective_speed_kmh": 46.69,
+        "sla_breach_rate_pct": 50.0,
+        "corridor_bottleneck_index": 32.3,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.874874,
+            -23.356297
+          ],
+          [
+            -48.551509,
+            -27.603676
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-SC-FLN",
+        "origin_city": "Cajamar",
+        "dest_city": "Florianópolis / Itajaí",
+        "dest_macro_region": "Sul",
+        "shipments_count": 7,
+        "total_cargo_tons": 60.73,
+        "avg_haversine_km": 501.44,
+        "avg_road_distance_km": 631.82,
+        "avg_effective_speed_kmh": 40.54,
+        "sla_breach_rate_pct": 42.86,
+        "corridor_bottleneck_index": 31.47,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Severe Weather / Serra Highway Speed Restriction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.034137,
+            -8.284311
+          ],
+          [
+            -34.909464,
+            -8.049173
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-PE-REC",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Recife",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 27,
+        "total_cargo_tons": 153.68,
+        "avg_haversine_km": 30.45,
+        "avg_road_distance_km": 38.97,
+        "avg_effective_speed_kmh": 44.63,
+        "sla_breach_rate_pct": 40.74,
+        "corridor_bottleneck_index": 30.85,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.31987,
+            -22.854513
+          ],
+          [
+            -43.171451,
+            -22.911085
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-RJ-CAP",
+        "origin_city": "Extrema",
+        "dest_city": "Rio de Janeiro",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 40,
+        "total_cargo_tons": 560.53,
+        "avg_haversine_km": 322.74,
+        "avg_road_distance_km": 416.34,
+        "avg_effective_speed_kmh": 45.39,
+        "sla_breach_rate_pct": 35.0,
+        "corridor_bottleneck_index": 30.7,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.036825,
+            -8.284032
+          ],
+          [
+            -43.810569,
+            -20.036477
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-MG-BHZ",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Belo Horizonte",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 2,
+        "total_cargo_tons": 35.55,
+        "avg_haversine_km": 1612.06,
+        "avg_road_distance_km": 2111.8,
+        "avg_effective_speed_kmh": 48.99,
+        "sla_breach_rate_pct": 50.0,
+        "corridor_bottleneck_index": 30.51,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.033495,
+            -8.284775
+          ],
+          [
+            -48.524427,
+            -1.475219
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-PA-BEL",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Belém",
+        "dest_macro_region": "Norte",
+        "shipments_count": 6,
+        "total_cargo_tons": 134.24,
+        "avg_haversine_km": 1674.76,
+        "avg_road_distance_km": 2411.65,
+        "avg_effective_speed_kmh": 47.27,
+        "sla_breach_rate_pct": 33.33,
+        "corridor_bottleneck_index": 30.14,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.315648,
+            -22.855801
+          ],
+          [
+            -34.85935,
+            -8.114062
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-PE-REC",
+        "origin_city": "Extrema",
+        "dest_city": "Recife",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 7,
+        "total_cargo_tons": 108.92,
+        "avg_haversine_km": 2045.37,
+        "avg_road_distance_km": 2618.07,
+        "avg_effective_speed_kmh": 45.64,
+        "sla_breach_rate_pct": 28.57,
+        "corridor_bottleneck_index": 30.04,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.878735,
+            -23.354621
+          ],
+          [
+            -38.508015,
+            -13.017676
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-BA-SSA",
+        "origin_city": "Cajamar",
+        "dest_city": "Salvador",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 11,
+        "total_cargo_tons": 260.1,
+        "avg_haversine_km": 1449.22,
+        "avg_road_distance_km": 1941.95,
+        "avg_effective_speed_kmh": 44.42,
+        "sla_breach_rate_pct": 36.36,
+        "corridor_bottleneck_index": 29.96,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Severe Weather / Serra Highway Speed Restriction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.958453,
+            -16.325578
+          ],
+          [
+            -38.459529,
+            -12.948667
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-BA-SSA",
+        "origin_city": "Anápolis",
+        "dest_city": "Salvador",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 2,
+        "total_cargo_tons": 82.82,
+        "avg_haversine_km": 1190.05,
+        "avg_road_distance_km": 1594.66,
+        "avg_effective_speed_kmh": 40.64,
+        "sla_breach_rate_pct": 50.0,
+        "corridor_bottleneck_index": 29.7,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.875715,
+            -23.354873
+          ],
+          [
+            -51.202465,
+            -30.044785
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-RS-POA",
+        "origin_city": "Cajamar",
+        "dest_city": "Porto Alegre",
+        "dest_macro_region": "Sul",
+        "shipments_count": 15,
+        "total_cargo_tons": 300.37,
+        "avg_haversine_km": 858.93,
+        "avg_road_distance_km": 1090.83,
+        "avg_effective_speed_kmh": 46.01,
+        "sla_breach_rate_pct": 33.33,
+        "corridor_bottleneck_index": 29.22,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Ferry / Rodofluvial Barge Wait Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.87684,
+            -23.35709
+          ],
+          [
+            -43.185206,
+            -22.925379
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-RJ-CAP",
+        "origin_city": "Cajamar",
+        "dest_city": "Rio de Janeiro",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 40,
+        "total_cargo_tons": 541.44,
+        "avg_haversine_km": 380.59,
+        "avg_road_distance_km": 490.96,
+        "avg_effective_speed_kmh": 46.23,
+        "sla_breach_rate_pct": 37.5,
+        "corridor_bottleneck_index": 27.61,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.953585,
+            -16.326185
+          ],
+          [
+            -56.084872,
+            -15.586294
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-MT-CGB",
+        "origin_city": "Anápolis",
+        "dest_city": "Cuiabá",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 28,
+        "total_cargo_tons": 533.64,
+        "avg_haversine_km": 766.84,
+        "avg_road_distance_km": 1042.91,
+        "avg_effective_speed_kmh": 47.13,
+        "sla_breach_rate_pct": 28.57,
+        "corridor_bottleneck_index": 27.11,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.876535,
+            -23.355335
+          ],
+          [
+            -43.956425,
+            -19.915129
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-MG-BHZ",
+        "origin_city": "Cajamar",
+        "dest_city": "Belo Horizonte",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 39,
+        "total_cargo_tons": 633.44,
+        "avg_haversine_km": 487.31,
+        "avg_road_distance_km": 638.37,
+        "avg_effective_speed_kmh": 48.16,
+        "sla_breach_rate_pct": 28.21,
+        "corridor_bottleneck_index": 25.97,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.318299,
+            -22.854645
+          ],
+          [
+            -43.944173,
+            -19.937107
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-MG-BHZ",
+        "origin_city": "Extrema",
+        "dest_city": "Belo Horizonte",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 45,
+        "total_cargo_tons": 676.71,
+        "avg_haversine_km": 407.08,
+        "avg_road_distance_km": 533.27,
+        "avg_effective_speed_kmh": 48.88,
+        "sla_breach_rate_pct": 31.11,
+        "corridor_bottleneck_index": 25.63,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.318681,
+            -22.852668
+          ],
+          [
+            -38.463431,
+            -12.926236
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-BA-SSA",
+        "origin_city": "Extrema",
+        "dest_city": "Salvador",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 9,
+        "total_cargo_tons": 160.95,
+        "avg_haversine_km": 1380.92,
+        "avg_road_distance_km": 1850.44,
+        "avg_effective_speed_kmh": 46.08,
+        "sla_breach_rate_pct": 22.22,
+        "corridor_bottleneck_index": 25.02,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.955955,
+            -16.328062
+          ],
+          [
+            -60.01524,
+            -3.143027
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-AM-MAO",
+        "origin_city": "Anápolis",
+        "dest_city": "Manaus (Rodofluvial)",
+        "dest_macro_region": "Norte",
+        "shipments_count": 4,
+        "total_cargo_tons": 87.04,
+        "avg_haversine_km": 1900.35,
+        "avg_road_distance_km": 2888.53,
+        "avg_effective_speed_kmh": 48.86,
+        "sla_breach_rate_pct": 25.0,
+        "corridor_bottleneck_index": 24.18,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.03649,
+            -8.271141
+          ],
+          [
+            -47.107716,
+            -22.972042
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-SP-CPS",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Campinas",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 1,
+        "total_cargo_tons": 26.48,
+        "avg_haversine_km": 2081.19,
+        "avg_road_distance_km": 2455.8,
+        "avg_effective_speed_kmh": 55.55,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 23.98,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.881465,
+            -23.357213
+          ],
+          [
+            -56.074343,
+            -15.630772
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-MT-CGB",
+        "origin_city": "Cajamar",
+        "dest_city": "Cuiabá",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 6,
+        "total_cargo_tons": 108.91,
+        "avg_haversine_km": 1290.18,
+        "avg_road_distance_km": 1754.65,
+        "avg_effective_speed_kmh": 47.22,
+        "sla_breach_rate_pct": 16.67,
+        "corridor_bottleneck_index": 23.91,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.035764,
+            -8.291552
+          ],
+          [
+            -47.692983,
+            -15.762393
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-DF-BSB",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Brasília",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 1,
+        "total_cargo_tons": 13.32,
+        "avg_haversine_km": 1606.72,
+        "avg_road_distance_km": 1912.0,
+        "avg_effective_speed_kmh": 52.06,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 23.91,
+        "bottleneck_severity": "CRITICAL_BOTTLENECK",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.87663,
+            -23.35659
+          ],
+          [
+            -34.904781,
+            -8.03927
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-PE-REC",
+        "origin_city": "Cajamar",
+        "dest_city": "Recife",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 10,
+        "total_cargo_tons": 211.52,
+        "avg_haversine_km": 2128.58,
+        "avg_road_distance_km": 2724.58,
+        "avg_effective_speed_kmh": 46.32,
+        "sla_breach_rate_pct": 20.0,
+        "corridor_bottleneck_index": 21.15,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.405811,
+            -25.588822
+          ],
+          [
+            -43.966144,
+            -19.923711
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-MG-BHZ",
+        "origin_city": "Araucária",
+        "dest_city": "Belo Horizonte",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 4,
+        "total_cargo_tons": 72.49,
+        "avg_haversine_km": 841.16,
+        "avg_road_distance_km": 1101.92,
+        "avg_effective_speed_kmh": 46.34,
+        "sla_breach_rate_pct": 25.0,
+        "corridor_bottleneck_index": 20.79,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.876079,
+            -23.355449
+          ],
+          [
+            -46.626209,
+            -23.558891
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-SP-CAP",
+        "origin_city": "Cajamar",
+        "dest_city": "São Paulo",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 71,
+        "total_cargo_tons": 388.97,
+        "avg_haversine_km": 35.6,
+        "avg_road_distance_km": 44.15,
+        "avg_effective_speed_kmh": 46.01,
+        "sla_breach_rate_pct": 29.58,
+        "corridor_bottleneck_index": 20.74,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.405007,
+            -25.585395
+          ],
+          [
+            -49.275593,
+            -25.419989
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-PR-CWB",
+        "origin_city": "Araucária",
+        "dest_city": "Curitiba",
+        "dest_macro_region": "Sul",
+        "shipments_count": 49,
+        "total_cargo_tons": 294.53,
+        "avg_haversine_km": 25.3,
+        "avg_road_distance_km": 30.62,
+        "avg_effective_speed_kmh": 42.45,
+        "sla_breach_rate_pct": 24.49,
+        "corridor_bottleneck_index": 20.06,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.405043,
+            -25.586656
+          ],
+          [
+            -51.202079,
+            -30.025416
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-RS-POA",
+        "origin_city": "Araucária",
+        "dest_city": "Porto Alegre",
+        "dest_macro_region": "Sul",
+        "shipments_count": 53,
+        "total_cargo_tons": 1041.11,
+        "avg_haversine_km": 524.33,
+        "avg_road_distance_km": 665.9,
+        "avg_effective_speed_kmh": 49.13,
+        "sla_breach_rate_pct": 18.87,
+        "corridor_bottleneck_index": 19.06,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.404899,
+            -25.585142
+          ],
+          [
+            -48.564407,
+            -27.590332
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-SC-FLN",
+        "origin_city": "Araucária",
+        "dest_city": "Florianópolis / Itajaí",
+        "dest_macro_region": "Sul",
+        "shipments_count": 48,
+        "total_cargo_tons": 732.76,
+        "avg_haversine_km": 238.26,
+        "avg_road_distance_km": 300.2,
+        "avg_effective_speed_kmh": 54.83,
+        "sla_breach_rate_pct": 25.0,
+        "corridor_bottleneck_index": 18.54,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.317831,
+            -22.854395
+          ],
+          [
+            -51.222051,
+            -30.030919
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-RS-POA",
+        "origin_city": "Extrema",
+        "dest_city": "Porto Alegre",
+        "dest_macro_region": "Sul",
+        "shipments_count": 10,
+        "total_cargo_tons": 189.41,
+        "avg_haversine_km": 935.25,
+        "avg_road_distance_km": 1187.77,
+        "avg_effective_speed_kmh": 50.3,
+        "sla_breach_rate_pct": 10.0,
+        "corridor_bottleneck_index": 18.13,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.035117,
+            -8.284436
+          ],
+          [
+            -56.061955,
+            -15.627215
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PE-REC->ZN-MT-CGB",
+        "origin_city": "Cabo de Santo Agostinho",
+        "dest_city": "Cuiabá",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 2,
+        "total_cargo_tons": 21.2,
+        "avg_haversine_km": 2426.52,
+        "avg_road_distance_km": 3300.07,
+        "avg_effective_speed_kmh": 47.71,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 18.09,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.318879,
+            -22.855338
+          ],
+          [
+            -46.629075,
+            -23.54253
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-SP-CAP",
+        "origin_city": "Extrema",
+        "dest_city": "São Paulo",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 50,
+        "total_cargo_tons": 287.2,
+        "avg_haversine_km": 83.17,
+        "avg_road_distance_km": 103.14,
+        "avg_effective_speed_kmh": 47.88,
+        "sla_breach_rate_pct": 20.0,
+        "corridor_bottleneck_index": 17.99,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Port / Fiscal Barrier Inspection (SEFAZ Posto Fiscal)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.876838,
+            -23.355648
+          ],
+          [
+            -38.533588,
+            -3.699118
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-CE-FOR",
+        "origin_city": "Cajamar",
+        "dest_city": "Fortaleza",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 9,
+        "total_cargo_tons": 203.98,
+        "avg_haversine_km": 2362.53,
+        "avg_road_distance_km": 3118.54,
+        "avg_effective_speed_kmh": 45.56,
+        "sla_breach_rate_pct": 11.11,
+        "corridor_bottleneck_index": 17.86,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.405479,
+            -25.581996
+          ],
+          [
+            -38.548596,
+            -3.687511
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-CE-FOR",
+        "origin_city": "Araucária",
+        "dest_city": "Fortaleza",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 6,
+        "total_cargo_tons": 166.18,
+        "avg_haversine_km": 2696.5,
+        "avg_road_distance_km": 3559.38,
+        "avg_effective_speed_kmh": 47.77,
+        "sla_breach_rate_pct": 16.67,
+        "corridor_bottleneck_index": 17.58,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.877993,
+            -23.354059
+          ],
+          [
+            -47.866185,
+            -15.789871
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-DF-BSB",
+        "origin_city": "Cajamar",
+        "dest_city": "Brasília",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 7,
+        "total_cargo_tons": 138.35,
+        "avg_haversine_km": 847.46,
+        "avg_road_distance_km": 1008.47,
+        "avg_effective_speed_kmh": 48.59,
+        "sla_breach_rate_pct": 14.29,
+        "corridor_bottleneck_index": 17.54,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Ferry / Rodofluvial Barge Wait Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.954185,
+            -16.328592
+          ],
+          [
+            -47.90292,
+            -15.807664
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-DF-BSB",
+        "origin_city": "Anápolis",
+        "dest_city": "Brasília",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 31,
+        "total_cargo_tons": 486.37,
+        "avg_haversine_km": 126.69,
+        "avg_road_distance_km": 150.76,
+        "avg_effective_speed_kmh": 56.8,
+        "sla_breach_rate_pct": 16.13,
+        "corridor_bottleneck_index": 16.31,
+        "bottleneck_severity": "MODERATE_CONGESTION",
+        "primary_bottleneck_cause": "Dock Queue Overload at Origin/Destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.956051,
+            -16.327645
+          ],
+          [
+            -47.061774,
+            -22.887724
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-SP-CPS",
+        "origin_city": "Anápolis",
+        "dest_city": "Campinas",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 2,
+        "total_cargo_tons": 79.13,
+        "avg_haversine_km": 755.93,
+        "avg_road_distance_km": 892.0,
+        "avg_effective_speed_kmh": 45.96,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 11.91,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.949481,
+            -16.333594
+          ],
+          [
+            -34.913787,
+            -8.058877
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-PE-REC",
+        "origin_city": "Anápolis",
+        "dest_city": "Recife",
+        "dest_macro_region": "Nordeste",
+        "shipments_count": 1,
+        "total_cargo_tons": 10.27,
+        "avg_haversine_km": 1780.04,
+        "avg_road_distance_km": 2278.45,
+        "avg_effective_speed_kmh": 52.9,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 11.86,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.397374,
+            -25.581288
+          ],
+          [
+            -47.92743,
+            -15.765773
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-DF-BSB",
+        "origin_city": "Araucária",
+        "dest_city": "Brasília",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 2,
+        "total_cargo_tons": 47.51,
+        "avg_haversine_km": 1102.06,
+        "avg_road_distance_km": 1311.45,
+        "avg_effective_speed_kmh": 48.12,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 11.62,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.319629,
+            -22.855167
+          ],
+          [
+            -47.068262,
+            -22.894456
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-SP-CPS",
+        "origin_city": "Extrema",
+        "dest_city": "Campinas",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 42,
+        "total_cargo_tons": 232.85,
+        "avg_haversine_km": 77.55,
+        "avg_road_distance_km": 91.5,
+        "avg_effective_speed_kmh": 49.91,
+        "sla_breach_rate_pct": 14.29,
+        "corridor_bottleneck_index": 11.07,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.951778,
+            -16.328566
+          ],
+          [
+            -43.913542,
+            -19.883652
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-GO-ANP->ZN-MG-BHZ",
+        "origin_city": "Anápolis",
+        "dest_city": "Belo Horizonte",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 5,
+        "total_cargo_tons": 120.93,
+        "avg_haversine_km": 663.12,
+        "avg_road_distance_km": 868.69,
+        "avg_effective_speed_kmh": 50.43,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 11.03,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.877406,
+            -23.356572
+          ],
+          [
+            -47.051408,
+            -22.922588
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-SP-CPS",
+        "origin_city": "Cajamar",
+        "dest_city": "Campinas",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 40,
+        "total_cargo_tons": 193.36,
+        "avg_haversine_km": 52.27,
+        "avg_road_distance_km": 61.67,
+        "avg_effective_speed_kmh": 47.93,
+        "sla_breach_rate_pct": 7.5,
+        "corridor_bottleneck_index": 10.89,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Urban Ring-Road Congestion (Marginal / Av. Brasil)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.876452,
+            -23.356241
+          ],
+          [
+            -49.253576,
+            -25.412984
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-SP-CAJ->ZN-PR-CWB",
+        "origin_city": "Cajamar",
+        "dest_city": "Curitiba",
+        "dest_macro_region": "Sul",
+        "shipments_count": 10,
+        "total_cargo_tons": 126.67,
+        "avg_haversine_km": 332.19,
+        "avg_road_distance_km": 401.95,
+        "avg_effective_speed_kmh": 50.61,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 10.83,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.317562,
+            -22.851019
+          ],
+          [
+            -47.930091,
+            -15.799062
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-DF-BSB",
+        "origin_city": "Extrema",
+        "dest_city": "Brasília",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 4,
+        "total_cargo_tons": 76.97,
+        "avg_haversine_km": 802.18,
+        "avg_road_distance_km": 954.6,
+        "avg_effective_speed_kmh": 52.3,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 9.7,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.319986,
+            -22.853758
+          ],
+          [
+            -48.495336,
+            -27.614554
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-SC-FLN",
+        "origin_city": "Extrema",
+        "dest_city": "Florianópolis / Itajaí",
+        "dest_macro_region": "Sul",
+        "shipments_count": 4,
+        "total_cargo_tons": 100.12,
+        "avg_haversine_km": 572.8,
+        "avg_road_distance_km": 721.73,
+        "avg_effective_speed_kmh": 49.08,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 9.46,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.320594,
+            -22.853664
+          ],
+          [
+            -56.142276,
+            -15.572143
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-MG-EXT->ZN-MT-CGB",
+        "origin_city": "Extrema",
+        "dest_city": "Cuiabá",
+        "dest_macro_region": "Centro-Oeste",
+        "shipments_count": 4,
+        "total_cargo_tons": 99.98,
+        "avg_haversine_km": 1310.31,
+        "avg_road_distance_km": 1782.03,
+        "avg_effective_speed_kmh": 49.83,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 9.04,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.40361,
+            -25.584613
+          ],
+          [
+            -47.147352,
+            -22.905451
+          ]
+        ]
+      },
+      "properties": {
+        "feature_layer": "LOGISTICS_CORRIDOR",
+        "corridor_id": "HUB-PR-CWB->ZN-SP-CPS",
+        "origin_city": "Araucária",
+        "dest_city": "Campinas",
+        "dest_macro_region": "Sudeste",
+        "shipments_count": 4,
+        "total_cargo_tons": 38.74,
+        "avg_haversine_km": 375.6,
+        "avg_road_distance_km": 443.21,
+        "avg_effective_speed_kmh": 51.66,
+        "sla_breach_rate_pct": 0.0,
+        "corridor_bottleneck_index": 6.62,
+        "bottleneck_severity": "OPTIMAL_CORRIDOR",
+        "primary_bottleneck_cause": "Normal Flow"
+      }
+    }
+  ]
+}

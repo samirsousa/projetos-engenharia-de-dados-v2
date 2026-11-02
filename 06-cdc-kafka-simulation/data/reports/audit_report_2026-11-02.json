@@ -1,0 +1,265 @@
+{
+  "report_metadata": {
+    "report_date": "2026-11-02",
+    "generated_at_utc": "2026-11-02T02:04:28.962Z",
+    "pipeline": "SQLite-Debezium-Silver-CDC",
+    "version": "1.0.0"
+  },
+  "reconciliation": {
+    "is_consistent": true,
+    "status_label": "CONVERGENTE (100% PARIDADE)",
+    "oltp_active_rows": 32,
+    "silver_active_rows": 32,
+    "silver_tombstone_rows": 8,
+    "oltp_total_gmv": 197189.7,
+    "silver_total_gmv": 197189.7,
+    "gmv_drift": 0.0,
+    "oltp_sha256": "b3b6a9aef87dae9bdfb2cb38aec34ecb05f387d5e8774a86298c31b47bed9e11",
+    "silver_sha256": "b3b6a9aef87dae9bdfb2cb38aec34ecb05f387d5e8774a86298c31b47bed9e11",
+    "missing_in_silver": [],
+    "extra_in_silver": []
+  },
+  "daily_cdc_summary": {
+    "batches_processed": 6,
+    "total_events": 60,
+    "inserts": 40,
+    "updates": 12,
+    "deletes": 8,
+    "skipped_events": 0,
+    "min_lsn": 1,
+    "max_lsn": 60,
+    "avg_replication_lag_ms": 318.08,
+    "max_replication_lag_ms": 602,
+    "gross_inserted_value_brl": 261072.7,
+    "net_updated_value_brl": 6019.0,
+    "gross_deleted_value_brl": 69902.0
+  },
+  "operation_breakdown": [
+    {
+      "op_type": "DELETE",
+      "apply_status": "APPLIED",
+      "event_count": 8,
+      "net_amount_delta": -69902.0,
+      "avg_lag_ms": 325.38,
+      "max_lag_ms": 575,
+      "min_lsn": 13,
+      "max_lsn": 58
+    },
+    {
+      "op_type": "INSERT",
+      "apply_status": "APPLIED",
+      "event_count": 40,
+      "net_amount_delta": 261072.7,
+      "avg_lag_ms": 314.2,
+      "max_lag_ms": 602,
+      "min_lsn": 1,
+      "max_lsn": 60
+    },
+    {
+      "op_type": "UPDATE",
+      "apply_status": "APPLIED",
+      "event_count": 12,
+      "net_amount_delta": 6019.0,
+      "avg_lag_ms": 326.17,
+      "max_lag_ms": 529,
+      "min_lsn": 7,
+      "max_lsn": 59
+    }
+  ],
+  "silver_active_status_distribution": [
+    {
+      "status": "CREATED",
+      "order_count": 24,
+      "total_gmv": 143323.0
+    },
+    {
+      "status": "PAID",
+      "order_count": 4,
+      "total_gmv": 33596.7
+    },
+    {
+      "status": "CANCELLED",
+      "order_count": 2,
+      "total_gmv": 17341.5
+    },
+    {
+      "status": "SHIPPED",
+      "order_count": 1,
+      "total_gmv": 1948.5
+    },
+    {
+      "status": "REFUNDED",
+      "order_count": 1,
+      "total_gmv": 980.0
+    }
+  ],
+  "silver_active_region_distribution": [
+    {
+      "region": "Sul",
+      "order_count": 8,
+      "total_gmv": 77215.2
+    },
+    {
+      "region": "Sudeste",
+      "order_count": 10,
+      "total_gmv": 54835.6
+    },
+    {
+      "region": "Nordeste",
+      "order_count": 6,
+      "total_gmv": 44904.9
+    },
+    {
+      "region": "Centro-Oeste",
+      "order_count": 7,
+      "total_gmv": 18285.5
+    },
+    {
+      "region": "Norte",
+      "order_count": 1,
+      "total_gmv": 1948.5
+    }
+  ],
+  "governance_alerts": {
+    "high_value_deletes_count": 5,
+    "high_value_deletes": [
+      {
+        "lsn": 36,
+        "tx_id": "d1178ae15a52dd8a",
+        "record_pk": "ORD-375AF3B6",
+        "removed_value": 37499.5,
+        "applied_at_utc": "2026-11-02T02:04:28.322Z"
+      },
+      {
+        "lsn": 22,
+        "tx_id": "145b269d8b085e7d",
+        "record_pk": "ORD-5B4BDB07",
+        "removed_value": 10995.0,
+        "applied_at_utc": "2026-11-02T02:04:28.309Z"
+      },
+      {
+        "lsn": 53,
+        "tx_id": "51b23e9fcfa538c3",
+        "record_pk": "ORD-D6D4DA69",
+        "removed_value": 7560.0,
+        "applied_at_utc": "2026-11-02T02:04:28.949Z"
+      },
+      {
+        "lsn": 13,
+        "tx_id": "6429d5cceed8fdc3",
+        "record_pk": "ORD-7908D0A2",
+        "removed_value": 4299.0,
+        "applied_at_utc": "2026-11-02T02:04:27.786Z"
+      },
+      {
+        "lsn": 30,
+        "tx_id": "219cc1d7989a8bea",
+        "record_pk": "ORD-28D33946",
+        "removed_value": 3780.0,
+        "applied_at_utc": "2026-11-02T02:04:28.309Z"
+      }
+    ]
+  },
+  "recent_mutations_sample": [
+    {
+      "lsn": 60,
+      "tx_id": "aa215a703a7c9a26",
+      "op_type": "INSERT",
+      "record_pk": "ORD-D74993EE",
+      "changed_fields_json": null,
+      "amount_delta": 5600.0,
+      "replication_lag_ms": 66,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 59,
+      "tx_id": "98537659ed54247d",
+      "op_type": "UPDATE",
+      "record_pk": "ORD-01C68433",
+      "changed_fields_json": "{\"status\": {\"before\": \"PAID\", \"after\": \"SHIPPED\"}}",
+      "amount_delta": 0.0,
+      "replication_lag_ms": 99,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 58,
+      "tx_id": "82c24aaa97aeb3e5",
+      "op_type": "DELETE",
+      "record_pk": "ORD-4BA88C7A",
+      "changed_fields_json": null,
+      "amount_delta": -2700.0,
+      "replication_lag_ms": 140,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 57,
+      "tx_id": "4e98dd57d533ce30",
+      "op_type": "INSERT",
+      "record_pk": "ORD-2606C5CE",
+      "changed_fields_json": null,
+      "amount_delta": 649.5,
+      "replication_lag_ms": 161,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 56,
+      "tx_id": "9c860e2527d8ecfa",
+      "op_type": "INSERT",
+      "record_pk": "ORD-5222DD80",
+      "changed_fields_json": null,
+      "amount_delta": 22499.7,
+      "replication_lag_ms": 182,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 55,
+      "tx_id": "a3ccc3cd22f22931",
+      "op_type": "INSERT",
+      "record_pk": "ORD-4BA88C7A",
+      "changed_fields_json": null,
+      "amount_delta": 2700.0,
+      "replication_lag_ms": 206,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 54,
+      "tx_id": "8a3550660731d98f",
+      "op_type": "INSERT",
+      "record_pk": "ORD-8D265779",
+      "changed_fields_json": null,
+      "amount_delta": 17196.0,
+      "replication_lag_ms": 228,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 53,
+      "tx_id": "51b23e9fcfa538c3",
+      "op_type": "DELETE",
+      "record_pk": "ORD-D6D4DA69",
+      "changed_fields_json": null,
+      "amount_delta": -7560.0,
+      "replication_lag_ms": 262,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 52,
+      "tx_id": "14a7173d4414a2be",
+      "op_type": "INSERT",
+      "record_pk": "ORD-B1EEF0F4",
+      "changed_fields_json": null,
+      "amount_delta": 2700.0,
+      "replication_lag_ms": 300,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    },
+    {
+      "lsn": 51,
+      "tx_id": "6f1d0d7441d89bd9",
+      "op_type": "INSERT",
+      "record_pk": "ORD-65BF2323",
+      "changed_fields_json": null,
+      "amount_delta": 7499.9,
+      "replication_lag_ms": 352,
+      "applied_at_utc": "2026-11-02T02:04:28.949Z"
+    }
+  ]
+}

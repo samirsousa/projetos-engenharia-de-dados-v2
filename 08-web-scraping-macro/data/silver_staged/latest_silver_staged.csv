@@ -1,0 +1,26 @@
+series_id,indicator_code,indicator_name,source_institution,reference_date,numeric_value,unit,frequency,publication_status,is_preliminary,source_page,scraped_at_utc,transformed_at_utc
+24369,DESEMPREGO_PNAD,Taxa de Desocupação PNAD Contínua,IBGE,2026-09-01,6.7,PCT_PEA,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+24369,DESEMPREGO_PNAD,Taxa de Desocupação PNAD Contínua,IBGE,2026-10-01,6.5,PCT_PEA,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+24369,DESEMPREGO_PNAD,Taxa de Desocupação PNAD Contínua,IBGE,2026-11-01,6.4,PCT_PEA,MONTHLY,PRELIMINAR,True,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+13762,DIVIDA_BRUTA_PIB,Dívida Bruta do Governo Geral (% do PIB),Banco Central do Brasil (BCB),2026-10-01,77.8,PCT_PIB,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+13762,DIVIDA_BRUTA_PIB,Dívida Bruta do Governo Geral (% do PIB),Banco Central do Brasil (BCB),2026-11-01,78.2,PCT_PIB,MONTHLY,PRELIMINAR,True,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+24364,IBC_BR_INDICE,IBC-Br - Índice de Atividade Econômica do Banco Central,Banco Central do Brasil (BCB),2026-09-01,151.4,INDEX_PTS,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+24364,IBC_BR_INDICE,IBC-Br - Índice de Atividade Econômica do Banco Central,Banco Central do Brasil (BCB),2026-10-01,152.85,INDEX_PTS,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+24364,IBC_BR_INDICE,IBC-Br - Índice de Atividade Econômica do Banco Central,Banco Central do Brasil (BCB),2026-11-01,153.6,INDEX_PTS,MONTHLY,PRELIMINAR,True,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+189,IGPM_ACUM_12M,IGP-M - Índice Geral de Preços do Mercado (12m),FGV IBRE,2026-09-01,4.89,PCT_12M,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+189,IGPM_ACUM_12M,IGP-M - Índice Geral de Preços do Mercado (12m),FGV IBRE,2026-10-01,5.12,PCT_12M,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+189,IGPM_ACUM_12M,IGP-M - Índice Geral de Preços do Mercado (12m),FGV IBRE,2026-11-01,5.34,PCT_12M,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+13522,IPCA_ACUM_12M,IPCA - Inflação Oficial Acumulada 12 Meses,IBGE,2026-08-01,4.24,PCT_12M,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+13522,IPCA_ACUM_12M,IPCA - Inflação Oficial Acumulada 12 Meses,IBGE,2026-09-01,4.42,PCT_12M,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+13522,IPCA_ACUM_12M,IPCA - Inflação Oficial Acumulada 12 Meses,IBGE,2026-10-01,4.58,PCT_12M,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+13522,IPCA_ACUM_12M,IPCA - Inflação Oficial Acumulada 12 Meses,IBGE,2026-11-01,4.65,PCT_12M,MONTHLY,PRELIMINAR,True,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+21619,PTAX_EUR_BRL,Taxa de Câmbio PTAX Euro (Venda),Banco Central do Brasil (BCB),2026-09-01,6.184,BRL,MONTHLY,DEFINITIVO,False,cambio_ptax_series.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+21619,PTAX_EUR_BRL,Taxa de Câmbio PTAX Euro (Venda),Banco Central do Brasil (BCB),2026-10-01,6.241,BRL,MONTHLY,DEFINITIVO,False,cambio_ptax_series.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+21619,PTAX_EUR_BRL,Taxa de Câmbio PTAX Euro (Venda),Banco Central do Brasil (BCB),2026-11-01,6.298,BRL,MONTHLY,DEFINITIVO,False,cambio_ptax_series.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+1,PTAX_USD_BRL,Taxa de Câmbio PTAX Dólar Americano (Venda),Banco Central do Brasil (BCB),2026-09-01,5.612,BRL,MONTHLY,DEFINITIVO,False,cambio_ptax_series.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+1,PTAX_USD_BRL,Taxa de Câmbio PTAX Dólar Americano (Venda),Banco Central do Brasil (BCB),2026-10-01,5.689,BRL,MONTHLY,DEFINITIVO,False,cambio_ptax_series.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+1,PTAX_USD_BRL,Taxa de Câmbio PTAX Dólar Americano (Venda),Banco Central do Brasil (BCB),2026-11-01,5.745,BRL,MONTHLY,DEFINITIVO,False,cambio_ptax_series.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+432,SELIC_META,Taxa de Juros SELIC (Meta COPOM),Banco Central do Brasil (BCB),2026-08-01,10.5,PCT_AA,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+432,SELIC_META,Taxa de Juros SELIC (Meta COPOM),Banco Central do Brasil (BCB),2026-09-01,10.75,PCT_AA,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+432,SELIC_META,Taxa de Juros SELIC (Meta COPOM),Banco Central do Brasil (BCB),2026-10-01,11.0,PCT_AA,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z
+432,SELIC_META,Taxa de Juros SELIC (Meta COPOM),Banco Central do Brasil (BCB),2026-11-01,11.25,PCT_AA,MONTHLY,DEFINITIVO,False,boletim_focus_sgs.html,2026-11-02T02:54:58.673Z,2026-11-02T02:54:58.933Z

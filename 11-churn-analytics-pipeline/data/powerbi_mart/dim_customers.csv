@@ -1,0 +1,1075 @@
+customer_id,company_name,segment,industry,state_uf,macro_region,acquisition_channel,cac_brl,signup_date,cohort_month
+CUST-00001,ClientCorp 0001 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),1656.9,2025-01-24,2025-01
+CUST-00002,ClientCorp 0002 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),419.98,2025-01-28,2025-01
+CUST-00003,ClientCorp 0003 Ltda,Enterprise,Agribusiness & FoodTech,RJ,Sudeste,Organic Search (SEO),595.58,2025-01-13,2025-01
+CUST-00004,ClientCorp 0004 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2474.75,2025-01-10,2025-01
+CUST-00005,ClientCorp 0005 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),847.79,2025-01-21,2025-01
+CUST-00006,ClientCorp 0006 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),938.8,2025-01-04,2025-01
+CUST-00007,ClientCorp 0007 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Partner & Referral,312.25,2025-01-05,2025-01
+CUST-00008,ClientCorp 0008 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,385.17,2025-01-28,2025-01
+CUST-00009,ClientCorp 0009 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Partner & Referral,446.64,2025-01-20,2025-01
+CUST-00010,ClientCorp 0010 Ltda,SMB,Education & EdTech,PR,Sul,Paid Search (Google Ads),896.5,2025-01-25,2025-01
+CUST-00011,ClientCorp 0011 Ltda,Mid-Market,Logistics & Supply Chain,PR,Sul,Outbound Sales (SDR/AE),2408.78,2025-01-17,2025-01
+CUST-00012,ClientCorp 0012 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),1116.28,2025-01-20,2025-01
+CUST-00013,ClientCorp 0013 Ltda,Mid-Market,Fintech & Financial Services,MG,Sudeste,Partner & Referral,409.83,2025-01-02,2025-01
+CUST-00014,ClientCorp 0014 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2392.64,2025-01-10,2025-01
+CUST-00015,ClientCorp 0015 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,553.4,2025-01-20,2025-01
+CUST-00016,ClientCorp 0016 Ltda,Mid-Market,Logistics & Supply Chain,PR,Sul,Organic Search (SEO),414.84,2025-01-09,2025-01
+CUST-00017,ClientCorp 0017 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Paid Social (LinkedIn),1270.92,2025-01-04,2025-01
+CUST-00018,ClientCorp 0018 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),753.34,2025-01-18,2025-01
+CUST-00019,ClientCorp 0019 Ltda,Mid-Market,Agribusiness & FoodTech,RJ,Sudeste,Organic Search (SEO),468.96,2025-01-14,2025-01
+CUST-00020,ClientCorp 0020 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Outbound Sales (SDR/AE),2445.32,2025-01-09,2025-01
+CUST-00021,ClientCorp 0021 Ltda,SMB,Agribusiness & FoodTech,DF,Centro-Oeste,Paid Social (LinkedIn),1196.56,2025-01-07,2025-01
+CUST-00022,ClientCorp 0022 Ltda,Mid-Market,B2B SaaS & Software,DF,Centro-Oeste,Partner & Referral,437.52,2025-01-10,2025-01
+CUST-00023,ClientCorp 0023 Ltda,Mid-Market,Healthtech & Clinics,RS,Sul,Outbound Sales (SDR/AE),2123.84,2025-01-01,2025-01
+CUST-00024,ClientCorp 0024 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),411.61,2025-01-27,2025-01
+CUST-00025,ClientCorp 0025 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Organic Search (SEO),347.41,2025-01-26,2025-01
+CUST-00026,ClientCorp 0026 Ltda,SMB,Healthtech & Clinics,PR,Sul,Partner & Referral,340.1,2025-01-12,2025-01
+CUST-00027,ClientCorp 0027 Ltda,Mid-Market,Fintech & Financial Services,DF,Centro-Oeste,Organic Search (SEO),412.75,2025-01-14,2025-01
+CUST-00028,ClientCorp 0028 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),412.8,2025-01-17,2025-01
+CUST-00029,ClientCorp 0029 Ltda,SMB,Fintech & Financial Services,RS,Sul,Partner & Referral,293.82,2025-01-17,2025-01
+CUST-00030,ClientCorp 0030 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),880.86,2025-01-27,2025-01
+CUST-00031,ClientCorp 0031 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Partner & Referral,355.16,2025-01-04,2025-01
+CUST-00032,ClientCorp 0032 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Social (LinkedIn),1207.68,2025-01-01,2025-01
+CUST-00033,ClientCorp 0033 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2058.12,2025-01-08,2025-01
+CUST-00034,ClientCorp 0034 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),2448.18,2025-01-17,2025-01
+CUST-00035,ClientCorp 0035 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),872.58,2025-01-24,2025-01
+CUST-00036,ClientCorp 0036 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),855.42,2025-01-12,2025-01
+CUST-00037,ClientCorp 0037 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Paid Search (Google Ads),1128.74,2025-01-11,2025-01
+CUST-00038,ClientCorp 0038 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Social (LinkedIn),1137.08,2025-01-18,2025-01
+CUST-00039,ClientCorp 0039 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Partner & Referral,330.06,2025-01-21,2025-01
+CUST-00040,ClientCorp 0040 Ltda,Mid-Market,Education & EdTech,RJ,Sudeste,Outbound Sales (SDR/AE),2065.21,2025-01-09,2025-01
+CUST-00041,ClientCorp 0041 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),3048.94,2025-01-25,2025-01
+CUST-00042,ClientCorp 0042 Ltda,SMB,Education & EdTech,DF,Centro-Oeste,Paid Search (Google Ads),771.02,2025-01-19,2025-01
+CUST-00043,ClientCorp 0043 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),557.48,2025-01-16,2025-01
+CUST-00044,ClientCorp 0044 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),396.57,2025-01-25,2025-01
+CUST-00045,ClientCorp 0045 Ltda,SMB,B2B SaaS & Software,PR,Sul,Organic Search (SEO),400.91,2025-01-03,2025-01
+CUST-00046,ClientCorp 0046 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Paid Search (Google Ads),743.17,2025-01-07,2025-01
+CUST-00047,ClientCorp 0047 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,302.49,2025-01-28,2025-01
+CUST-00048,ClientCorp 0048 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,357.61,2025-01-07,2025-01
+CUST-00049,ClientCorp 0049 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Social (LinkedIn),1069.64,2025-01-08,2025-01
+CUST-00050,ClientCorp 0050 Ltda,Mid-Market,Healthtech & Clinics,PR,Sul,Outbound Sales (SDR/AE),2180.21,2025-01-13,2025-01
+CUST-00051,ClientCorp 0051 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),1126.59,2025-01-15,2025-01
+CUST-00052,ClientCorp 0052 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),484.24,2025-01-11,2025-01
+CUST-00053,ClientCorp 0053 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),327.71,2025-01-06,2025-01
+CUST-00054,ClientCorp 0054 Ltda,SMB,Education & EdTech,SP,Sudeste,Partner & Referral,366.06,2025-01-05,2025-01
+CUST-00055,ClientCorp 0055 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),850.15,2025-01-06,2025-01
+CUST-00056,ClientCorp 0056 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),614.58,2025-01-17,2025-01
+CUST-00057,ClientCorp 0057 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Partner & Referral,384.94,2025-01-15,2025-01
+CUST-00058,ClientCorp 0058 Ltda,SMB,Healthtech & Clinics,PR,Sul,Organic Search (SEO),335.03,2025-01-10,2025-01
+CUST-00059,ClientCorp 0059 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),487.5,2025-01-05,2025-01
+CUST-00060,ClientCorp 0060 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),488.34,2025-01-09,2025-01
+CUST-00061,ClientCorp 0061 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),879.81,2025-01-04,2025-01
+CUST-00062,ClientCorp 0062 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),518.42,2025-01-28,2025-01
+CUST-00063,ClientCorp 0063 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,306.81,2025-01-04,2025-01
+CUST-00064,ClientCorp 0064 Ltda,Mid-Market,E-Commerce & Retail Tech,PR,Sul,Paid Search (Google Ads),1031.26,2025-01-16,2025-01
+CUST-00065,ClientCorp 0065 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),441.52,2025-01-14,2025-01
+CUST-00066,ClientCorp 0066 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),381.4,2025-01-16,2025-01
+CUST-00067,ClientCorp 0067 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1137.05,2025-01-06,2025-01
+CUST-00068,ClientCorp 0068 Ltda,Enterprise,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),2657.17,2025-01-06,2025-01
+CUST-00069,ClientCorp 0069 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Social (LinkedIn),1191.89,2025-01-26,2025-01
+CUST-00070,ClientCorp 0070 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),365.59,2025-01-24,2025-01
+CUST-00071,ClientCorp 0071 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Paid Search (Google Ads),1099.27,2025-01-02,2025-01
+CUST-00072,ClientCorp 0072 Ltda,SMB,Agribusiness & FoodTech,MG,Sudeste,Organic Search (SEO),317.76,2025-01-11,2025-01
+CUST-00073,ClientCorp 0073 Ltda,SMB,Education & EdTech,RJ,Sudeste,Organic Search (SEO),365.33,2025-01-12,2025-01
+CUST-00074,ClientCorp 0074 Ltda,Enterprise,E-Commerce & Retail Tech,MG,Sudeste,Outbound Sales (SDR/AE),3131.87,2025-01-02,2025-01
+CUST-00075,ClientCorp 0075 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),486.03,2025-01-05,2025-01
+CUST-00076,ClientCorp 0076 Ltda,SMB,E-Commerce & Retail Tech,PR,Sul,Paid Social (LinkedIn),1217.18,2025-02-13,2025-02
+CUST-00077,ClientCorp 0077 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2390.54,2025-02-16,2025-02
+CUST-00078,ClientCorp 0078 Ltda,Enterprise,Fintech & Financial Services,RS,Sul,Outbound Sales (SDR/AE),3000.01,2025-02-26,2025-02
+CUST-00079,ClientCorp 0079 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),554.78,2025-02-27,2025-02
+CUST-00080,ClientCorp 0080 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),883.15,2025-02-24,2025-02
+CUST-00081,ClientCorp 0081 Ltda,SMB,Agribusiness & FoodTech,PR,Sul,Organic Search (SEO),392.41,2025-02-18,2025-02
+CUST-00082,ClientCorp 0082 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Partner & Referral,289.45,2025-02-26,2025-02
+CUST-00083,ClientCorp 0083 Ltda,SMB,Education & EdTech,SP,Sudeste,Organic Search (SEO),344.84,2025-02-23,2025-02
+CUST-00084,ClientCorp 0084 Ltda,Mid-Market,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),889.17,2025-02-21,2025-02
+CUST-00085,ClientCorp 0085 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Organic Search (SEO),460.34,2025-02-14,2025-02
+CUST-00086,ClientCorp 0086 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2134.95,2025-02-04,2025-02
+CUST-00087,ClientCorp 0087 Ltda,SMB,B2B SaaS & Software,RS,Sul,Organic Search (SEO),382.25,2025-02-21,2025-02
+CUST-00088,ClientCorp 0088 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),3270.15,2025-02-22,2025-02
+CUST-00089,ClientCorp 0089 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),963.44,2025-02-04,2025-02
+CUST-00090,ClientCorp 0090 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Paid Social (LinkedIn),1349.01,2025-02-20,2025-02
+CUST-00091,ClientCorp 0091 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Outbound Sales (SDR/AE),2345.74,2025-02-22,2025-02
+CUST-00092,ClientCorp 0092 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2290.73,2025-02-07,2025-02
+CUST-00093,ClientCorp 0093 Ltda,Mid-Market,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),2148.9,2025-02-20,2025-02
+CUST-00094,ClientCorp 0094 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),894.54,2025-02-27,2025-02
+CUST-00095,ClientCorp 0095 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),1049.86,2025-02-20,2025-02
+CUST-00096,ClientCorp 0096 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Paid Social (LinkedIn),1449.78,2025-02-17,2025-02
+CUST-00097,ClientCorp 0097 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),1000.04,2025-02-20,2025-02
+CUST-00098,ClientCorp 0098 Ltda,SMB,B2B SaaS & Software,SC,Sul,Organic Search (SEO),367.61,2025-02-21,2025-02
+CUST-00099,ClientCorp 0099 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),732.42,2025-02-20,2025-02
+CUST-00100,ClientCorp 0100 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Paid Search (Google Ads),810.76,2025-02-01,2025-02
+CUST-00101,ClientCorp 0101 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1083.06,2025-02-11,2025-02
+CUST-00102,ClientCorp 0102 Ltda,Mid-Market,Education & EdTech,RS,Sul,Organic Search (SEO),499.83,2025-02-23,2025-02
+CUST-00103,ClientCorp 0103 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),325.84,2025-02-08,2025-02
+CUST-00104,ClientCorp 0104 Ltda,SMB,Fintech & Financial Services,RJ,Sudeste,Outbound Sales (SDR/AE),2053.8,2025-02-06,2025-02
+CUST-00105,ClientCorp 0105 Ltda,Mid-Market,Agribusiness & FoodTech,RJ,Sudeste,Outbound Sales (SDR/AE),2047.7,2025-02-26,2025-02
+CUST-00106,ClientCorp 0106 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),545.38,2025-02-25,2025-02
+CUST-00107,ClientCorp 0107 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),979.69,2025-02-15,2025-02
+CUST-00108,ClientCorp 0108 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),496.89,2025-02-05,2025-02
+CUST-00109,ClientCorp 0109 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),1230.28,2025-02-16,2025-02
+CUST-00110,ClientCorp 0110 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2543.38,2025-02-04,2025-02
+CUST-00111,ClientCorp 0111 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Paid Social (LinkedIn),1492.88,2025-02-14,2025-02
+CUST-00112,ClientCorp 0112 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Partner & Referral,316.77,2025-02-25,2025-02
+CUST-00113,ClientCorp 0113 Ltda,SMB,Education & EdTech,SC,Sul,Organic Search (SEO),394.8,2025-02-06,2025-02
+CUST-00114,ClientCorp 0114 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Partner & Referral,287.25,2025-02-25,2025-02
+CUST-00115,ClientCorp 0115 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2360.78,2025-02-01,2025-02
+CUST-00116,ClientCorp 0116 Ltda,SMB,Healthtech & Clinics,RS,Sul,Organic Search (SEO),343.35,2025-02-02,2025-02
+CUST-00117,ClientCorp 0117 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),383.36,2025-02-01,2025-02
+CUST-00118,ClientCorp 0118 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Paid Social (LinkedIn),1504.1,2025-02-15,2025-02
+CUST-00119,ClientCorp 0119 Ltda,SMB,B2B SaaS & Software,DF,Centro-Oeste,Outbound Sales (SDR/AE),1662.52,2025-02-20,2025-02
+CUST-00120,ClientCorp 0120 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2731.72,2025-02-23,2025-02
+CUST-00121,ClientCorp 0121 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2614.62,2025-02-24,2025-02
+CUST-00122,ClientCorp 0122 Ltda,SMB,Fintech & Financial Services,SC,Sul,Organic Search (SEO),370.21,2025-02-19,2025-02
+CUST-00123,ClientCorp 0123 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1733.86,2025-02-05,2025-02
+CUST-00124,ClientCorp 0124 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),2837.92,2025-02-25,2025-02
+CUST-00125,ClientCorp 0125 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),818.8,2025-02-25,2025-02
+CUST-00126,ClientCorp 0126 Ltda,SMB,Education & EdTech,RS,Sul,Partner & Referral,338.64,2025-02-06,2025-02
+CUST-00127,ClientCorp 0127 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Organic Search (SEO),487.86,2025-02-18,2025-02
+CUST-00128,ClientCorp 0128 Ltda,Mid-Market,Fintech & Financial Services,RS,Sul,Organic Search (SEO),400.27,2025-02-16,2025-02
+CUST-00129,ClientCorp 0129 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),1650.02,2025-02-27,2025-02
+CUST-00130,ClientCorp 0130 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Organic Search (SEO),396.51,2025-02-19,2025-02
+CUST-00131,ClientCorp 0131 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,351.26,2025-02-27,2025-02
+CUST-00132,ClientCorp 0132 Ltda,Mid-Market,Fintech & Financial Services,RS,Sul,Paid Search (Google Ads),964.86,2025-02-02,2025-02
+CUST-00133,ClientCorp 0133 Ltda,SMB,Healthtech & Clinics,SC,Sul,Paid Search (Google Ads),726.76,2025-02-06,2025-02
+CUST-00134,ClientCorp 0134 Ltda,SMB,Education & EdTech,MG,Sudeste,Paid Search (Google Ads),835.18,2025-02-23,2025-02
+CUST-00135,ClientCorp 0135 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Social (LinkedIn),1424.83,2025-02-22,2025-02
+CUST-00136,ClientCorp 0136 Ltda,Mid-Market,Education & EdTech,RS,Sul,Organic Search (SEO),390.67,2025-02-18,2025-02
+CUST-00137,ClientCorp 0137 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),2972.18,2025-02-02,2025-02
+CUST-00138,ClientCorp 0138 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),921.15,2025-02-11,2025-02
+CUST-00139,ClientCorp 0139 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),384.98,2025-02-04,2025-02
+CUST-00140,ClientCorp 0140 Ltda,SMB,E-Commerce & Retail Tech,PR,Sul,Partner & Referral,364.67,2025-02-06,2025-02
+CUST-00141,ClientCorp 0141 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Organic Search (SEO),391.95,2025-02-24,2025-02
+CUST-00142,ClientCorp 0142 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),967.62,2025-02-06,2025-02
+CUST-00143,ClientCorp 0143 Ltda,Mid-Market,Agribusiness & FoodTech,PR,Sul,Partner & Referral,361.22,2025-02-12,2025-02
+CUST-00144,ClientCorp 0144 Ltda,Mid-Market,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),2456.86,2025-02-16,2025-02
+CUST-00145,ClientCorp 0145 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),391.26,2025-02-26,2025-02
+CUST-00146,ClientCorp 0146 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,302.22,2025-02-09,2025-02
+CUST-00147,ClientCorp 0147 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Paid Search (Google Ads),717.71,2025-02-28,2025-02
+CUST-00148,ClientCorp 0148 Ltda,SMB,Education & EdTech,SC,Sul,Paid Search (Google Ads),757.73,2025-02-01,2025-02
+CUST-00149,ClientCorp 0149 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Outbound Sales (SDR/AE),2276.64,2025-02-08,2025-02
+CUST-00150,ClientCorp 0150 Ltda,SMB,B2B SaaS & Software,DF,Centro-Oeste,Paid Search (Google Ads),748.26,2025-02-06,2025-02
+CUST-00151,ClientCorp 0151 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),1694.04,2025-02-06,2025-02
+CUST-00152,ClientCorp 0152 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2019.45,2025-02-03,2025-02
+CUST-00153,ClientCorp 0153 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Partner & Referral,446.28,2025-02-17,2025-02
+CUST-00154,ClientCorp 0154 Ltda,SMB,Agribusiness & FoodTech,MG,Sudeste,Paid Search (Google Ads),812.79,2025-03-20,2025-03
+CUST-00155,ClientCorp 0155 Ltda,SMB,Agribusiness & FoodTech,MG,Sudeste,Partner & Referral,354.96,2025-03-28,2025-03
+CUST-00156,ClientCorp 0156 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),857.04,2025-03-01,2025-03
+CUST-00157,ClientCorp 0157 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1021.57,2025-03-18,2025-03
+CUST-00158,ClientCorp 0158 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Partner & Referral,326.65,2025-03-03,2025-03
+CUST-00159,ClientCorp 0159 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),355.58,2025-03-07,2025-03
+CUST-00160,ClientCorp 0160 Ltda,SMB,B2B SaaS & Software,PR,Sul,Paid Search (Google Ads),898.37,2025-03-21,2025-03
+CUST-00161,ClientCorp 0161 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Social (LinkedIn),1091.34,2025-03-24,2025-03
+CUST-00162,ClientCorp 0162 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Paid Search (Google Ads),1111.28,2025-03-11,2025-03
+CUST-00163,ClientCorp 0163 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),2431.28,2025-03-19,2025-03
+CUST-00164,ClientCorp 0164 Ltda,SMB,B2B SaaS & Software,RS,Sul,Paid Social (LinkedIn),1124.03,2025-03-16,2025-03
+CUST-00165,ClientCorp 0165 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Social (LinkedIn),982.79,2025-03-10,2025-03
+CUST-00166,ClientCorp 0166 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Social (LinkedIn),1387.5,2025-03-16,2025-03
+CUST-00167,ClientCorp 0167 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Paid Search (Google Ads),769.66,2025-03-06,2025-03
+CUST-00168,ClientCorp 0168 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),3007.98,2025-03-13,2025-03
+CUST-00169,ClientCorp 0169 Ltda,Enterprise,Healthtech & Clinics,PR,Sul,Partner & Referral,541.87,2025-03-23,2025-03
+CUST-00170,ClientCorp 0170 Ltda,SMB,Education & EdTech,DF,Centro-Oeste,Organic Search (SEO),345.12,2025-03-26,2025-03
+CUST-00171,ClientCorp 0171 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Outbound Sales (SDR/AE),1668.06,2025-03-17,2025-03
+CUST-00172,ClientCorp 0172 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),814.72,2025-03-01,2025-03
+CUST-00173,ClientCorp 0173 Ltda,SMB,Education & EdTech,MG,Sudeste,Organic Search (SEO),404.69,2025-03-07,2025-03
+CUST-00174,ClientCorp 0174 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),893.86,2025-03-28,2025-03
+CUST-00175,ClientCorp 0175 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),820.92,2025-03-16,2025-03
+CUST-00176,ClientCorp 0176 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),332.41,2025-03-11,2025-03
+CUST-00177,ClientCorp 0177 Ltda,SMB,Agribusiness & FoodTech,MG,Sudeste,Paid Search (Google Ads),847.93,2025-03-25,2025-03
+CUST-00178,ClientCorp 0178 Ltda,Enterprise,Logistics & Supply Chain,MG,Sudeste,Partner & Referral,478.68,2025-03-13,2025-03
+CUST-00179,ClientCorp 0179 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2470.59,2025-03-20,2025-03
+CUST-00180,ClientCorp 0180 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),411.86,2025-03-02,2025-03
+CUST-00181,ClientCorp 0181 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Outbound Sales (SDR/AE),1610.42,2025-03-25,2025-03
+CUST-00182,ClientCorp 0182 Ltda,SMB,Fintech & Financial Services,DF,Centro-Oeste,Paid Search (Google Ads),876.72,2025-03-28,2025-03
+CUST-00183,ClientCorp 0183 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,287.57,2025-03-26,2025-03
+CUST-00184,ClientCorp 0184 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Paid Search (Google Ads),1058.38,2025-03-08,2025-03
+CUST-00185,ClientCorp 0185 Ltda,Enterprise,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),606.08,2025-03-09,2025-03
+CUST-00186,ClientCorp 0186 Ltda,Mid-Market,Agribusiness & FoodTech,MG,Sudeste,Organic Search (SEO),464.41,2025-03-05,2025-03
+CUST-00187,ClientCorp 0187 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Partner & Referral,298.57,2025-03-12,2025-03
+CUST-00188,ClientCorp 0188 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1150.32,2025-03-11,2025-03
+CUST-00189,ClientCorp 0189 Ltda,Enterprise,Fintech & Financial Services,SC,Sul,Paid Social (LinkedIn),1652.67,2025-03-07,2025-03
+CUST-00190,ClientCorp 0190 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1162.54,2025-03-21,2025-03
+CUST-00191,ClientCorp 0191 Ltda,SMB,Healthtech & Clinics,PR,Sul,Paid Search (Google Ads),858.93,2025-03-16,2025-03
+CUST-00192,ClientCorp 0192 Ltda,Enterprise,Education & EdTech,MG,Sudeste,Paid Search (Google Ads),1135.79,2025-03-13,2025-03
+CUST-00193,ClientCorp 0193 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),372.36,2025-03-13,2025-03
+CUST-00194,ClientCorp 0194 Ltda,Mid-Market,Education & EdTech,RJ,Sudeste,Organic Search (SEO),395.41,2025-03-27,2025-03
+CUST-00195,ClientCorp 0195 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2780.38,2025-03-27,2025-03
+CUST-00196,ClientCorp 0196 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),323.91,2025-03-04,2025-03
+CUST-00197,ClientCorp 0197 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Partner & Referral,439.26,2025-03-16,2025-03
+CUST-00198,ClientCorp 0198 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Partner & Referral,342.85,2025-03-13,2025-03
+CUST-00199,ClientCorp 0199 Ltda,Enterprise,Education & EdTech,MG,Sudeste,Paid Search (Google Ads),1440.51,2025-03-20,2025-03
+CUST-00200,ClientCorp 0200 Ltda,Enterprise,Fintech & Financial Services,DF,Centro-Oeste,Paid Social (LinkedIn),1767.8,2025-03-26,2025-03
+CUST-00201,ClientCorp 0201 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2147.34,2025-03-07,2025-03
+CUST-00202,ClientCorp 0202 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2422.46,2025-03-04,2025-03
+CUST-00203,ClientCorp 0203 Ltda,Mid-Market,Fintech & Financial Services,SC,Sul,Paid Search (Google Ads),1072.5,2025-03-13,2025-03
+CUST-00204,ClientCorp 0204 Ltda,SMB,Education & EdTech,RS,Sul,Paid Search (Google Ads),863.96,2025-03-09,2025-03
+CUST-00205,ClientCorp 0205 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Paid Search (Google Ads),821.2,2025-03-24,2025-03
+CUST-00206,ClientCorp 0206 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),369.82,2025-03-26,2025-03
+CUST-00207,ClientCorp 0207 Ltda,Enterprise,Fintech & Financial Services,SC,Sul,Organic Search (SEO),525.21,2025-03-17,2025-03
+CUST-00208,ClientCorp 0208 Ltda,SMB,Education & EdTech,PR,Sul,Paid Search (Google Ads),881.64,2025-03-04,2025-03
+CUST-00209,ClientCorp 0209 Ltda,SMB,Education & EdTech,RJ,Sudeste,Partner & Referral,365.85,2025-03-14,2025-03
+CUST-00210,ClientCorp 0210 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),862.3,2025-03-15,2025-03
+CUST-00211,ClientCorp 0211 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,302.04,2025-03-01,2025-03
+CUST-00212,ClientCorp 0212 Ltda,SMB,B2B SaaS & Software,PR,Sul,Outbound Sales (SDR/AE),1954.45,2025-03-21,2025-03
+CUST-00213,ClientCorp 0213 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Organic Search (SEO),434.98,2025-03-20,2025-03
+CUST-00214,ClientCorp 0214 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),333.97,2025-03-19,2025-03
+CUST-00215,ClientCorp 0215 Ltda,SMB,B2B SaaS & Software,PR,Sul,Paid Social (LinkedIn),1049.02,2025-03-27,2025-03
+CUST-00216,ClientCorp 0216 Ltda,Enterprise,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1326.97,2025-03-18,2025-03
+CUST-00217,ClientCorp 0217 Ltda,SMB,Education & EdTech,RS,Sul,Partner & Referral,340.78,2025-03-01,2025-03
+CUST-00218,ClientCorp 0218 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),991.24,2025-03-04,2025-03
+CUST-00219,ClientCorp 0219 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),748.52,2025-03-03,2025-03
+CUST-00220,ClientCorp 0220 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),365.35,2025-03-10,2025-03
+CUST-00221,ClientCorp 0221 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),974.19,2025-03-05,2025-03
+CUST-00222,ClientCorp 0222 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Social (LinkedIn),1018.96,2025-03-18,2025-03
+CUST-00223,ClientCorp 0223 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Organic Search (SEO),367.66,2025-03-10,2025-03
+CUST-00224,ClientCorp 0224 Ltda,Mid-Market,Agribusiness & FoodTech,DF,Centro-Oeste,Paid Search (Google Ads),945.15,2025-03-26,2025-03
+CUST-00225,ClientCorp 0225 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),361.86,2025-03-11,2025-03
+CUST-00226,ClientCorp 0226 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),359.98,2025-03-14,2025-03
+CUST-00227,ClientCorp 0227 Ltda,Mid-Market,B2B SaaS & Software,SC,Sul,Organic Search (SEO),442.41,2025-03-01,2025-03
+CUST-00228,ClientCorp 0228 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),628.27,2025-03-22,2025-03
+CUST-00229,ClientCorp 0229 Ltda,SMB,Education & EdTech,SP,Sudeste,Organic Search (SEO),403.13,2025-03-18,2025-03
+CUST-00230,ClientCorp 0230 Ltda,Enterprise,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),1384.28,2025-03-03,2025-03
+CUST-00231,ClientCorp 0231 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),1106.0,2025-03-17,2025-03
+CUST-00232,ClientCorp 0232 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),825.38,2025-03-27,2025-03
+CUST-00233,ClientCorp 0233 Ltda,Mid-Market,B2B SaaS & Software,SC,Sul,Paid Search (Google Ads),1113.32,2025-03-12,2025-03
+CUST-00234,ClientCorp 0234 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),384.69,2025-04-25,2025-04
+CUST-00235,ClientCorp 0235 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Paid Search (Google Ads),778.03,2025-04-23,2025-04
+CUST-00236,ClientCorp 0236 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),325.97,2025-04-17,2025-04
+CUST-00237,ClientCorp 0237 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),1103.82,2025-04-10,2025-04
+CUST-00238,ClientCorp 0238 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),967.51,2025-04-17,2025-04
+CUST-00239,ClientCorp 0239 Ltda,Mid-Market,B2B SaaS & Software,PR,Sul,Partner & Referral,391.28,2025-04-13,2025-04
+CUST-00240,ClientCorp 0240 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),396.81,2025-04-10,2025-04
+CUST-00241,ClientCorp 0241 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Paid Social (LinkedIn),1190.16,2025-04-27,2025-04
+CUST-00242,ClientCorp 0242 Ltda,SMB,Education & EdTech,PR,Sul,Paid Search (Google Ads),744.73,2025-04-13,2025-04
+CUST-00243,ClientCorp 0243 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Partner & Referral,298.89,2025-04-28,2025-04
+CUST-00244,ClientCorp 0244 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),1143.48,2025-04-05,2025-04
+CUST-00245,ClientCorp 0245 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),804.03,2025-04-14,2025-04
+CUST-00246,ClientCorp 0246 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Partner & Referral,304.81,2025-04-14,2025-04
+CUST-00247,ClientCorp 0247 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),865.7,2025-04-12,2025-04
+CUST-00248,ClientCorp 0248 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1397.79,2025-04-04,2025-04
+CUST-00249,ClientCorp 0249 Ltda,SMB,B2B SaaS & Software,PR,Sul,Paid Social (LinkedIn),1085.82,2025-04-04,2025-04
+CUST-00250,ClientCorp 0250 Ltda,Mid-Market,Healthtech & Clinics,PR,Sul,Organic Search (SEO),460.86,2025-04-03,2025-04
+CUST-00251,ClientCorp 0251 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),335.95,2025-04-12,2025-04
+CUST-00252,ClientCorp 0252 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),792.77,2025-04-15,2025-04
+CUST-00253,ClientCorp 0253 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),714.8,2025-04-17,2025-04
+CUST-00254,ClientCorp 0254 Ltda,SMB,Education & EdTech,PR,Sul,Outbound Sales (SDR/AE),1919.55,2025-04-05,2025-04
+CUST-00255,ClientCorp 0255 Ltda,Mid-Market,B2B SaaS & Software,RJ,Sudeste,Partner & Referral,392.34,2025-04-08,2025-04
+CUST-00256,ClientCorp 0256 Ltda,Mid-Market,Fintech & Financial Services,DF,Centro-Oeste,Paid Search (Google Ads),988.21,2025-04-03,2025-04
+CUST-00257,ClientCorp 0257 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1004.38,2025-04-10,2025-04
+CUST-00258,ClientCorp 0258 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Paid Search (Google Ads),784.18,2025-04-18,2025-04
+CUST-00259,ClientCorp 0259 Ltda,SMB,Fintech & Financial Services,RJ,Sudeste,Outbound Sales (SDR/AE),2033.91,2025-04-02,2025-04
+CUST-00260,ClientCorp 0260 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1012.84,2025-04-12,2025-04
+CUST-00261,ClientCorp 0261 Ltda,Enterprise,Healthtech & Clinics,PR,Sul,Paid Search (Google Ads),1452.43,2025-04-27,2025-04
+CUST-00262,ClientCorp 0262 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),1149.1,2025-04-07,2025-04
+CUST-00263,ClientCorp 0263 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),758.04,2025-04-07,2025-04
+CUST-00264,ClientCorp 0264 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),491.42,2025-04-11,2025-04
+CUST-00265,ClientCorp 0265 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),609.83,2025-04-15,2025-04
+CUST-00266,ClientCorp 0266 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),746.73,2025-04-10,2025-04
+CUST-00267,ClientCorp 0267 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),902.62,2025-04-21,2025-04
+CUST-00268,ClientCorp 0268 Ltda,Enterprise,Fintech & Financial Services,RJ,Sudeste,Outbound Sales (SDR/AE),3107.11,2025-04-21,2025-04
+CUST-00269,ClientCorp 0269 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),318.81,2025-04-20,2025-04
+CUST-00270,ClientCorp 0270 Ltda,Enterprise,Logistics & Supply Chain,PR,Sul,Organic Search (SEO),526.08,2025-04-24,2025-04
+CUST-00271,ClientCorp 0271 Ltda,Mid-Market,Agribusiness & FoodTech,MG,Sudeste,Outbound Sales (SDR/AE),2471.99,2025-04-19,2025-04
+CUST-00272,ClientCorp 0272 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),2342.95,2025-04-28,2025-04
+CUST-00273,ClientCorp 0273 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Paid Social (LinkedIn),1137.47,2025-04-20,2025-04
+CUST-00274,ClientCorp 0274 Ltda,Mid-Market,Education & EdTech,SC,Sul,Outbound Sales (SDR/AE),2255.29,2025-04-24,2025-04
+CUST-00275,ClientCorp 0275 Ltda,SMB,Healthtech & Clinics,PR,Sul,Organic Search (SEO),391.04,2025-04-24,2025-04
+CUST-00276,ClientCorp 0276 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),843.69,2025-04-16,2025-04
+CUST-00277,ClientCorp 0277 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2900.83,2025-04-21,2025-04
+CUST-00278,ClientCorp 0278 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),810.81,2025-04-04,2025-04
+CUST-00279,ClientCorp 0279 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),499.8,2025-04-16,2025-04
+CUST-00280,ClientCorp 0280 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Partner & Referral,353.88,2025-04-11,2025-04
+CUST-00281,ClientCorp 0281 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Partner & Referral,362.2,2025-04-08,2025-04
+CUST-00282,ClientCorp 0282 Ltda,SMB,Fintech & Financial Services,RS,Sul,Paid Search (Google Ads),857.41,2025-04-24,2025-04
+CUST-00283,ClientCorp 0283 Ltda,SMB,Education & EdTech,RJ,Sudeste,Organic Search (SEO),399.79,2025-04-20,2025-04
+CUST-00284,ClientCorp 0284 Ltda,SMB,Education & EdTech,MG,Sudeste,Organic Search (SEO),325.98,2025-04-12,2025-04
+CUST-00285,ClientCorp 0285 Ltda,SMB,Education & EdTech,DF,Centro-Oeste,Paid Search (Google Ads),810.95,2025-04-17,2025-04
+CUST-00286,ClientCorp 0286 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Paid Search (Google Ads),895.16,2025-04-04,2025-04
+CUST-00287,ClientCorp 0287 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,334.5,2025-04-17,2025-04
+CUST-00288,ClientCorp 0288 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Organic Search (SEO),357.06,2025-04-19,2025-04
+CUST-00289,ClientCorp 0289 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Search (Google Ads),842.6,2025-04-27,2025-04
+CUST-00290,ClientCorp 0290 Ltda,SMB,B2B SaaS & Software,RS,Sul,Paid Social (LinkedIn),1195.06,2025-04-08,2025-04
+CUST-00291,ClientCorp 0291 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1136.87,2025-04-20,2025-04
+CUST-00292,ClientCorp 0292 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),434.11,2025-04-24,2025-04
+CUST-00293,ClientCorp 0293 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),2276.87,2025-04-23,2025-04
+CUST-00294,ClientCorp 0294 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Paid Search (Google Ads),1064.09,2025-04-02,2025-04
+CUST-00295,ClientCorp 0295 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,385.74,2025-04-20,2025-04
+CUST-00296,ClientCorp 0296 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2547.77,2025-04-27,2025-04
+CUST-00297,ClientCorp 0297 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Paid Search (Google Ads),785.57,2025-04-23,2025-04
+CUST-00298,ClientCorp 0298 Ltda,SMB,Fintech & Financial Services,SC,Sul,Organic Search (SEO),359.72,2025-04-23,2025-04
+CUST-00299,ClientCorp 0299 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1197.11,2025-04-06,2025-04
+CUST-00300,ClientCorp 0300 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),503.04,2025-04-19,2025-04
+CUST-00301,ClientCorp 0301 Ltda,Mid-Market,Education & EdTech,RS,Sul,Paid Search (Google Ads),907.98,2025-04-18,2025-04
+CUST-00302,ClientCorp 0302 Ltda,Enterprise,Education & EdTech,RS,Sul,Paid Search (Google Ads),1146.98,2025-04-27,2025-04
+CUST-00303,ClientCorp 0303 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),3177.97,2025-04-12,2025-04
+CUST-00304,ClientCorp 0304 Ltda,Mid-Market,Logistics & Supply Chain,DF,Centro-Oeste,Organic Search (SEO),420.92,2025-04-28,2025-04
+CUST-00305,ClientCorp 0305 Ltda,SMB,B2B SaaS & Software,DF,Centro-Oeste,Organic Search (SEO),331.24,2025-04-07,2025-04
+CUST-00306,ClientCorp 0306 Ltda,Mid-Market,Agribusiness & FoodTech,PR,Sul,Outbound Sales (SDR/AE),2133.36,2025-04-21,2025-04
+CUST-00307,ClientCorp 0307 Ltda,Enterprise,Education & EdTech,PR,Sul,Outbound Sales (SDR/AE),3233.65,2025-04-18,2025-04
+CUST-00308,ClientCorp 0308 Ltda,Mid-Market,Fintech & Financial Services,MG,Sudeste,Partner & Referral,432.76,2025-04-03,2025-04
+CUST-00309,ClientCorp 0309 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,348.66,2025-04-19,2025-04
+CUST-00310,ClientCorp 0310 Ltda,Enterprise,Agribusiness & FoodTech,RS,Sul,Organic Search (SEO),592.46,2025-04-10,2025-04
+CUST-00311,ClientCorp 0311 Ltda,SMB,Logistics & Supply Chain,DF,Centro-Oeste,Paid Search (Google Ads),782.43,2025-04-12,2025-04
+CUST-00312,ClientCorp 0312 Ltda,SMB,Fintech & Financial Services,DF,Centro-Oeste,Organic Search (SEO),377.8,2025-04-07,2025-04
+CUST-00313,ClientCorp 0313 Ltda,SMB,Agribusiness & FoodTech,SC,Sul,Organic Search (SEO),384.17,2025-04-03,2025-04
+CUST-00314,ClientCorp 0314 Ltda,SMB,Logistics & Supply Chain,SC,Sul,Paid Social (LinkedIn),1166.17,2025-04-13,2025-04
+CUST-00315,ClientCorp 0315 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),315.36,2025-04-10,2025-04
+CUST-00316,ClientCorp 0316 Ltda,Mid-Market,Healthtech & Clinics,SC,Sul,Organic Search (SEO),399.04,2025-04-25,2025-04
+CUST-00317,ClientCorp 0317 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),955.13,2025-05-07,2025-05
+CUST-00318,ClientCorp 0318 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Partner & Referral,442.75,2025-05-02,2025-05
+CUST-00319,ClientCorp 0319 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1860.28,2025-05-22,2025-05
+CUST-00320,ClientCorp 0320 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Social (LinkedIn),1135.0,2025-05-20,2025-05
+CUST-00321,ClientCorp 0321 Ltda,Enterprise,E-Commerce & Retail Tech,RS,Sul,Organic Search (SEO),544.65,2025-05-07,2025-05
+CUST-00322,ClientCorp 0322 Ltda,SMB,Education & EdTech,SP,Sudeste,Organic Search (SEO),325.31,2025-05-05,2025-05
+CUST-00323,ClientCorp 0323 Ltda,Enterprise,Agribusiness & FoodTech,SC,Sul,Outbound Sales (SDR/AE),2915.81,2025-05-26,2025-05
+CUST-00324,ClientCorp 0324 Ltda,Mid-Market,Logistics & Supply Chain,PR,Sul,Paid Search (Google Ads),983.57,2025-05-14,2025-05
+CUST-00325,ClientCorp 0325 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2205.72,2025-05-13,2025-05
+CUST-00326,ClientCorp 0326 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),315.14,2025-05-20,2025-05
+CUST-00327,ClientCorp 0327 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2075.75,2025-05-02,2025-05
+CUST-00328,ClientCorp 0328 Ltda,SMB,Education & EdTech,RS,Sul,Paid Search (Google Ads),747.68,2025-05-13,2025-05
+CUST-00329,ClientCorp 0329 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Organic Search (SEO),493.48,2025-05-05,2025-05
+CUST-00330,ClientCorp 0330 Ltda,Mid-Market,Education & EdTech,MG,Sudeste,Organic Search (SEO),404.83,2025-05-05,2025-05
+CUST-00331,ClientCorp 0331 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),724.53,2025-05-03,2025-05
+CUST-00332,ClientCorp 0332 Ltda,Mid-Market,Healthtech & Clinics,SC,Sul,Outbound Sales (SDR/AE),2318.82,2025-05-12,2025-05
+CUST-00333,ClientCorp 0333 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1028.88,2025-05-13,2025-05
+CUST-00334,ClientCorp 0334 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1160.99,2025-05-10,2025-05
+CUST-00335,ClientCorp 0335 Ltda,SMB,Education & EdTech,SP,Sudeste,Partner & Referral,344.07,2025-05-15,2025-05
+CUST-00336,ClientCorp 0336 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Paid Social (LinkedIn),963.63,2025-05-19,2025-05
+CUST-00337,ClientCorp 0337 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),2252.55,2025-05-10,2025-05
+CUST-00338,ClientCorp 0338 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1034.48,2025-05-27,2025-05
+CUST-00339,ClientCorp 0339 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2861.85,2025-05-17,2025-05
+CUST-00340,ClientCorp 0340 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1041.01,2025-05-02,2025-05
+CUST-00341,ClientCorp 0341 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Partner & Referral,326.73,2025-05-05,2025-05
+CUST-00342,ClientCorp 0342 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Organic Search (SEO),417.34,2025-05-07,2025-05
+CUST-00343,ClientCorp 0343 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Paid Social (LinkedIn),1087.45,2025-05-11,2025-05
+CUST-00344,ClientCorp 0344 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),1101.65,2025-05-04,2025-05
+CUST-00345,ClientCorp 0345 Ltda,SMB,E-Commerce & Retail Tech,MG,Sudeste,Partner & Referral,334.46,2025-05-19,2025-05
+CUST-00346,ClientCorp 0346 Ltda,Enterprise,Agribusiness & FoodTech,RS,Sul,Paid Social (LinkedIn),1966.25,2025-05-01,2025-05
+CUST-00347,ClientCorp 0347 Ltda,Mid-Market,Fintech & Financial Services,PR,Sul,Organic Search (SEO),426.91,2025-05-06,2025-05
+CUST-00348,ClientCorp 0348 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2829.05,2025-05-13,2025-05
+CUST-00349,ClientCorp 0349 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),380.19,2025-05-26,2025-05
+CUST-00350,ClientCorp 0350 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1020.49,2025-05-09,2025-05
+CUST-00351,ClientCorp 0351 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),339.56,2025-05-27,2025-05
+CUST-00352,ClientCorp 0352 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),958.07,2025-05-18,2025-05
+CUST-00353,ClientCorp 0353 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),378.16,2025-05-07,2025-05
+CUST-00354,ClientCorp 0354 Ltda,Mid-Market,Healthtech & Clinics,RS,Sul,Outbound Sales (SDR/AE),2036.62,2025-05-27,2025-05
+CUST-00355,ClientCorp 0355 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),519.22,2025-05-17,2025-05
+CUST-00356,ClientCorp 0356 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),618.3,2025-05-13,2025-05
+CUST-00357,ClientCorp 0357 Ltda,SMB,Logistics & Supply Chain,DF,Centro-Oeste,Paid Search (Google Ads),770.99,2025-05-08,2025-05
+CUST-00358,ClientCorp 0358 Ltda,Enterprise,Healthtech & Clinics,SC,Sul,Outbound Sales (SDR/AE),2840.0,2025-05-17,2025-05
+CUST-00359,ClientCorp 0359 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Organic Search (SEO),443.16,2025-05-15,2025-05
+CUST-00360,ClientCorp 0360 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Partner & Referral,371.19,2025-05-04,2025-05
+CUST-00361,ClientCorp 0361 Ltda,SMB,E-Commerce & Retail Tech,PR,Sul,Paid Social (LinkedIn),1019.24,2025-05-04,2025-05
+CUST-00362,ClientCorp 0362 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Paid Social (LinkedIn),1143.38,2025-05-23,2025-05
+CUST-00363,ClientCorp 0363 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),735.35,2025-05-24,2025-05
+CUST-00364,ClientCorp 0364 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),335.44,2025-05-27,2025-05
+CUST-00365,ClientCorp 0365 Ltda,SMB,Education & EdTech,PR,Sul,Paid Social (LinkedIn),1093.03,2025-05-21,2025-05
+CUST-00366,ClientCorp 0366 Ltda,SMB,B2B SaaS & Software,SC,Sul,Organic Search (SEO),336.58,2025-05-18,2025-05
+CUST-00367,ClientCorp 0367 Ltda,Enterprise,Fintech & Financial Services,PR,Sul,Outbound Sales (SDR/AE),3125.89,2025-05-26,2025-05
+CUST-00368,ClientCorp 0368 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),836.4,2025-05-01,2025-05
+CUST-00369,ClientCorp 0369 Ltda,Enterprise,B2B SaaS & Software,SC,Sul,Partner & Referral,460.04,2025-05-09,2025-05
+CUST-00370,ClientCorp 0370 Ltda,SMB,Education & EdTech,SC,Sul,Paid Search (Google Ads),787.92,2025-05-24,2025-05
+CUST-00371,ClientCorp 0371 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),973.34,2025-05-18,2025-05
+CUST-00372,ClientCorp 0372 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Organic Search (SEO),372.72,2025-05-07,2025-05
+CUST-00373,ClientCorp 0373 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1098.13,2025-05-24,2025-05
+CUST-00374,ClientCorp 0374 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,290.41,2025-05-15,2025-05
+CUST-00375,ClientCorp 0375 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,288.89,2025-05-07,2025-05
+CUST-00376,ClientCorp 0376 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),871.76,2025-05-09,2025-05
+CUST-00377,ClientCorp 0377 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),1937.94,2025-05-20,2025-05
+CUST-00378,ClientCorp 0378 Ltda,Mid-Market,B2B SaaS & Software,MG,Sudeste,Partner & Referral,385.39,2025-05-04,2025-05
+CUST-00379,ClientCorp 0379 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2519.47,2025-05-21,2025-05
+CUST-00380,ClientCorp 0380 Ltda,Mid-Market,Education & EdTech,SC,Sul,Organic Search (SEO),448.68,2025-05-19,2025-05
+CUST-00381,ClientCorp 0381 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),725.96,2025-05-24,2025-05
+CUST-00382,ClientCorp 0382 Ltda,Enterprise,B2B SaaS & Software,DF,Centro-Oeste,Paid Social (LinkedIn),1791.02,2025-05-25,2025-05
+CUST-00383,ClientCorp 0383 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),1153.39,2025-05-22,2025-05
+CUST-00384,ClientCorp 0384 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Paid Search (Google Ads),915.02,2025-05-06,2025-05
+CUST-00385,ClientCorp 0385 Ltda,Mid-Market,Logistics & Supply Chain,DF,Centro-Oeste,Paid Search (Google Ads),893.64,2025-05-28,2025-05
+CUST-00386,ClientCorp 0386 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),433.18,2025-05-28,2025-05
+CUST-00387,ClientCorp 0387 Ltda,Enterprise,Agribusiness & FoodTech,MG,Sudeste,Paid Search (Google Ads),1451.73,2025-05-21,2025-05
+CUST-00388,ClientCorp 0388 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),841.53,2025-05-14,2025-05
+CUST-00389,ClientCorp 0389 Ltda,SMB,Logistics & Supply Chain,DF,Centro-Oeste,Paid Search (Google Ads),793.33,2025-05-05,2025-05
+CUST-00390,ClientCorp 0390 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),430.51,2025-05-08,2025-05
+CUST-00391,ClientCorp 0391 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),756.07,2025-05-06,2025-05
+CUST-00392,ClientCorp 0392 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),783.73,2025-05-06,2025-05
+CUST-00393,ClientCorp 0393 Ltda,SMB,Healthtech & Clinics,PR,Sul,Organic Search (SEO),400.72,2025-05-01,2025-05
+CUST-00394,ClientCorp 0394 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2153.51,2025-05-17,2025-05
+CUST-00395,ClientCorp 0395 Ltda,Mid-Market,Agribusiness & FoodTech,SC,Sul,Organic Search (SEO),423.04,2025-05-03,2025-05
+CUST-00396,ClientCorp 0396 Ltda,Mid-Market,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),891.57,2025-05-28,2025-05
+CUST-00397,ClientCorp 0397 Ltda,SMB,Education & EdTech,DF,Centro-Oeste,Paid Search (Google Ads),898.4,2025-05-07,2025-05
+CUST-00398,ClientCorp 0398 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),882.23,2025-05-05,2025-05
+CUST-00399,ClientCorp 0399 Ltda,Mid-Market,Education & EdTech,RJ,Sudeste,Outbound Sales (SDR/AE),2191.63,2025-05-07,2025-05
+CUST-00400,ClientCorp 0400 Ltda,Mid-Market,Healthtech & Clinics,RS,Sul,Organic Search (SEO),395.69,2025-05-27,2025-05
+CUST-00401,ClientCorp 0401 Ltda,SMB,Agribusiness & FoodTech,SC,Sul,Organic Search (SEO),352.23,2025-05-25,2025-05
+CUST-00402,ClientCorp 0402 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),793.48,2025-05-17,2025-05
+CUST-00403,ClientCorp 0403 Ltda,SMB,Healthtech & Clinics,RS,Sul,Partner & Referral,358.82,2025-06-25,2025-06
+CUST-00404,ClientCorp 0404 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,328.84,2025-06-04,2025-06
+CUST-00405,ClientCorp 0405 Ltda,Enterprise,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),2786.83,2025-06-03,2025-06
+CUST-00406,ClientCorp 0406 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Organic Search (SEO),381.62,2025-06-12,2025-06
+CUST-00407,ClientCorp 0407 Ltda,Mid-Market,B2B SaaS & Software,PR,Sul,Outbound Sales (SDR/AE),2004.02,2025-06-04,2025-06
+CUST-00408,ClientCorp 0408 Ltda,Mid-Market,Fintech & Financial Services,MG,Sudeste,Organic Search (SEO),392.36,2025-06-24,2025-06
+CUST-00409,ClientCorp 0409 Ltda,Enterprise,Logistics & Supply Chain,RS,Sul,Outbound Sales (SDR/AE),3120.12,2025-06-04,2025-06
+CUST-00410,ClientCorp 0410 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),364.33,2025-06-06,2025-06
+CUST-00411,ClientCorp 0411 Ltda,Enterprise,B2B SaaS & Software,SC,Sul,Outbound Sales (SDR/AE),3173.28,2025-06-03,2025-06
+CUST-00412,ClientCorp 0412 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Outbound Sales (SDR/AE),1850.95,2025-06-16,2025-06
+CUST-00413,ClientCorp 0413 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,362.22,2025-06-15,2025-06
+CUST-00414,ClientCorp 0414 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Outbound Sales (SDR/AE),2323.43,2025-06-26,2025-06
+CUST-00415,ClientCorp 0415 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,344.68,2025-06-01,2025-06
+CUST-00416,ClientCorp 0416 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Social (LinkedIn),1109.7,2025-06-25,2025-06
+CUST-00417,ClientCorp 0417 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),1417.61,2025-06-11,2025-06
+CUST-00418,ClientCorp 0418 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),1634.72,2025-06-16,2025-06
+CUST-00419,ClientCorp 0419 Ltda,Mid-Market,Education & EdTech,MG,Sudeste,Paid Search (Google Ads),1076.98,2025-06-08,2025-06
+CUST-00420,ClientCorp 0420 Ltda,Mid-Market,Education & EdTech,RS,Sul,Partner & Referral,431.04,2025-06-11,2025-06
+CUST-00421,ClientCorp 0421 Ltda,Enterprise,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1301.02,2025-06-13,2025-06
+CUST-00422,ClientCorp 0422 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),358.59,2025-06-08,2025-06
+CUST-00423,ClientCorp 0423 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),908.89,2025-06-05,2025-06
+CUST-00424,ClientCorp 0424 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Partner & Referral,305.65,2025-06-23,2025-06
+CUST-00425,ClientCorp 0425 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Organic Search (SEO),395.75,2025-06-23,2025-06
+CUST-00426,ClientCorp 0426 Ltda,Enterprise,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),1288.44,2025-06-09,2025-06
+CUST-00427,ClientCorp 0427 Ltda,SMB,Fintech & Financial Services,SC,Sul,Organic Search (SEO),365.86,2025-06-07,2025-06
+CUST-00428,ClientCorp 0428 Ltda,SMB,B2B SaaS & Software,RS,Sul,Organic Search (SEO),365.96,2025-06-26,2025-06
+CUST-00429,ClientCorp 0429 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),869.14,2025-06-26,2025-06
+CUST-00430,ClientCorp 0430 Ltda,Mid-Market,Fintech & Financial Services,SC,Sul,Paid Search (Google Ads),1089.32,2025-06-11,2025-06
+CUST-00431,ClientCorp 0431 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Outbound Sales (SDR/AE),2308.39,2025-06-10,2025-06
+CUST-00432,ClientCorp 0432 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Outbound Sales (SDR/AE),1941.54,2025-06-12,2025-06
+CUST-00433,ClientCorp 0433 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Organic Search (SEO),398.62,2025-06-23,2025-06
+CUST-00434,ClientCorp 0434 Ltda,Mid-Market,Fintech & Financial Services,DF,Centro-Oeste,Organic Search (SEO),433.86,2025-06-23,2025-06
+CUST-00435,ClientCorp 0435 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1457.49,2025-06-18,2025-06
+CUST-00436,ClientCorp 0436 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Social (LinkedIn),1158.67,2025-06-23,2025-06
+CUST-00437,ClientCorp 0437 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Paid Search (Google Ads),757.16,2025-06-06,2025-06
+CUST-00438,ClientCorp 0438 Ltda,Enterprise,Agribusiness & FoodTech,RS,Sul,Organic Search (SEO),542.88,2025-06-05,2025-06
+CUST-00439,ClientCorp 0439 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Organic Search (SEO),405.71,2025-06-01,2025-06
+CUST-00440,ClientCorp 0440 Ltda,Mid-Market,Education & EdTech,RJ,Sudeste,Paid Search (Google Ads),880.54,2025-06-28,2025-06
+CUST-00441,ClientCorp 0441 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1422.57,2025-06-09,2025-06
+CUST-00442,ClientCorp 0442 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Partner & Referral,356.26,2025-06-12,2025-06
+CUST-00443,ClientCorp 0443 Ltda,Enterprise,E-Commerce & Retail Tech,MG,Sudeste,Outbound Sales (SDR/AE),2825.25,2025-06-25,2025-06
+CUST-00444,ClientCorp 0444 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),431.07,2025-06-08,2025-06
+CUST-00445,ClientCorp 0445 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),490.4,2025-06-27,2025-06
+CUST-00446,ClientCorp 0446 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Organic Search (SEO),433.4,2025-06-08,2025-06
+CUST-00447,ClientCorp 0447 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Paid Search (Google Ads),854.71,2025-06-19,2025-06
+CUST-00448,ClientCorp 0448 Ltda,Mid-Market,Fintech & Financial Services,PR,Sul,Outbound Sales (SDR/AE),2289.91,2025-06-23,2025-06
+CUST-00449,ClientCorp 0449 Ltda,Enterprise,E-Commerce & Retail Tech,DF,Centro-Oeste,Organic Search (SEO),521.88,2025-06-09,2025-06
+CUST-00450,ClientCorp 0450 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),491.1,2025-06-25,2025-06
+CUST-00451,ClientCorp 0451 Ltda,SMB,B2B SaaS & Software,DF,Centro-Oeste,Partner & Referral,328.82,2025-06-04,2025-06
+CUST-00452,ClientCorp 0452 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),874.11,2025-06-26,2025-06
+CUST-00453,ClientCorp 0453 Ltda,Mid-Market,Fintech & Financial Services,MG,Sudeste,Outbound Sales (SDR/AE),2485.6,2025-06-21,2025-06
+CUST-00454,ClientCorp 0454 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),717.89,2025-06-23,2025-06
+CUST-00455,ClientCorp 0455 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),3002.95,2025-06-17,2025-06
+CUST-00456,ClientCorp 0456 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),1324.84,2025-06-04,2025-06
+CUST-00457,ClientCorp 0457 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),863.84,2025-06-15,2025-06
+CUST-00458,ClientCorp 0458 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1049.07,2025-06-07,2025-06
+CUST-00459,ClientCorp 0459 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),1932.45,2025-06-24,2025-06
+CUST-00460,ClientCorp 0460 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Outbound Sales (SDR/AE),2188.49,2025-06-24,2025-06
+CUST-00461,ClientCorp 0461 Ltda,Mid-Market,E-Commerce & Retail Tech,RS,Sul,Paid Social (LinkedIn),1330.61,2025-06-03,2025-06
+CUST-00462,ClientCorp 0462 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Paid Social (LinkedIn),1157.56,2025-06-09,2025-06
+CUST-00463,ClientCorp 0463 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),629.93,2025-06-11,2025-06
+CUST-00464,ClientCorp 0464 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),810.02,2025-06-12,2025-06
+CUST-00465,ClientCorp 0465 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),329.82,2025-06-06,2025-06
+CUST-00466,ClientCorp 0466 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,329.15,2025-06-16,2025-06
+CUST-00467,ClientCorp 0467 Ltda,Mid-Market,Healthtech & Clinics,RS,Sul,Paid Search (Google Ads),1062.19,2025-06-01,2025-06
+CUST-00468,ClientCorp 0468 Ltda,SMB,Healthtech & Clinics,PR,Sul,Paid Search (Google Ads),840.03,2025-06-15,2025-06
+CUST-00469,ClientCorp 0469 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),1099.11,2025-06-20,2025-06
+CUST-00470,ClientCorp 0470 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Partner & Referral,306.88,2025-06-14,2025-06
+CUST-00471,ClientCorp 0471 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Partner & Referral,404.92,2025-06-07,2025-06
+CUST-00472,ClientCorp 0472 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),852.85,2025-06-16,2025-06
+CUST-00473,ClientCorp 0473 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Organic Search (SEO),375.73,2025-06-23,2025-06
+CUST-00474,ClientCorp 0474 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),1073.16,2025-06-02,2025-06
+CUST-00475,ClientCorp 0475 Ltda,SMB,Fintech & Financial Services,RS,Sul,Paid Search (Google Ads),738.83,2025-06-13,2025-06
+CUST-00476,ClientCorp 0476 Ltda,SMB,Education & EdTech,MG,Sudeste,Organic Search (SEO),359.42,2025-06-08,2025-06
+CUST-00477,ClientCorp 0477 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1239.82,2025-06-26,2025-06
+CUST-00478,ClientCorp 0478 Ltda,Mid-Market,Healthtech & Clinics,MG,Sudeste,Organic Search (SEO),494.84,2025-06-06,2025-06
+CUST-00479,ClientCorp 0479 Ltda,Mid-Market,Agribusiness & FoodTech,MG,Sudeste,Paid Search (Google Ads),1130.93,2025-06-03,2025-06
+CUST-00480,ClientCorp 0480 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),389.43,2025-06-19,2025-06
+CUST-00481,ClientCorp 0481 Ltda,SMB,E-Commerce & Retail Tech,PR,Sul,Paid Search (Google Ads),843.85,2025-06-07,2025-06
+CUST-00482,ClientCorp 0482 Ltda,SMB,Education & EdTech,SP,Sudeste,Organic Search (SEO),368.14,2025-06-08,2025-06
+CUST-00483,ClientCorp 0483 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2370.88,2025-06-25,2025-06
+CUST-00484,ClientCorp 0484 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),484.07,2025-06-22,2025-06
+CUST-00485,ClientCorp 0485 Ltda,SMB,Fintech & Financial Services,PR,Sul,Organic Search (SEO),370.94,2025-06-18,2025-06
+CUST-00486,ClientCorp 0486 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2102.06,2025-06-06,2025-06
+CUST-00487,ClientCorp 0487 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Partner & Referral,570.54,2025-06-22,2025-06
+CUST-00488,ClientCorp 0488 Ltda,SMB,Education & EdTech,MG,Sudeste,Paid Social (LinkedIn),1092.34,2025-06-23,2025-06
+CUST-00489,ClientCorp 0489 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),465.54,2025-06-23,2025-06
+CUST-00490,ClientCorp 0490 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Outbound Sales (SDR/AE),2081.93,2025-06-03,2025-06
+CUST-00491,ClientCorp 0491 Ltda,Mid-Market,Agribusiness & FoodTech,RJ,Sudeste,Outbound Sales (SDR/AE),2321.74,2025-07-13,2025-07
+CUST-00492,ClientCorp 0492 Ltda,Enterprise,Healthtech & Clinics,SC,Sul,Outbound Sales (SDR/AE),2643.45,2025-07-02,2025-07
+CUST-00493,ClientCorp 0493 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),2634.18,2025-07-12,2025-07
+CUST-00494,ClientCorp 0494 Ltda,SMB,Education & EdTech,RJ,Sudeste,Organic Search (SEO),341.47,2025-07-15,2025-07
+CUST-00495,ClientCorp 0495 Ltda,Mid-Market,Logistics & Supply Chain,DF,Centro-Oeste,Organic Search (SEO),464.36,2025-07-14,2025-07
+CUST-00496,ClientCorp 0496 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),978.63,2025-07-18,2025-07
+CUST-00497,ClientCorp 0497 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1627.04,2025-07-25,2025-07
+CUST-00498,ClientCorp 0498 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),373.26,2025-07-12,2025-07
+CUST-00499,ClientCorp 0499 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),1713.8,2025-07-04,2025-07
+CUST-00500,ClientCorp 0500 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Organic Search (SEO),391.36,2025-07-07,2025-07
+CUST-00501,ClientCorp 0501 Ltda,Mid-Market,Agribusiness & FoodTech,SC,Sul,Outbound Sales (SDR/AE),2140.38,2025-07-11,2025-07
+CUST-00502,ClientCorp 0502 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1476.03,2025-07-20,2025-07
+CUST-00503,ClientCorp 0503 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Partner & Referral,356.45,2025-07-03,2025-07
+CUST-00504,ClientCorp 0504 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),321.57,2025-07-11,2025-07
+CUST-00505,ClientCorp 0505 Ltda,SMB,Agribusiness & FoodTech,PR,Sul,Paid Search (Google Ads),886.15,2025-07-11,2025-07
+CUST-00506,ClientCorp 0506 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),773.45,2025-07-23,2025-07
+CUST-00507,ClientCorp 0507 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Partner & Referral,304.93,2025-07-21,2025-07
+CUST-00508,ClientCorp 0508 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Paid Social (LinkedIn),1029.98,2025-07-27,2025-07
+CUST-00509,ClientCorp 0509 Ltda,SMB,Education & EdTech,SC,Sul,Organic Search (SEO),372.99,2025-07-22,2025-07
+CUST-00510,ClientCorp 0510 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),859.02,2025-07-27,2025-07
+CUST-00511,ClientCorp 0511 Ltda,Mid-Market,Education & EdTech,PR,Sul,Paid Social (LinkedIn),1277.41,2025-07-24,2025-07
+CUST-00512,ClientCorp 0512 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),737.41,2025-07-05,2025-07
+CUST-00513,ClientCorp 0513 Ltda,Enterprise,Agribusiness & FoodTech,MG,Sudeste,Partner & Referral,511.49,2025-07-05,2025-07
+CUST-00514,ClientCorp 0514 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),500.79,2025-07-28,2025-07
+CUST-00515,ClientCorp 0515 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1265.34,2025-07-26,2025-07
+CUST-00516,ClientCorp 0516 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Organic Search (SEO),400.6,2025-07-18,2025-07
+CUST-00517,ClientCorp 0517 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),1226.35,2025-07-26,2025-07
+CUST-00518,ClientCorp 0518 Ltda,Enterprise,Fintech & Financial Services,RJ,Sudeste,Organic Search (SEO),587.81,2025-07-10,2025-07
+CUST-00519,ClientCorp 0519 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),901.3,2025-07-17,2025-07
+CUST-00520,ClientCorp 0520 Ltda,Enterprise,B2B SaaS & Software,SP,Sudeste,Partner & Referral,534.85,2025-07-27,2025-07
+CUST-00521,ClientCorp 0521 Ltda,SMB,Education & EdTech,SC,Sul,Paid Search (Google Ads),723.4,2025-07-01,2025-07
+CUST-00522,ClientCorp 0522 Ltda,Mid-Market,B2B SaaS & Software,MG,Sudeste,Paid Social (LinkedIn),1384.41,2025-07-15,2025-07
+CUST-00523,ClientCorp 0523 Ltda,SMB,B2B SaaS & Software,SC,Sul,Organic Search (SEO),343.71,2025-07-22,2025-07
+CUST-00524,ClientCorp 0524 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),373.93,2025-07-01,2025-07
+CUST-00525,ClientCorp 0525 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),897.6,2025-07-05,2025-07
+CUST-00526,ClientCorp 0526 Ltda,Enterprise,Healthtech & Clinics,RJ,Sudeste,Partner & Referral,466.94,2025-07-14,2025-07
+CUST-00527,ClientCorp 0527 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Organic Search (SEO),398.35,2025-07-01,2025-07
+CUST-00528,ClientCorp 0528 Ltda,Mid-Market,Education & EdTech,PR,Sul,Paid Social (LinkedIn),1316.15,2025-07-02,2025-07
+CUST-00529,ClientCorp 0529 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Paid Social (LinkedIn),1169.45,2025-07-05,2025-07
+CUST-00530,ClientCorp 0530 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),786.52,2025-07-02,2025-07
+CUST-00531,ClientCorp 0531 Ltda,SMB,E-Commerce & Retail Tech,MG,Sudeste,Paid Search (Google Ads),794.51,2025-07-23,2025-07
+CUST-00532,ClientCorp 0532 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2495.0,2025-07-01,2025-07
+CUST-00533,ClientCorp 0533 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Partner & Referral,368.18,2025-07-07,2025-07
+CUST-00534,ClientCorp 0534 Ltda,SMB,Healthtech & Clinics,DF,Centro-Oeste,Paid Social (LinkedIn),1131.93,2025-07-25,2025-07
+CUST-00535,ClientCorp 0535 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),376.91,2025-07-27,2025-07
+CUST-00536,ClientCorp 0536 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),395.68,2025-07-18,2025-07
+CUST-00537,ClientCorp 0537 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Partner & Referral,353.46,2025-07-13,2025-07
+CUST-00538,ClientCorp 0538 Ltda,Mid-Market,Education & EdTech,SC,Sul,Partner & Referral,358.66,2025-07-16,2025-07
+CUST-00539,ClientCorp 0539 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,361.59,2025-07-03,2025-07
+CUST-00540,ClientCorp 0540 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Partner & Referral,376.72,2025-07-11,2025-07
+CUST-00541,ClientCorp 0541 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),430.48,2025-07-09,2025-07
+CUST-00542,ClientCorp 0542 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),384.21,2025-07-16,2025-07
+CUST-00543,ClientCorp 0543 Ltda,Enterprise,E-Commerce & Retail Tech,SC,Sul,Paid Search (Google Ads),1406.67,2025-07-02,2025-07
+CUST-00544,ClientCorp 0544 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Paid Search (Google Ads),754.32,2025-07-18,2025-07
+CUST-00545,ClientCorp 0545 Ltda,Mid-Market,B2B SaaS & Software,DF,Centro-Oeste,Partner & Referral,400.32,2025-07-19,2025-07
+CUST-00546,ClientCorp 0546 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),965.72,2025-07-09,2025-07
+CUST-00547,ClientCorp 0547 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Organic Search (SEO),364.58,2025-07-04,2025-07
+CUST-00548,ClientCorp 0548 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),805.2,2025-07-25,2025-07
+CUST-00549,ClientCorp 0549 Ltda,Mid-Market,Healthtech & Clinics,DF,Centro-Oeste,Paid Social (LinkedIn),1255.64,2025-07-14,2025-07
+CUST-00550,ClientCorp 0550 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Outbound Sales (SDR/AE),2079.34,2025-07-25,2025-07
+CUST-00551,ClientCorp 0551 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2283.4,2025-07-18,2025-07
+CUST-00552,ClientCorp 0552 Ltda,Enterprise,B2B SaaS & Software,RS,Sul,Organic Search (SEO),526.41,2025-07-03,2025-07
+CUST-00553,ClientCorp 0553 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),317.26,2025-07-28,2025-07
+CUST-00554,ClientCorp 0554 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Organic Search (SEO),433.12,2025-07-28,2025-07
+CUST-00555,ClientCorp 0555 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2056.81,2025-07-28,2025-07
+CUST-00556,ClientCorp 0556 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),343.66,2025-07-09,2025-07
+CUST-00557,ClientCorp 0557 Ltda,Enterprise,B2B SaaS & Software,RS,Sul,Paid Search (Google Ads),1437.93,2025-07-01,2025-07
+CUST-00558,ClientCorp 0558 Ltda,Enterprise,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),3180.21,2025-07-18,2025-07
+CUST-00559,ClientCorp 0559 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1049.93,2025-07-21,2025-07
+CUST-00560,ClientCorp 0560 Ltda,SMB,Education & EdTech,SP,Sudeste,Organic Search (SEO),391.02,2025-07-02,2025-07
+CUST-00561,ClientCorp 0561 Ltda,SMB,Fintech & Financial Services,PR,Sul,Organic Search (SEO),336.96,2025-07-25,2025-07
+CUST-00562,ClientCorp 0562 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),885.06,2025-07-02,2025-07
+CUST-00563,ClientCorp 0563 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Organic Search (SEO),334.85,2025-07-04,2025-07
+CUST-00564,ClientCorp 0564 Ltda,Mid-Market,Logistics & Supply Chain,PR,Sul,Paid Social (LinkedIn),1255.55,2025-07-09,2025-07
+CUST-00565,ClientCorp 0565 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),728.77,2025-07-28,2025-07
+CUST-00566,ClientCorp 0566 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Paid Search (Google Ads),739.32,2025-07-18,2025-07
+CUST-00567,ClientCorp 0567 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Outbound Sales (SDR/AE),2015.9,2025-07-16,2025-07
+CUST-00568,ClientCorp 0568 Ltda,SMB,Agribusiness & FoodTech,MG,Sudeste,Paid Social (LinkedIn),1062.89,2025-07-17,2025-07
+CUST-00569,ClientCorp 0569 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2377.43,2025-07-01,2025-07
+CUST-00570,ClientCorp 0570 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,423.36,2025-07-23,2025-07
+CUST-00571,ClientCorp 0571 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),351.49,2025-07-06,2025-07
+CUST-00572,ClientCorp 0572 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1031.67,2025-07-13,2025-07
+CUST-00573,ClientCorp 0573 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Partner & Referral,328.79,2025-07-09,2025-07
+CUST-00574,ClientCorp 0574 Ltda,Enterprise,Fintech & Financial Services,SC,Sul,Outbound Sales (SDR/AE),3045.09,2025-07-09,2025-07
+CUST-00575,ClientCorp 0575 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),374.61,2025-07-25,2025-07
+CUST-00576,ClientCorp 0576 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),363.39,2025-07-27,2025-07
+CUST-00577,ClientCorp 0577 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),617.35,2025-07-13,2025-07
+CUST-00578,ClientCorp 0578 Ltda,Mid-Market,Agribusiness & FoodTech,RS,Sul,Outbound Sales (SDR/AE),2344.67,2025-07-21,2025-07
+CUST-00579,ClientCorp 0579 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Organic Search (SEO),337.25,2025-07-12,2025-07
+CUST-00580,ClientCorp 0580 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),402.85,2025-07-13,2025-07
+CUST-00581,ClientCorp 0581 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Paid Search (Google Ads),801.68,2025-07-10,2025-07
+CUST-00582,ClientCorp 0582 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,366.21,2025-08-20,2025-08
+CUST-00583,ClientCorp 0583 Ltda,Enterprise,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),3019.77,2025-08-24,2025-08
+CUST-00584,ClientCorp 0584 Ltda,Mid-Market,Agribusiness & FoodTech,PR,Sul,Outbound Sales (SDR/AE),2066.09,2025-08-01,2025-08
+CUST-00585,ClientCorp 0585 Ltda,SMB,B2B SaaS & Software,DF,Centro-Oeste,Paid Social (LinkedIn),1070.78,2025-08-19,2025-08
+CUST-00586,ClientCorp 0586 Ltda,SMB,E-Commerce & Retail Tech,MG,Sudeste,Partner & Referral,284.47,2025-08-20,2025-08
+CUST-00587,ClientCorp 0587 Ltda,Mid-Market,Education & EdTech,MG,Sudeste,Outbound Sales (SDR/AE),1994.07,2025-08-16,2025-08
+CUST-00588,ClientCorp 0588 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),342.98,2025-08-28,2025-08
+CUST-00589,ClientCorp 0589 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),842.84,2025-08-23,2025-08
+CUST-00590,ClientCorp 0590 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),764.3,2025-08-20,2025-08
+CUST-00591,ClientCorp 0591 Ltda,SMB,Healthtech & Clinics,RS,Sul,Partner & Referral,351.49,2025-08-13,2025-08
+CUST-00592,ClientCorp 0592 Ltda,SMB,Fintech & Financial Services,SC,Sul,Organic Search (SEO),405.56,2025-08-25,2025-08
+CUST-00593,ClientCorp 0593 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),328.77,2025-08-23,2025-08
+CUST-00594,ClientCorp 0594 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Partner & Referral,367.58,2025-08-02,2025-08
+CUST-00595,ClientCorp 0595 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),2096.05,2025-08-04,2025-08
+CUST-00596,ClientCorp 0596 Ltda,Mid-Market,Fintech & Financial Services,DF,Centro-Oeste,Paid Search (Google Ads),1053.87,2025-08-22,2025-08
+CUST-00597,ClientCorp 0597 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2844.26,2025-08-24,2025-08
+CUST-00598,ClientCorp 0598 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),1993.03,2025-08-07,2025-08
+CUST-00599,ClientCorp 0599 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Paid Social (LinkedIn),995.08,2025-08-15,2025-08
+CUST-00600,ClientCorp 0600 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),412.31,2025-08-27,2025-08
+CUST-00601,ClientCorp 0601 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,300.76,2025-08-26,2025-08
+CUST-00602,ClientCorp 0602 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),469.45,2025-08-09,2025-08
+CUST-00603,ClientCorp 0603 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2100.94,2025-08-11,2025-08
+CUST-00604,ClientCorp 0604 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),331.76,2025-08-27,2025-08
+CUST-00605,ClientCorp 0605 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2351.65,2025-08-23,2025-08
+CUST-00606,ClientCorp 0606 Ltda,SMB,E-Commerce & Retail Tech,PR,Sul,Paid Search (Google Ads),772.19,2025-08-07,2025-08
+CUST-00607,ClientCorp 0607 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),483.52,2025-08-26,2025-08
+CUST-00608,ClientCorp 0608 Ltda,SMB,Fintech & Financial Services,RJ,Sudeste,Partner & Referral,351.22,2025-08-11,2025-08
+CUST-00609,ClientCorp 0609 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),358.09,2025-08-25,2025-08
+CUST-00610,ClientCorp 0610 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),343.4,2025-08-16,2025-08
+CUST-00611,ClientCorp 0611 Ltda,Mid-Market,Education & EdTech,MG,Sudeste,Paid Search (Google Ads),914.87,2025-08-14,2025-08
+CUST-00612,ClientCorp 0612 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),382.97,2025-08-06,2025-08
+CUST-00613,ClientCorp 0613 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),463.44,2025-08-28,2025-08
+CUST-00614,ClientCorp 0614 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Paid Search (Google Ads),853.0,2025-08-08,2025-08
+CUST-00615,ClientCorp 0615 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2197.01,2025-08-16,2025-08
+CUST-00616,ClientCorp 0616 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1396.45,2025-08-10,2025-08
+CUST-00617,ClientCorp 0617 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Partner & Referral,355.85,2025-08-20,2025-08
+CUST-00618,ClientCorp 0618 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Paid Search (Google Ads),912.79,2025-08-09,2025-08
+CUST-00619,ClientCorp 0619 Ltda,Enterprise,Agribusiness & FoodTech,MG,Sudeste,Outbound Sales (SDR/AE),2588.28,2025-08-22,2025-08
+CUST-00620,ClientCorp 0620 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),449.15,2025-08-15,2025-08
+CUST-00621,ClientCorp 0621 Ltda,Mid-Market,Agribusiness & FoodTech,SC,Sul,Paid Search (Google Ads),1120.96,2025-08-04,2025-08
+CUST-00622,ClientCorp 0622 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Organic Search (SEO),373.77,2025-08-22,2025-08
+CUST-00623,ClientCorp 0623 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),2541.76,2025-08-01,2025-08
+CUST-00624,ClientCorp 0624 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Outbound Sales (SDR/AE),1757.34,2025-08-19,2025-08
+CUST-00625,ClientCorp 0625 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),796.89,2025-08-17,2025-08
+CUST-00626,ClientCorp 0626 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,361.32,2025-08-25,2025-08
+CUST-00627,ClientCorp 0627 Ltda,Mid-Market,E-Commerce & Retail Tech,SC,Sul,Paid Search (Google Ads),889.27,2025-08-16,2025-08
+CUST-00628,ClientCorp 0628 Ltda,Enterprise,Logistics & Supply Chain,PR,Sul,Outbound Sales (SDR/AE),2578.9,2025-08-05,2025-08
+CUST-00629,ClientCorp 0629 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),449.51,2025-08-15,2025-08
+CUST-00630,ClientCorp 0630 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Search (Google Ads),902.7,2025-08-08,2025-08
+CUST-00631,ClientCorp 0631 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),754.35,2025-08-02,2025-08
+CUST-00632,ClientCorp 0632 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),392.74,2025-08-23,2025-08
+CUST-00633,ClientCorp 0633 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Social (LinkedIn),1225.7,2025-08-06,2025-08
+CUST-00634,ClientCorp 0634 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),910.32,2025-08-13,2025-08
+CUST-00635,ClientCorp 0635 Ltda,Mid-Market,Logistics & Supply Chain,DF,Centro-Oeste,Organic Search (SEO),397.02,2025-08-05,2025-08
+CUST-00636,ClientCorp 0636 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),805.57,2025-08-03,2025-08
+CUST-00637,ClientCorp 0637 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),477.78,2025-08-12,2025-08
+CUST-00638,ClientCorp 0638 Ltda,Enterprise,Education & EdTech,RS,Sul,Outbound Sales (SDR/AE),3142.44,2025-08-22,2025-08
+CUST-00639,ClientCorp 0639 Ltda,SMB,B2B SaaS & Software,PR,Sul,Paid Search (Google Ads),819.16,2025-08-19,2025-08
+CUST-00640,ClientCorp 0640 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),411.71,2025-08-03,2025-08
+CUST-00641,ClientCorp 0641 Ltda,SMB,Education & EdTech,SC,Sul,Outbound Sales (SDR/AE),1702.24,2025-08-26,2025-08
+CUST-00642,ClientCorp 0642 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),317.56,2025-08-11,2025-08
+CUST-00643,ClientCorp 0643 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),391.24,2025-08-22,2025-08
+CUST-00644,ClientCorp 0644 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2161.75,2025-08-26,2025-08
+CUST-00645,ClientCorp 0645 Ltda,Mid-Market,B2B SaaS & Software,PR,Sul,Organic Search (SEO),416.46,2025-08-25,2025-08
+CUST-00646,ClientCorp 0646 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),1783.88,2025-08-08,2025-08
+CUST-00647,ClientCorp 0647 Ltda,Mid-Market,Logistics & Supply Chain,PR,Sul,Organic Search (SEO),460.75,2025-08-25,2025-08
+CUST-00648,ClientCorp 0648 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1112.61,2025-08-17,2025-08
+CUST-00649,ClientCorp 0649 Ltda,Mid-Market,Agribusiness & FoodTech,MG,Sudeste,Paid Search (Google Ads),885.38,2025-08-01,2025-08
+CUST-00650,ClientCorp 0650 Ltda,SMB,B2B SaaS & Software,PR,Sul,Paid Search (Google Ads),791.77,2025-08-09,2025-08
+CUST-00651,ClientCorp 0651 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Organic Search (SEO),494.8,2025-08-28,2025-08
+CUST-00652,ClientCorp 0652 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2547.68,2025-08-04,2025-08
+CUST-00653,ClientCorp 0653 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2306.78,2025-08-23,2025-08
+CUST-00654,ClientCorp 0654 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Organic Search (SEO),494.24,2025-08-13,2025-08
+CUST-00655,ClientCorp 0655 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Outbound Sales (SDR/AE),2531.37,2025-08-04,2025-08
+CUST-00656,ClientCorp 0656 Ltda,Enterprise,Education & EdTech,RJ,Sudeste,Organic Search (SEO),541.61,2025-08-04,2025-08
+CUST-00657,ClientCorp 0657 Ltda,Mid-Market,Agribusiness & FoodTech,DF,Centro-Oeste,Outbound Sales (SDR/AE),2058.27,2025-08-19,2025-08
+CUST-00658,ClientCorp 0658 Ltda,Mid-Market,Fintech & Financial Services,PR,Sul,Organic Search (SEO),460.66,2025-08-10,2025-08
+CUST-00659,ClientCorp 0659 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,301.73,2025-08-12,2025-08
+CUST-00660,ClientCorp 0660 Ltda,SMB,Healthtech & Clinics,DF,Centro-Oeste,Organic Search (SEO),334.81,2025-08-27,2025-08
+CUST-00661,ClientCorp 0661 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),381.0,2025-08-04,2025-08
+CUST-00662,ClientCorp 0662 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),907.74,2025-08-08,2025-08
+CUST-00663,ClientCorp 0663 Ltda,SMB,B2B SaaS & Software,PR,Sul,Outbound Sales (SDR/AE),1668.84,2025-08-18,2025-08
+CUST-00664,ClientCorp 0664 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),1044.19,2025-08-22,2025-08
+CUST-00665,ClientCorp 0665 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Paid Social (LinkedIn),1187.52,2025-08-27,2025-08
+CUST-00666,ClientCorp 0666 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2214.63,2025-08-14,2025-08
+CUST-00667,ClientCorp 0667 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),2160.2,2025-08-10,2025-08
+CUST-00668,ClientCorp 0668 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),1241.32,2025-08-15,2025-08
+CUST-00669,ClientCorp 0669 Ltda,SMB,Education & EdTech,RJ,Sudeste,Partner & Referral,316.73,2025-08-02,2025-08
+CUST-00670,ClientCorp 0670 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),754.67,2025-08-28,2025-08
+CUST-00671,ClientCorp 0671 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),370.2,2025-08-01,2025-08
+CUST-00672,ClientCorp 0672 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1184.82,2025-08-07,2025-08
+CUST-00673,ClientCorp 0673 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),1811.52,2025-08-14,2025-08
+CUST-00674,ClientCorp 0674 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2410.0,2025-08-02,2025-08
+CUST-00675,ClientCorp 0675 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,302.77,2025-09-16,2025-09
+CUST-00676,ClientCorp 0676 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),1921.18,2025-09-17,2025-09
+CUST-00677,ClientCorp 0677 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1203.77,2025-09-27,2025-09
+CUST-00678,ClientCorp 0678 Ltda,Mid-Market,Education & EdTech,RJ,Sudeste,Paid Social (LinkedIn),1319.79,2025-09-25,2025-09
+CUST-00679,ClientCorp 0679 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),486.54,2025-09-05,2025-09
+CUST-00680,ClientCorp 0680 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),375.12,2025-09-01,2025-09
+CUST-00681,ClientCorp 0681 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Organic Search (SEO),356.76,2025-09-07,2025-09
+CUST-00682,ClientCorp 0682 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1206.61,2025-09-23,2025-09
+CUST-00683,ClientCorp 0683 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),883.9,2025-09-01,2025-09
+CUST-00684,ClientCorp 0684 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),434.57,2025-09-24,2025-09
+CUST-00685,ClientCorp 0685 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),487.51,2025-09-19,2025-09
+CUST-00686,ClientCorp 0686 Ltda,Enterprise,B2B SaaS & Software,PR,Sul,Organic Search (SEO),606.32,2025-09-02,2025-09
+CUST-00687,ClientCorp 0687 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),318.06,2025-09-21,2025-09
+CUST-00688,ClientCorp 0688 Ltda,Enterprise,B2B SaaS & Software,RJ,Sudeste,Organic Search (SEO),529.06,2025-09-23,2025-09
+CUST-00689,ClientCorp 0689 Ltda,SMB,Agribusiness & FoodTech,SC,Sul,Organic Search (SEO),316.77,2025-09-18,2025-09
+CUST-00690,ClientCorp 0690 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),398.2,2025-09-23,2025-09
+CUST-00691,ClientCorp 0691 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),413.53,2025-09-11,2025-09
+CUST-00692,ClientCorp 0692 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1807.69,2025-09-25,2025-09
+CUST-00693,ClientCorp 0693 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Search (Google Ads),803.52,2025-09-03,2025-09
+CUST-00694,ClientCorp 0694 Ltda,Mid-Market,Education & EdTech,RS,Sul,Paid Search (Google Ads),988.59,2025-09-04,2025-09
+CUST-00695,ClientCorp 0695 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Partner & Referral,362.86,2025-09-27,2025-09
+CUST-00696,ClientCorp 0696 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),721.11,2025-09-04,2025-09
+CUST-00697,ClientCorp 0697 Ltda,SMB,E-Commerce & Retail Tech,PR,Sul,Organic Search (SEO),317.01,2025-09-02,2025-09
+CUST-00698,ClientCorp 0698 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Social (LinkedIn),1118.72,2025-09-27,2025-09
+CUST-00699,ClientCorp 0699 Ltda,SMB,Education & EdTech,SP,Sudeste,Partner & Referral,310.31,2025-09-18,2025-09
+CUST-00700,ClientCorp 0700 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),1924.91,2025-09-13,2025-09
+CUST-00701,ClientCorp 0701 Ltda,Mid-Market,Logistics & Supply Chain,SC,Sul,Paid Social (LinkedIn),1449.21,2025-09-07,2025-09
+CUST-00702,ClientCorp 0702 Ltda,Mid-Market,Healthtech & Clinics,DF,Centro-Oeste,Organic Search (SEO),420.03,2025-09-11,2025-09
+CUST-00703,ClientCorp 0703 Ltda,Mid-Market,E-Commerce & Retail Tech,RS,Sul,Outbound Sales (SDR/AE),2382.43,2025-09-14,2025-09
+CUST-00704,ClientCorp 0704 Ltda,Enterprise,E-Commerce & Retail Tech,PR,Sul,Organic Search (SEO),608.3,2025-09-01,2025-09
+CUST-00705,ClientCorp 0705 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Paid Search (Google Ads),800.28,2025-09-23,2025-09
+CUST-00706,ClientCorp 0706 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,367.61,2025-09-14,2025-09
+CUST-00707,ClientCorp 0707 Ltda,SMB,Education & EdTech,MG,Sudeste,Organic Search (SEO),363.86,2025-09-05,2025-09
+CUST-00708,ClientCorp 0708 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Social (LinkedIn),1094.03,2025-09-19,2025-09
+CUST-00709,ClientCorp 0709 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,306.23,2025-09-20,2025-09
+CUST-00710,ClientCorp 0710 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),419.64,2025-09-19,2025-09
+CUST-00711,ClientCorp 0711 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2038.07,2025-09-21,2025-09
+CUST-00712,ClientCorp 0712 Ltda,Enterprise,Healthtech & Clinics,DF,Centro-Oeste,Paid Search (Google Ads),1354.78,2025-09-16,2025-09
+CUST-00713,ClientCorp 0713 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Partner & Referral,357.52,2025-09-17,2025-09
+CUST-00714,ClientCorp 0714 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Organic Search (SEO),362.85,2025-09-01,2025-09
+CUST-00715,ClientCorp 0715 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,311.04,2025-09-02,2025-09
+CUST-00716,ClientCorp 0716 Ltda,Mid-Market,Agribusiness & FoodTech,RJ,Sudeste,Partner & Referral,374.7,2025-09-24,2025-09
+CUST-00717,ClientCorp 0717 Ltda,Mid-Market,Agribusiness & FoodTech,PR,Sul,Paid Search (Google Ads),1135.19,2025-09-01,2025-09
+CUST-00718,ClientCorp 0718 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),760.78,2025-09-12,2025-09
+CUST-00719,ClientCorp 0719 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),772.02,2025-09-03,2025-09
+CUST-00720,ClientCorp 0720 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Organic Search (SEO),347.34,2025-09-25,2025-09
+CUST-00721,ClientCorp 0721 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,346.99,2025-09-25,2025-09
+CUST-00722,ClientCorp 0722 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),496.99,2025-09-14,2025-09
+CUST-00723,ClientCorp 0723 Ltda,Mid-Market,Agribusiness & FoodTech,SC,Sul,Organic Search (SEO),438.61,2025-09-22,2025-09
+CUST-00724,ClientCorp 0724 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),1054.03,2025-09-18,2025-09
+CUST-00725,ClientCorp 0725 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Organic Search (SEO),337.25,2025-09-20,2025-09
+CUST-00726,ClientCorp 0726 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1186.26,2025-09-15,2025-09
+CUST-00727,ClientCorp 0727 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Partner & Referral,293.81,2025-09-01,2025-09
+CUST-00728,ClientCorp 0728 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Partner & Referral,302.13,2025-09-10,2025-09
+CUST-00729,ClientCorp 0729 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),876.21,2025-09-18,2025-09
+CUST-00730,ClientCorp 0730 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),759.94,2025-09-22,2025-09
+CUST-00731,ClientCorp 0731 Ltda,Mid-Market,Agribusiness & FoodTech,PR,Sul,Paid Search (Google Ads),1002.0,2025-09-08,2025-09
+CUST-00732,ClientCorp 0732 Ltda,Mid-Market,Fintech & Financial Services,SC,Sul,Organic Search (SEO),465.05,2025-09-27,2025-09
+CUST-00733,ClientCorp 0733 Ltda,SMB,Education & EdTech,SP,Sudeste,Organic Search (SEO),331.43,2025-09-14,2025-09
+CUST-00734,ClientCorp 0734 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Paid Search (Google Ads),1006.03,2025-09-15,2025-09
+CUST-00735,ClientCorp 0735 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,480.57,2025-09-10,2025-09
+CUST-00736,ClientCorp 0736 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),404.84,2025-09-13,2025-09
+CUST-00737,ClientCorp 0737 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),373.63,2025-09-13,2025-09
+CUST-00738,ClientCorp 0738 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),854.54,2025-09-19,2025-09
+CUST-00739,ClientCorp 0739 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Social (LinkedIn),1148.99,2025-09-17,2025-09
+CUST-00740,ClientCorp 0740 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),865.49,2025-09-18,2025-09
+CUST-00741,ClientCorp 0741 Ltda,Mid-Market,Healthtech & Clinics,DF,Centro-Oeste,Organic Search (SEO),439.52,2025-09-06,2025-09
+CUST-00742,ClientCorp 0742 Ltda,Enterprise,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),1343.01,2025-09-01,2025-09
+CUST-00743,ClientCorp 0743 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),837.0,2025-09-02,2025-09
+CUST-00744,ClientCorp 0744 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),372.83,2025-09-05,2025-09
+CUST-00745,ClientCorp 0745 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),918.76,2025-09-23,2025-09
+CUST-00746,ClientCorp 0746 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Outbound Sales (SDR/AE),1855.9,2025-09-24,2025-09
+CUST-00747,ClientCorp 0747 Ltda,SMB,Education & EdTech,RJ,Sudeste,Organic Search (SEO),344.66,2025-09-25,2025-09
+CUST-00748,ClientCorp 0748 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Paid Social (LinkedIn),1143.25,2025-09-23,2025-09
+CUST-00749,ClientCorp 0749 Ltda,Mid-Market,Logistics & Supply Chain,PR,Sul,Outbound Sales (SDR/AE),2515.9,2025-09-04,2025-09
+CUST-00750,ClientCorp 0750 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2039.93,2025-09-22,2025-09
+CUST-00751,ClientCorp 0751 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2352.62,2025-09-17,2025-09
+CUST-00752,ClientCorp 0752 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2984.24,2025-09-08,2025-09
+CUST-00753,ClientCorp 0753 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,346.78,2025-09-09,2025-09
+CUST-00754,ClientCorp 0754 Ltda,Mid-Market,E-Commerce & Retail Tech,RS,Sul,Paid Search (Google Ads),1066.47,2025-09-06,2025-09
+CUST-00755,ClientCorp 0755 Ltda,Enterprise,Agribusiness & FoodTech,RJ,Sudeste,Organic Search (SEO),535.63,2025-09-14,2025-09
+CUST-00756,ClientCorp 0756 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Organic Search (SEO),382.81,2025-09-20,2025-09
+CUST-00757,ClientCorp 0757 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),334.11,2025-09-17,2025-09
+CUST-00758,ClientCorp 0758 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),377.56,2025-09-07,2025-09
+CUST-00759,ClientCorp 0759 Ltda,Enterprise,Healthtech & Clinics,RJ,Sudeste,Outbound Sales (SDR/AE),3176.65,2025-09-24,2025-09
+CUST-00760,ClientCorp 0760 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Organic Search (SEO),330.16,2025-09-13,2025-09
+CUST-00761,ClientCorp 0761 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),404.28,2025-09-18,2025-09
+CUST-00762,ClientCorp 0762 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),1122.98,2025-09-24,2025-09
+CUST-00763,ClientCorp 0763 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Search (Google Ads),720.64,2025-09-08,2025-09
+CUST-00764,ClientCorp 0764 Ltda,Enterprise,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),2928.35,2025-09-25,2025-09
+CUST-00765,ClientCorp 0765 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Partner & Referral,286.34,2025-09-28,2025-09
+CUST-00766,ClientCorp 0766 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Partner & Referral,354.59,2025-09-14,2025-09
+CUST-00767,ClientCorp 0767 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),3245.02,2025-09-22,2025-09
+CUST-00768,ClientCorp 0768 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Partner & Referral,367.68,2025-09-03,2025-09
+CUST-00769,ClientCorp 0769 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),984.55,2025-09-22,2025-09
+CUST-00770,ClientCorp 0770 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Organic Search (SEO),492.22,2025-09-28,2025-09
+CUST-00771,ClientCorp 0771 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),445.45,2025-10-06,2025-10
+CUST-00772,ClientCorp 0772 Ltda,Mid-Market,Fintech & Financial Services,RS,Sul,Paid Search (Google Ads),1071.72,2025-10-23,2025-10
+CUST-00773,ClientCorp 0773 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),363.77,2025-10-03,2025-10
+CUST-00774,ClientCorp 0774 Ltda,Enterprise,Agribusiness & FoodTech,RJ,Sudeste,Outbound Sales (SDR/AE),3153.13,2025-10-03,2025-10
+CUST-00775,ClientCorp 0775 Ltda,SMB,B2B SaaS & Software,SC,Sul,Organic Search (SEO),363.59,2025-10-19,2025-10
+CUST-00776,ClientCorp 0776 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,453.0,2025-10-06,2025-10
+CUST-00777,ClientCorp 0777 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),341.56,2025-10-03,2025-10
+CUST-00778,ClientCorp 0778 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),376.51,2025-10-04,2025-10
+CUST-00779,ClientCorp 0779 Ltda,SMB,Healthtech & Clinics,DF,Centro-Oeste,Partner & Referral,331.13,2025-10-06,2025-10
+CUST-00780,ClientCorp 0780 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Partner & Referral,347.07,2025-10-21,2025-10
+CUST-00781,ClientCorp 0781 Ltda,SMB,E-Commerce & Retail Tech,MG,Sudeste,Paid Search (Google Ads),736.53,2025-10-18,2025-10
+CUST-00782,ClientCorp 0782 Ltda,Enterprise,Fintech & Financial Services,DF,Centro-Oeste,Outbound Sales (SDR/AE),3030.71,2025-10-16,2025-10
+CUST-00783,ClientCorp 0783 Ltda,Mid-Market,Agribusiness & FoodTech,RJ,Sudeste,Partner & Referral,366.24,2025-10-02,2025-10
+CUST-00784,ClientCorp 0784 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),919.68,2025-10-26,2025-10
+CUST-00785,ClientCorp 0785 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),794.4,2025-10-20,2025-10
+CUST-00786,ClientCorp 0786 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Organic Search (SEO),617.67,2025-10-08,2025-10
+CUST-00787,ClientCorp 0787 Ltda,SMB,Logistics & Supply Chain,DF,Centro-Oeste,Organic Search (SEO),396.31,2025-10-05,2025-10
+CUST-00788,ClientCorp 0788 Ltda,SMB,Agribusiness & FoodTech,MG,Sudeste,Paid Social (LinkedIn),1212.75,2025-10-03,2025-10
+CUST-00789,ClientCorp 0789 Ltda,Mid-Market,Education & EdTech,RS,Sul,Partner & Referral,376.63,2025-10-06,2025-10
+CUST-00790,ClientCorp 0790 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),334.12,2025-10-02,2025-10
+CUST-00791,ClientCorp 0791 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Partner & Referral,296.77,2025-10-06,2025-10
+CUST-00792,ClientCorp 0792 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),817.66,2025-10-11,2025-10
+CUST-00793,ClientCorp 0793 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2474.33,2025-10-16,2025-10
+CUST-00794,ClientCorp 0794 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),768.64,2025-10-22,2025-10
+CUST-00795,ClientCorp 0795 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Partner & Referral,414.73,2025-10-12,2025-10
+CUST-00796,ClientCorp 0796 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,370.18,2025-10-27,2025-10
+CUST-00797,ClientCorp 0797 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2432.29,2025-10-26,2025-10
+CUST-00798,ClientCorp 0798 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Organic Search (SEO),479.08,2025-10-07,2025-10
+CUST-00799,ClientCorp 0799 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),346.19,2025-10-19,2025-10
+CUST-00800,ClientCorp 0800 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2779.77,2025-10-19,2025-10
+CUST-00801,ClientCorp 0801 Ltda,Enterprise,Healthtech & Clinics,SC,Sul,Organic Search (SEO),605.49,2025-10-28,2025-10
+CUST-00802,ClientCorp 0802 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Social (LinkedIn),1169.14,2025-10-01,2025-10
+CUST-00803,ClientCorp 0803 Ltda,Mid-Market,B2B SaaS & Software,DF,Centro-Oeste,Paid Social (LinkedIn),1342.09,2025-10-12,2025-10
+CUST-00804,ClientCorp 0804 Ltda,Mid-Market,Education & EdTech,PR,Sul,Outbound Sales (SDR/AE),2444.79,2025-10-11,2025-10
+CUST-00805,ClientCorp 0805 Ltda,Enterprise,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),3132.14,2025-10-18,2025-10
+CUST-00806,ClientCorp 0806 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Organic Search (SEO),324.61,2025-10-07,2025-10
+CUST-00807,ClientCorp 0807 Ltda,Mid-Market,Education & EdTech,MG,Sudeste,Outbound Sales (SDR/AE),2140.62,2025-10-18,2025-10
+CUST-00808,ClientCorp 0808 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),755.53,2025-10-22,2025-10
+CUST-00809,ClientCorp 0809 Ltda,SMB,Healthtech & Clinics,RS,Sul,Paid Search (Google Ads),731.12,2025-10-14,2025-10
+CUST-00810,ClientCorp 0810 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2905.12,2025-10-09,2025-10
+CUST-00811,ClientCorp 0811 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Organic Search (SEO),345.72,2025-10-02,2025-10
+CUST-00812,ClientCorp 0812 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),732.62,2025-10-24,2025-10
+CUST-00813,ClientCorp 0813 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),584.21,2025-10-25,2025-10
+CUST-00814,ClientCorp 0814 Ltda,Mid-Market,B2B SaaS & Software,PR,Sul,Partner & Referral,401.85,2025-10-15,2025-10
+CUST-00815,ClientCorp 0815 Ltda,Mid-Market,Healthtech & Clinics,SC,Sul,Organic Search (SEO),460.92,2025-10-20,2025-10
+CUST-00816,ClientCorp 0816 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Organic Search (SEO),630.36,2025-10-01,2025-10
+CUST-00817,ClientCorp 0817 Ltda,SMB,Agribusiness & FoodTech,DF,Centro-Oeste,Paid Social (LinkedIn),1211.16,2025-10-16,2025-10
+CUST-00818,ClientCorp 0818 Ltda,Enterprise,E-Commerce & Retail Tech,RS,Sul,Outbound Sales (SDR/AE),3027.08,2025-10-06,2025-10
+CUST-00819,ClientCorp 0819 Ltda,SMB,Healthtech & Clinics,PR,Sul,Partner & Referral,306.42,2025-10-21,2025-10
+CUST-00820,ClientCorp 0820 Ltda,Mid-Market,Healthtech & Clinics,SC,Sul,Paid Search (Google Ads),976.88,2025-10-15,2025-10
+CUST-00821,ClientCorp 0821 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1121.36,2025-10-09,2025-10
+CUST-00822,ClientCorp 0822 Ltda,SMB,Fintech & Financial Services,SC,Sul,Paid Search (Google Ads),817.29,2025-10-25,2025-10
+CUST-00823,ClientCorp 0823 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Paid Search (Google Ads),847.95,2025-10-23,2025-10
+CUST-00824,ClientCorp 0824 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Paid Search (Google Ads),881.48,2025-10-08,2025-10
+CUST-00825,ClientCorp 0825 Ltda,SMB,Agribusiness & FoodTech,PR,Sul,Organic Search (SEO),370.71,2025-10-01,2025-10
+CUST-00826,ClientCorp 0826 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Paid Social (LinkedIn),1201.67,2025-10-18,2025-10
+CUST-00827,ClientCorp 0827 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2186.71,2025-10-06,2025-10
+CUST-00828,ClientCorp 0828 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Organic Search (SEO),430.28,2025-10-08,2025-10
+CUST-00829,ClientCorp 0829 Ltda,SMB,Education & EdTech,MG,Sudeste,Paid Search (Google Ads),783.07,2025-10-01,2025-10
+CUST-00830,ClientCorp 0830 Ltda,Mid-Market,E-Commerce & Retail Tech,MG,Sudeste,Outbound Sales (SDR/AE),2431.72,2025-10-20,2025-10
+CUST-00831,ClientCorp 0831 Ltda,SMB,Logistics & Supply Chain,DF,Centro-Oeste,Organic Search (SEO),322.81,2025-10-13,2025-10
+CUST-00832,ClientCorp 0832 Ltda,SMB,Logistics & Supply Chain,SC,Sul,Partner & Referral,285.03,2025-10-09,2025-10
+CUST-00833,ClientCorp 0833 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,411.3,2025-10-14,2025-10
+CUST-00834,ClientCorp 0834 Ltda,SMB,Logistics & Supply Chain,SC,Sul,Organic Search (SEO),334.32,2025-10-04,2025-10
+CUST-00835,ClientCorp 0835 Ltda,Mid-Market,Healthtech & Clinics,MG,Sudeste,Paid Search (Google Ads),1064.04,2025-10-10,2025-10
+CUST-00836,ClientCorp 0836 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Search (Google Ads),745.54,2025-10-22,2025-10
+CUST-00837,ClientCorp 0837 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,412.34,2025-10-20,2025-10
+CUST-00838,ClientCorp 0838 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),719.18,2025-10-21,2025-10
+CUST-00839,ClientCorp 0839 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,294.59,2025-10-18,2025-10
+CUST-00840,ClientCorp 0840 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,303.54,2025-10-09,2025-10
+CUST-00841,ClientCorp 0841 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2069.11,2025-10-10,2025-10
+CUST-00842,ClientCorp 0842 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Paid Search (Google Ads),912.54,2025-10-21,2025-10
+CUST-00843,ClientCorp 0843 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),891.08,2025-10-14,2025-10
+CUST-00844,ClientCorp 0844 Ltda,Enterprise,Agribusiness & FoodTech,MG,Sudeste,Organic Search (SEO),581.54,2025-10-14,2025-10
+CUST-00845,ClientCorp 0845 Ltda,SMB,Education & EdTech,RS,Sul,Partner & Referral,314.67,2025-10-14,2025-10
+CUST-00846,ClientCorp 0846 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),363.08,2025-10-10,2025-10
+CUST-00847,ClientCorp 0847 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Organic Search (SEO),419.22,2025-10-13,2025-10
+CUST-00848,ClientCorp 0848 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),355.68,2025-10-09,2025-10
+CUST-00849,ClientCorp 0849 Ltda,Enterprise,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),534.03,2025-10-18,2025-10
+CUST-00850,ClientCorp 0850 Ltda,Mid-Market,Fintech & Financial Services,RJ,Sudeste,Partner & Referral,398.87,2025-10-04,2025-10
+CUST-00851,ClientCorp 0851 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),402.56,2025-10-08,2025-10
+CUST-00852,ClientCorp 0852 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),913.13,2025-10-21,2025-10
+CUST-00853,ClientCorp 0853 Ltda,Mid-Market,Education & EdTech,DF,Centro-Oeste,Organic Search (SEO),483.3,2025-10-15,2025-10
+CUST-00854,ClientCorp 0854 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Paid Search (Google Ads),747.93,2025-10-21,2025-10
+CUST-00855,ClientCorp 0855 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),393.98,2025-10-20,2025-10
+CUST-00856,ClientCorp 0856 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Partner & Referral,355.98,2025-10-26,2025-10
+CUST-00857,ClientCorp 0857 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),712.59,2025-10-03,2025-10
+CUST-00858,ClientCorp 0858 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),335.59,2025-10-20,2025-10
+CUST-00859,ClientCorp 0859 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Paid Search (Google Ads),1126.78,2025-10-11,2025-10
+CUST-00860,ClientCorp 0860 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Paid Social (LinkedIn),1109.83,2025-10-08,2025-10
+CUST-00861,ClientCorp 0861 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),477.44,2025-10-13,2025-10
+CUST-00862,ClientCorp 0862 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,376.99,2025-10-24,2025-10
+CUST-00863,ClientCorp 0863 Ltda,SMB,Education & EdTech,DF,Centro-Oeste,Organic Search (SEO),401.98,2025-10-08,2025-10
+CUST-00864,ClientCorp 0864 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Social (LinkedIn),1052.03,2025-10-07,2025-10
+CUST-00865,ClientCorp 0865 Ltda,SMB,Agribusiness & FoodTech,SC,Sul,Organic Search (SEO),330.94,2025-10-08,2025-10
+CUST-00866,ClientCorp 0866 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),325.81,2025-10-27,2025-10
+CUST-00867,ClientCorp 0867 Ltda,Enterprise,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),3171.37,2025-10-22,2025-10
+CUST-00868,ClientCorp 0868 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Organic Search (SEO),337.32,2025-10-24,2025-10
+CUST-00869,ClientCorp 0869 Ltda,Mid-Market,Healthtech & Clinics,SC,Sul,Organic Search (SEO),496.94,2025-10-13,2025-10
+CUST-00870,ClientCorp 0870 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Partner & Referral,359.13,2025-11-23,2025-11
+CUST-00871,ClientCorp 0871 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),347.44,2025-11-21,2025-11
+CUST-00872,ClientCorp 0872 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Organic Search (SEO),515.07,2025-11-03,2025-11
+CUST-00873,ClientCorp 0873 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Paid Search (Google Ads),878.4,2025-11-13,2025-11
+CUST-00874,ClientCorp 0874 Ltda,SMB,Healthtech & Clinics,RS,Sul,Partner & Referral,362.42,2025-11-02,2025-11
+CUST-00875,ClientCorp 0875 Ltda,SMB,Fintech & Financial Services,RJ,Sudeste,Organic Search (SEO),328.65,2025-11-16,2025-11
+CUST-00876,ClientCorp 0876 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),714.33,2025-11-17,2025-11
+CUST-00877,ClientCorp 0877 Ltda,Mid-Market,B2B SaaS & Software,PR,Sul,Paid Search (Google Ads),1025.55,2025-11-04,2025-11
+CUST-00878,ClientCorp 0878 Ltda,SMB,Logistics & Supply Chain,DF,Centro-Oeste,Paid Search (Google Ads),862.44,2025-11-15,2025-11
+CUST-00879,ClientCorp 0879 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Paid Search (Google Ads),754.11,2025-11-10,2025-11
+CUST-00880,ClientCorp 0880 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),427.76,2025-11-11,2025-11
+CUST-00881,ClientCorp 0881 Ltda,Mid-Market,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),1095.56,2025-11-04,2025-11
+CUST-00882,ClientCorp 0882 Ltda,SMB,Healthtech & Clinics,RS,Sul,Organic Search (SEO),375.25,2025-11-11,2025-11
+CUST-00883,ClientCorp 0883 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Outbound Sales (SDR/AE),2125.65,2025-11-17,2025-11
+CUST-00884,ClientCorp 0884 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),1682.98,2025-11-10,2025-11
+CUST-00885,ClientCorp 0885 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2846.62,2025-11-17,2025-11
+CUST-00886,ClientCorp 0886 Ltda,Mid-Market,Fintech & Financial Services,MG,Sudeste,Organic Search (SEO),402.69,2025-11-02,2025-11
+CUST-00887,ClientCorp 0887 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1116.95,2025-11-02,2025-11
+CUST-00888,ClientCorp 0888 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),734.69,2025-11-06,2025-11
+CUST-00889,ClientCorp 0889 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),2264.6,2025-11-20,2025-11
+CUST-00890,ClientCorp 0890 Ltda,Enterprise,E-Commerce & Retail Tech,PR,Sul,Organic Search (SEO),579.19,2025-11-13,2025-11
+CUST-00891,ClientCorp 0891 Ltda,Mid-Market,B2B SaaS & Software,SC,Sul,Paid Social (LinkedIn),1236.01,2025-11-22,2025-11
+CUST-00892,ClientCorp 0892 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),1980.01,2025-11-03,2025-11
+CUST-00893,ClientCorp 0893 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,365.96,2025-11-10,2025-11
+CUST-00894,ClientCorp 0894 Ltda,SMB,B2B SaaS & Software,PR,Sul,Organic Search (SEO),401.77,2025-11-28,2025-11
+CUST-00895,ClientCorp 0895 Ltda,Mid-Market,B2B SaaS & Software,RJ,Sudeste,Organic Search (SEO),423.59,2025-11-15,2025-11
+CUST-00896,ClientCorp 0896 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Paid Search (Google Ads),755.25,2025-11-01,2025-11
+CUST-00897,ClientCorp 0897 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1181.07,2025-11-15,2025-11
+CUST-00898,ClientCorp 0898 Ltda,Enterprise,B2B SaaS & Software,RJ,Sudeste,Outbound Sales (SDR/AE),2740.55,2025-11-04,2025-11
+CUST-00899,ClientCorp 0899 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),356.01,2025-11-08,2025-11
+CUST-00900,ClientCorp 0900 Ltda,SMB,B2B SaaS & Software,DF,Centro-Oeste,Partner & Referral,312.15,2025-11-14,2025-11
+CUST-00901,ClientCorp 0901 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),790.08,2025-11-21,2025-11
+CUST-00902,ClientCorp 0902 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),440.36,2025-11-15,2025-11
+CUST-00903,ClientCorp 0903 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2534.95,2025-11-15,2025-11
+CUST-00904,ClientCorp 0904 Ltda,SMB,E-Commerce & Retail Tech,MG,Sudeste,Organic Search (SEO),339.04,2025-11-10,2025-11
+CUST-00905,ClientCorp 0905 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),501.01,2025-11-11,2025-11
+CUST-00906,ClientCorp 0906 Ltda,Mid-Market,Education & EdTech,SC,Sul,Outbound Sales (SDR/AE),2348.86,2025-11-26,2025-11
+CUST-00907,ClientCorp 0907 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Paid Social (LinkedIn),1238.75,2025-11-07,2025-11
+CUST-00908,ClientCorp 0908 Ltda,Enterprise,Education & EdTech,RS,Sul,Organic Search (SEO),550.41,2025-11-17,2025-11
+CUST-00909,ClientCorp 0909 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),904.89,2025-11-08,2025-11
+CUST-00910,ClientCorp 0910 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),395.17,2025-11-27,2025-11
+CUST-00911,ClientCorp 0911 Ltda,Mid-Market,Healthtech & Clinics,MG,Sudeste,Outbound Sales (SDR/AE),2217.36,2025-11-13,2025-11
+CUST-00912,ClientCorp 0912 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),1049.34,2025-11-16,2025-11
+CUST-00913,ClientCorp 0913 Ltda,Mid-Market,Healthtech & Clinics,MG,Sudeste,Organic Search (SEO),494.02,2025-11-13,2025-11
+CUST-00914,ClientCorp 0914 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),455.2,2025-11-07,2025-11
+CUST-00915,ClientCorp 0915 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),327.15,2025-11-25,2025-11
+CUST-00916,ClientCorp 0916 Ltda,Enterprise,B2B SaaS & Software,PR,Sul,Outbound Sales (SDR/AE),2914.98,2025-11-07,2025-11
+CUST-00917,ClientCorp 0917 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Paid Search (Google Ads),907.68,2025-11-11,2025-11
+CUST-00918,ClientCorp 0918 Ltda,SMB,B2B SaaS & Software,PR,Sul,Organic Search (SEO),351.07,2025-11-10,2025-11
+CUST-00919,ClientCorp 0919 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),336.32,2025-11-17,2025-11
+CUST-00920,ClientCorp 0920 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Partner & Referral,332.24,2025-11-08,2025-11
+CUST-00921,ClientCorp 0921 Ltda,Enterprise,B2B SaaS & Software,SP,Sudeste,Partner & Referral,529.22,2025-11-20,2025-11
+CUST-00922,ClientCorp 0922 Ltda,SMB,Healthtech & Clinics,PR,Sul,Partner & Referral,305.09,2025-11-24,2025-11
+CUST-00923,ClientCorp 0923 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),1330.34,2025-11-17,2025-11
+CUST-00924,ClientCorp 0924 Ltda,Enterprise,Logistics & Supply Chain,RS,Sul,Outbound Sales (SDR/AE),2680.15,2025-11-16,2025-11
+CUST-00925,ClientCorp 0925 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Outbound Sales (SDR/AE),2054.82,2025-11-06,2025-11
+CUST-00926,ClientCorp 0926 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),497.17,2025-11-15,2025-11
+CUST-00927,ClientCorp 0927 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Partner & Referral,352.78,2025-11-09,2025-11
+CUST-00928,ClientCorp 0928 Ltda,SMB,E-Commerce & Retail Tech,RJ,Sudeste,Paid Search (Google Ads),793.1,2025-11-21,2025-11
+CUST-00929,ClientCorp 0929 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),402.92,2025-11-02,2025-11
+CUST-00930,ClientCorp 0930 Ltda,Enterprise,E-Commerce & Retail Tech,RS,Sul,Paid Search (Google Ads),1141.71,2025-11-16,2025-11
+CUST-00931,ClientCorp 0931 Ltda,SMB,Fintech & Financial Services,SP,Sudeste,Paid Social (LinkedIn),959.3,2025-11-20,2025-11
+CUST-00932,ClientCorp 0932 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Outbound Sales (SDR/AE),2109.47,2025-11-13,2025-11
+CUST-00933,ClientCorp 0933 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),342.34,2025-11-18,2025-11
+CUST-00934,ClientCorp 0934 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Organic Search (SEO),383.39,2025-11-17,2025-11
+CUST-00935,ClientCorp 0935 Ltda,SMB,B2B SaaS & Software,RS,Sul,Organic Search (SEO),354.51,2025-11-19,2025-11
+CUST-00936,ClientCorp 0936 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Organic Search (SEO),452.08,2025-11-24,2025-11
+CUST-00937,ClientCorp 0937 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),317.0,2025-11-18,2025-11
+CUST-00938,ClientCorp 0938 Ltda,SMB,Education & EdTech,DF,Centro-Oeste,Paid Search (Google Ads),818.88,2025-11-19,2025-11
+CUST-00939,ClientCorp 0939 Ltda,SMB,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),872.86,2025-11-04,2025-11
+CUST-00940,ClientCorp 0940 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Partner & Referral,371.15,2025-11-15,2025-11
+CUST-00941,ClientCorp 0941 Ltda,Enterprise,Healthtech & Clinics,SP,Sudeste,Paid Search (Google Ads),1354.13,2025-11-20,2025-11
+CUST-00942,ClientCorp 0942 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),826.53,2025-11-06,2025-11
+CUST-00943,ClientCorp 0943 Ltda,Enterprise,B2B SaaS & Software,RS,Sul,Organic Search (SEO),573.78,2025-11-23,2025-11
+CUST-00944,ClientCorp 0944 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Paid Social (LinkedIn),1156.17,2025-11-23,2025-11
+CUST-00945,ClientCorp 0945 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),729.13,2025-11-22,2025-11
+CUST-00946,ClientCorp 0946 Ltda,Enterprise,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),1418.03,2025-11-04,2025-11
+CUST-00947,ClientCorp 0947 Ltda,Enterprise,Fintech & Financial Services,RS,Sul,Paid Search (Google Ads),1348.44,2025-11-06,2025-11
+CUST-00948,ClientCorp 0948 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Social (LinkedIn),994.19,2025-11-17,2025-11
+CUST-00949,ClientCorp 0949 Ltda,SMB,B2B SaaS & Software,RS,Sul,Organic Search (SEO),358.64,2025-11-28,2025-11
+CUST-00950,ClientCorp 0950 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Partner & Referral,407.24,2025-11-17,2025-11
+CUST-00951,ClientCorp 0951 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),873.51,2025-11-19,2025-11
+CUST-00952,ClientCorp 0952 Ltda,Mid-Market,B2B SaaS & Software,MG,Sudeste,Organic Search (SEO),496.16,2025-11-21,2025-11
+CUST-00953,ClientCorp 0953 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),483.06,2025-11-24,2025-11
+CUST-00954,ClientCorp 0954 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,558.19,2025-11-09,2025-11
+CUST-00955,ClientCorp 0955 Ltda,Enterprise,Logistics & Supply Chain,PR,Sul,Outbound Sales (SDR/AE),3085.51,2025-11-19,2025-11
+CUST-00956,ClientCorp 0956 Ltda,Enterprise,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),1231.78,2025-11-27,2025-11
+CUST-00957,ClientCorp 0957 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Outbound Sales (SDR/AE),1792.52,2025-11-22,2025-11
+CUST-00958,ClientCorp 0958 Ltda,SMB,B2B SaaS & Software,PR,Sul,Organic Search (SEO),315.43,2025-11-07,2025-11
+CUST-00959,ClientCorp 0959 Ltda,SMB,E-Commerce & Retail Tech,DF,Centro-Oeste,Organic Search (SEO),377.59,2025-11-13,2025-11
+CUST-00960,ClientCorp 0960 Ltda,Mid-Market,Fintech & Financial Services,MG,Sudeste,Outbound Sales (SDR/AE),2555.11,2025-11-08,2025-11
+CUST-00961,ClientCorp 0961 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2011.19,2025-11-05,2025-11
+CUST-00962,ClientCorp 0962 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),988.88,2025-11-06,2025-11
+CUST-00963,ClientCorp 0963 Ltda,Mid-Market,Healthtech & Clinics,RS,Sul,Partner & Referral,427.36,2025-11-04,2025-11
+CUST-00964,ClientCorp 0964 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),851.52,2025-11-09,2025-11
+CUST-00965,ClientCorp 0965 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),2342.12,2025-11-22,2025-11
+CUST-00966,ClientCorp 0966 Ltda,SMB,Logistics & Supply Chain,MG,Sudeste,Outbound Sales (SDR/AE),1855.06,2025-11-23,2025-11
+CUST-00967,ClientCorp 0967 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),975.0,2025-11-15,2025-11
+CUST-00968,ClientCorp 0968 Ltda,SMB,Fintech & Financial Services,SC,Sul,Paid Social (LinkedIn),1149.29,2025-11-06,2025-11
+CUST-00969,ClientCorp 0969 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),826.33,2025-11-07,2025-11
+CUST-00970,ClientCorp 0970 Ltda,Enterprise,B2B SaaS & Software,RS,Sul,Organic Search (SEO),499.32,2025-11-11,2025-11
+CUST-00971,ClientCorp 0971 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),340.12,2025-12-15,2025-12
+CUST-00972,ClientCorp 0972 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),1108.79,2025-12-05,2025-12
+CUST-00973,ClientCorp 0973 Ltda,Mid-Market,Agribusiness & FoodTech,PR,Sul,Outbound Sales (SDR/AE),2033.06,2025-12-06,2025-12
+CUST-00974,ClientCorp 0974 Ltda,SMB,Healthtech & Clinics,PR,Sul,Paid Social (LinkedIn),1049.11,2025-12-24,2025-12
+CUST-00975,ClientCorp 0975 Ltda,Enterprise,Agribusiness & FoodTech,RS,Sul,Outbound Sales (SDR/AE),3180.8,2025-12-09,2025-12
+CUST-00976,ClientCorp 0976 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Paid Social (LinkedIn),1767.79,2025-12-23,2025-12
+CUST-00977,ClientCorp 0977 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),767.83,2025-12-11,2025-12
+CUST-00978,ClientCorp 0978 Ltda,SMB,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),370.47,2025-12-05,2025-12
+CUST-00979,ClientCorp 0979 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),466.85,2025-12-03,2025-12
+CUST-00980,ClientCorp 0980 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Organic Search (SEO),353.54,2025-12-11,2025-12
+CUST-00981,ClientCorp 0981 Ltda,Mid-Market,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),981.91,2025-12-10,2025-12
+CUST-00982,ClientCorp 0982 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),736.47,2025-12-06,2025-12
+CUST-00983,ClientCorp 0983 Ltda,SMB,Fintech & Financial Services,PR,Sul,Organic Search (SEO),387.66,2025-12-03,2025-12
+CUST-00984,ClientCorp 0984 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2398.9,2025-12-16,2025-12
+CUST-00985,ClientCorp 0985 Ltda,Mid-Market,Healthtech & Clinics,SC,Sul,Outbound Sales (SDR/AE),2268.07,2025-12-21,2025-12
+CUST-00986,ClientCorp 0986 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Partner & Referral,332.86,2025-12-24,2025-12
+CUST-00987,ClientCorp 0987 Ltda,Enterprise,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),642.61,2025-12-03,2025-12
+CUST-00988,ClientCorp 0988 Ltda,Mid-Market,Fintech & Financial Services,SP,Sudeste,Organic Search (SEO),472.57,2025-12-01,2025-12
+CUST-00989,ClientCorp 0989 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Paid Search (Google Ads),842.18,2025-12-23,2025-12
+CUST-00990,ClientCorp 0990 Ltda,SMB,Logistics & Supply Chain,SC,Sul,Paid Social (LinkedIn),1134.06,2025-12-20,2025-12
+CUST-00991,ClientCorp 0991 Ltda,Enterprise,Agribusiness & FoodTech,DF,Centro-Oeste,Outbound Sales (SDR/AE),3006.35,2025-12-11,2025-12
+CUST-00992,ClientCorp 0992 Ltda,SMB,Healthtech & Clinics,PR,Sul,Partner & Referral,339.93,2025-12-22,2025-12
+CUST-00993,ClientCorp 0993 Ltda,SMB,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),1978.13,2025-12-07,2025-12
+CUST-00994,ClientCorp 0994 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,448.37,2025-12-20,2025-12
+CUST-00995,ClientCorp 0995 Ltda,SMB,Education & EdTech,MG,Sudeste,Partner & Referral,321.8,2025-12-18,2025-12
+CUST-00996,ClientCorp 0996 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Partner & Referral,291.66,2025-12-26,2025-12
+CUST-00997,ClientCorp 0997 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Partner & Referral,359.3,2025-12-09,2025-12
+CUST-00998,ClientCorp 0998 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),472.29,2025-12-22,2025-12
+CUST-00999,ClientCorp 0999 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),430.95,2025-12-08,2025-12
+CUST-01000,ClientCorp 1000 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2041.08,2025-12-17,2025-12
+CUST-01001,ClientCorp 1001 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Paid Social (LinkedIn),1146.49,2025-12-24,2025-12
+CUST-01002,ClientCorp 1002 Ltda,SMB,Fintech & Financial Services,MG,Sudeste,Organic Search (SEO),333.62,2025-12-27,2025-12
+CUST-01003,ClientCorp 1003 Ltda,Enterprise,Education & EdTech,RJ,Sudeste,Organic Search (SEO),521.99,2025-12-22,2025-12
+CUST-01004,ClientCorp 1004 Ltda,SMB,Fintech & Financial Services,DF,Centro-Oeste,Paid Social (LinkedIn),1051.32,2025-12-18,2025-12
+CUST-01005,ClientCorp 1005 Ltda,SMB,Education & EdTech,RS,Sul,Paid Social (LinkedIn),1129.93,2025-12-03,2025-12
+CUST-01006,ClientCorp 1006 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Outbound Sales (SDR/AE),2089.03,2025-12-08,2025-12
+CUST-01007,ClientCorp 1007 Ltda,SMB,Education & EdTech,RJ,Sudeste,Paid Search (Google Ads),727.52,2025-12-14,2025-12
+CUST-01008,ClientCorp 1008 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),1110.45,2025-12-14,2025-12
+CUST-01009,ClientCorp 1009 Ltda,Mid-Market,Logistics & Supply Chain,MG,Sudeste,Outbound Sales (SDR/AE),2304.58,2025-12-15,2025-12
+CUST-01010,ClientCorp 1010 Ltda,Mid-Market,Fintech & Financial Services,PR,Sul,Paid Search (Google Ads),878.91,2025-12-20,2025-12
+CUST-01011,ClientCorp 1011 Ltda,Mid-Market,Fintech & Financial Services,DF,Centro-Oeste,Outbound Sales (SDR/AE),2551.58,2025-12-14,2025-12
+CUST-01012,ClientCorp 1012 Ltda,Enterprise,Healthtech & Clinics,MG,Sudeste,Paid Social (LinkedIn),1632.6,2025-12-20,2025-12
+CUST-01013,ClientCorp 1013 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Partner & Referral,394.89,2025-12-26,2025-12
+CUST-01014,ClientCorp 1014 Ltda,SMB,Logistics & Supply Chain,RJ,Sudeste,Organic Search (SEO),326.44,2025-12-08,2025-12
+CUST-01015,ClientCorp 1015 Ltda,SMB,B2B SaaS & Software,MG,Sudeste,Organic Search (SEO),343.5,2025-12-08,2025-12
+CUST-01016,ClientCorp 1016 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),484.05,2025-12-22,2025-12
+CUST-01017,ClientCorp 1017 Ltda,Enterprise,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2676.42,2025-12-10,2025-12
+CUST-01018,ClientCorp 1018 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Organic Search (SEO),333.62,2025-12-23,2025-12
+CUST-01019,ClientCorp 1019 Ltda,Mid-Market,Fintech & Financial Services,PR,Sul,Outbound Sales (SDR/AE),2230.89,2025-12-11,2025-12
+CUST-01020,ClientCorp 1020 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),885.57,2025-12-03,2025-12
+CUST-01021,ClientCorp 1021 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Partner & Referral,368.9,2025-12-22,2025-12
+CUST-01022,ClientCorp 1022 Ltda,Enterprise,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),2998.94,2025-12-23,2025-12
+CUST-01023,ClientCorp 1023 Ltda,Mid-Market,Education & EdTech,DF,Centro-Oeste,Paid Search (Google Ads),952.12,2025-12-02,2025-12
+CUST-01024,ClientCorp 1024 Ltda,Enterprise,B2B SaaS & Software,SP,Sudeste,Outbound Sales (SDR/AE),3208.52,2025-12-15,2025-12
+CUST-01025,ClientCorp 1025 Ltda,Mid-Market,E-Commerce & Retail Tech,SC,Sul,Organic Search (SEO),496.39,2025-12-17,2025-12
+CUST-01026,ClientCorp 1026 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Paid Search (Google Ads),1122.82,2025-12-23,2025-12
+CUST-01027,ClientCorp 1027 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),816.8,2025-12-16,2025-12
+CUST-01028,ClientCorp 1028 Ltda,SMB,Logistics & Supply Chain,PR,Sul,Paid Search (Google Ads),823.33,2025-12-27,2025-12
+CUST-01029,ClientCorp 1029 Ltda,Mid-Market,Agribusiness & FoodTech,DF,Centro-Oeste,Partner & Referral,400.95,2025-12-11,2025-12
+CUST-01030,ClientCorp 1030 Ltda,Mid-Market,Logistics & Supply Chain,RS,Sul,Organic Search (SEO),476.04,2025-12-02,2025-12
+CUST-01031,ClientCorp 1031 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Paid Search (Google Ads),756.92,2025-12-21,2025-12
+CUST-01032,ClientCorp 1032 Ltda,SMB,Healthtech & Clinics,SC,Sul,Paid Social (LinkedIn),1180.54,2025-12-02,2025-12
+CUST-01033,ClientCorp 1033 Ltda,SMB,Agribusiness & FoodTech,PR,Sul,Paid Social (LinkedIn),1234.97,2025-12-26,2025-12
+CUST-01034,ClientCorp 1034 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Outbound Sales (SDR/AE),2302.05,2025-12-03,2025-12
+CUST-01035,ClientCorp 1035 Ltda,SMB,Logistics & Supply Chain,SC,Sul,Partner & Referral,317.07,2025-12-26,2025-12
+CUST-01036,ClientCorp 1036 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Paid Social (LinkedIn),1079.43,2025-12-24,2025-12
+CUST-01037,ClientCorp 1037 Ltda,SMB,Healthtech & Clinics,PR,Sul,Outbound Sales (SDR/AE),1765.14,2025-12-18,2025-12
+CUST-01038,ClientCorp 1038 Ltda,Mid-Market,E-Commerce & Retail Tech,SC,Sul,Organic Search (SEO),418.09,2025-12-11,2025-12
+CUST-01039,ClientCorp 1039 Ltda,SMB,Logistics & Supply Chain,SP,Sudeste,Organic Search (SEO),373.21,2025-12-20,2025-12
+CUST-01040,ClientCorp 1040 Ltda,SMB,E-Commerce & Retail Tech,SC,Sul,Paid Social (LinkedIn),965.63,2025-12-04,2025-12
+CUST-01041,ClientCorp 1041 Ltda,Mid-Market,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),436.73,2025-12-20,2025-12
+CUST-01042,ClientCorp 1042 Ltda,SMB,Fintech & Financial Services,RJ,Sudeste,Partner & Referral,314.97,2025-12-07,2025-12
+CUST-01043,ClientCorp 1043 Ltda,SMB,Agribusiness & FoodTech,SP,Sudeste,Organic Search (SEO),359.73,2025-12-17,2025-12
+CUST-01044,ClientCorp 1044 Ltda,SMB,Healthtech & Clinics,MG,Sudeste,Paid Search (Google Ads),903.02,2025-12-22,2025-12
+CUST-01045,ClientCorp 1045 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2187.69,2025-12-21,2025-12
+CUST-01046,ClientCorp 1046 Ltda,Mid-Market,Healthtech & Clinics,RJ,Sudeste,Outbound Sales (SDR/AE),2500.38,2025-12-27,2025-12
+CUST-01047,ClientCorp 1047 Ltda,Enterprise,E-Commerce & Retail Tech,PR,Sul,Outbound Sales (SDR/AE),3054.39,2025-12-12,2025-12
+CUST-01048,ClientCorp 1048 Ltda,Mid-Market,B2B SaaS & Software,RJ,Sudeste,Paid Search (Google Ads),1074.73,2025-12-13,2025-12
+CUST-01049,ClientCorp 1049 Ltda,Mid-Market,Healthtech & Clinics,SP,Sudeste,Outbound Sales (SDR/AE),2403.65,2025-12-11,2025-12
+CUST-01050,ClientCorp 1050 Ltda,Mid-Market,Logistics & Supply Chain,RJ,Sudeste,Partner & Referral,442.59,2025-12-15,2025-12
+CUST-01051,ClientCorp 1051 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),854.04,2025-12-08,2025-12
+CUST-01052,ClientCorp 1052 Ltda,Enterprise,Healthtech & Clinics,SC,Sul,Organic Search (SEO),602.48,2025-12-19,2025-12
+CUST-01053,ClientCorp 1053 Ltda,Mid-Market,B2B SaaS & Software,RS,Sul,Paid Search (Google Ads),923.45,2025-12-23,2025-12
+CUST-01054,ClientCorp 1054 Ltda,Mid-Market,Logistics & Supply Chain,SP,Sudeste,Paid Search (Google Ads),1029.0,2025-12-02,2025-12
+CUST-01055,ClientCorp 1055 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Outbound Sales (SDR/AE),2076.91,2025-12-10,2025-12
+CUST-01056,ClientCorp 1056 Ltda,Enterprise,E-Commerce & Retail Tech,RS,Sul,Outbound Sales (SDR/AE),3113.41,2025-12-24,2025-12
+CUST-01057,ClientCorp 1057 Ltda,SMB,Education & EdTech,SP,Sudeste,Paid Search (Google Ads),801.38,2025-12-06,2025-12
+CUST-01058,ClientCorp 1058 Ltda,SMB,Fintech & Financial Services,RS,Sul,Organic Search (SEO),328.15,2025-12-25,2025-12
+CUST-01059,ClientCorp 1059 Ltda,Mid-Market,Fintech & Financial Services,DF,Centro-Oeste,Outbound Sales (SDR/AE),2334.11,2025-12-10,2025-12
+CUST-01060,ClientCorp 1060 Ltda,SMB,B2B SaaS & Software,RJ,Sudeste,Paid Social (LinkedIn),1121.06,2025-12-22,2025-12
+CUST-01061,ClientCorp 1061 Ltda,Mid-Market,B2B SaaS & Software,SP,Sudeste,Organic Search (SEO),392.22,2025-12-05,2025-12
+CUST-01062,ClientCorp 1062 Ltda,SMB,E-Commerce & Retail Tech,RS,Sul,Paid Search (Google Ads),911.96,2025-12-08,2025-12
+CUST-01063,ClientCorp 1063 Ltda,Enterprise,Agribusiness & FoodTech,DF,Centro-Oeste,Paid Search (Google Ads),1458.89,2025-12-16,2025-12
+CUST-01064,ClientCorp 1064 Ltda,Enterprise,Fintech & Financial Services,SP,Sudeste,Outbound Sales (SDR/AE),3152.78,2025-12-16,2025-12
+CUST-01065,ClientCorp 1065 Ltda,SMB,E-Commerce & Retail Tech,SP,Sudeste,Organic Search (SEO),396.52,2025-12-08,2025-12
+CUST-01066,ClientCorp 1066 Ltda,SMB,Healthtech & Clinics,RJ,Sudeste,Paid Search (Google Ads),810.27,2025-12-13,2025-12
+CUST-01067,ClientCorp 1067 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Paid Search (Google Ads),996.9,2025-12-08,2025-12
+CUST-01068,ClientCorp 1068 Ltda,SMB,Agribusiness & FoodTech,RS,Sul,Organic Search (SEO),373.8,2025-12-24,2025-12
+CUST-01069,ClientCorp 1069 Ltda,Enterprise,Education & EdTech,SP,Sudeste,Outbound Sales (SDR/AE),3123.99,2025-12-28,2025-12
+CUST-01070,ClientCorp 1070 Ltda,Mid-Market,Fintech & Financial Services,RS,Sul,Outbound Sales (SDR/AE),2497.04,2025-12-01,2025-12
+CUST-01071,ClientCorp 1071 Ltda,SMB,Logistics & Supply Chain,RS,Sul,Paid Search (Google Ads),837.53,2025-12-28,2025-12
+CUST-01072,ClientCorp 1072 Ltda,SMB,Agribusiness & FoodTech,RJ,Sudeste,Outbound Sales (SDR/AE),1856.66,2025-12-01,2025-12
+CUST-01073,ClientCorp 1073 Ltda,Mid-Market,E-Commerce & Retail Tech,RJ,Sudeste,Organic Search (SEO),412.87,2025-12-07,2025-12
+CUST-01074,ClientCorp 1074 Ltda,Mid-Market,Agribusiness & FoodTech,SP,Sudeste,Paid Social (LinkedIn),1366.57,2025-12-07,2025-12
